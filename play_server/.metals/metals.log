@@ -663,3 +663,9 @@ WARNING: Unmatched cancel notification for request id 225
 2022.10.12 12:58:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
 2022.10.12 12:58:43 INFO  time: Connected to build server in 1.75s
 2022.10.12 12:58:43 INFO  Connected to Build server: Bloop v1.5.4
+2022.10.12 12:58:49 INFO  no build target found for /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/build.sbt. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.12 12:58:49 INFO  time: code lens generation in 8.47s
+2022.10.12 12:58:50 INFO  time: Imported build in 0.51s
+2022.10.12 12:58:57 INFO  time: indexed workspace in 6.8s
+2022.10.12 12:59:12 INFO  time: code lens generation in 14s
+2022.10.12 12:59:12 INFO  time: code lens generation in 11s
