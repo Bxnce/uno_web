@@ -1,0 +1,650 @@
+2022.10.11 10:59:40 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/.metals/lsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.10.11 10:59:42 INFO  logging to file /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/.metals/metals.log
+2022.10.11 10:59:42 INFO  Started: Metals version 0.11.9 in workspace '/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server' for client Visual Studio Code 1.72.0.
+2022.10.11 10:59:44 INFO  time: initialize in 2.55s
+2022.10.11 10:59:45 WARN  Build server is not auto-connectable.
+2022.10.11 10:59:52 INFO  running '/Users/bence/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/pq/62lgzj050ld7zjl1m7km98sw0000gn/T/metals58902441255753149/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.10.11 10:59:52 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project/metals.sbt
+2022.10.11 10:59:52 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/metals.sbt
+2022.10.11 10:59:52 INFO  skipping build import with status 'Started'
+2022.10.11 10:59:57 INFO  [info] welcome to sbt 1.7.2 (Temurin Java 1.8.0_345)
+2022.10.11 10:59:59 INFO  no build target found for /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.11 11:00:02 INFO  [info] loading global plugins from /Users/bence/.sbt/1.0/plugins
+2022.10.11 11:00:10 INFO  [info] loading settings for project play_server-build-build-build from metals.sbt ...
+2022.10.11 11:00:10 INFO  [info] loading project definition from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project/project
+2022.10.11 11:00:18 INFO  [info] loading settings for project play_server-build-build from metals.sbt ...
+2022.10.11 11:00:18 INFO  [info] loading project definition from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project
+2022.10.11 11:00:38 INFO  [success] Generated .bloop/play_server-build-build.json
+2022.10.11 11:00:38 INFO  [success] Total time: 20 s, completed Oct 11, 2022 11:00:39 AM
+2022.10.11 11:00:42 INFO  [info] loading settings for project play_server-build from metals.sbt,plugins.sbt ...
+2022.10.11 11:00:42 INFO  [info] loading project definition from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project
+2022.10.11 11:01:40 INFO  [success] Generated .bloop/play_server-build.json
+2022.10.11 11:01:40 INFO  [success] Total time: 58 s, completed Oct 11, 2022 11:01:41 AM
+2022.10.11 11:01:48 INFO  [info] loading settings for project root from build.sbt ...
+2022.10.11 11:01:48 INFO  [info]   __              __
+2022.10.11 11:01:48 INFO  [info]   \ \     ____   / /____ _ __  __
+2022.10.11 11:01:48 INFO  [info]    \ \   / __ \ / // __ `// / / /
+2022.10.11 11:01:48 INFO  [info]    / /  / /_/ // // /_/ // /_/ /
+2022.10.11 11:01:48 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /
+2022.10.11 11:01:48 INFO  [info]       /_/               /____/
+2022.10.11 11:01:48 INFO  [info] 
+2022.10.11 11:01:48 INFO  [info] Version 2.8.17 running Java 1.8.0_345
+2022.10.11 11:01:48 INFO  [info] 
+2022.10.11 11:01:48 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2022.10.11 11:01:48 INFO  [info] https://www.playframework.com/sponsors
+2022.10.11 11:01:48 INFO  [info] 
+2022.10.11 11:02:31 INFO  [success] Generated .bloop/root-test.json
+2022.10.11 11:02:31 INFO  [success] Generated .bloop/root.json
+2022.10.11 11:02:31 INFO  [success] Total time: 41 s, completed Oct 11, 2022 11:02:32 AM
+2022.10.11 11:02:32 INFO  time: ran 'sbt bloopInstall' in 2m40s
+2022.10.11 11:02:32 INFO  Attempting to connect to the build server...
+2022.10.11 11:02:32 INFO  Setting up current java home /Users/bence/.sdkman/candidates/java/current in /Users/bence/.bloop/bloop.json
+2022.10.11 11:02:57 INFO  running '/Users/bence/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/pq/62lgzj050ld7zjl1m7km98sw0000gn/T/metals1002712505157649228/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.10.11 11:03:00 INFO  [info] welcome to sbt 1.7.2 (Temurin Java 1.8.0_345)
+2022.10.11 11:03:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 11:03:05 INFO  [info] loading global plugins from /Users/bence/.sbt/1.0/plugins
+2022.10.11 11:03:09 INFO  [info] loading settings for project play_server-build-build-build from metals.sbt ...
+2022.10.11 11:03:10 INFO  [info] loading project definition from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project/project
+2022.10.11 11:03:10 INFO  [info] loading settings for project play_server-build-build from metals.sbt ...
+2022.10.11 11:03:11 INFO  [info] loading project definition from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project
+2022.10.11 11:03:17 INFO  [success] Generated .bloop/play_server-build-build.json
+2022.10.11 11:03:18 INFO  Attempting to connect to the build server...
+2022.10.11 11:03:18 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.11 11:03:18 INFO  Attempting to connect to the build server...
+2022.10.11 11:03:18 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.11 11:03:17 INFO  [success] Total time: 6 s, completed Oct 11, 2022 11:03:18 AM
+2022.10.11 11:03:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 11:03:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 11:03:19 INFO  [info] loading settings for project play_server-build from metals.sbt,plugins.sbt ...
+2022.10.11 11:03:19 INFO  [info] loading project definition from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project
+2022.10.11 11:03:22 INFO  [success] Generated .bloop/play_server-build.json
+2022.10.11 11:03:22 INFO  [success] Total time: 3 s, completed Oct 11, 2022 11:03:23 AM
+2022.10.11 11:03:24 INFO  [info] loading settings for project root from build.sbt ...
+2022.10.11 11:03:24 INFO  [info]   __              __
+2022.10.11 11:03:24 INFO  [info]   \ \     ____   / /____ _ __  __
+2022.10.11 11:03:24 INFO  [info]    \ \   / __ \ / // __ `// / / /
+2022.10.11 11:03:24 INFO  [info]    / /  / /_/ // // /_/ // /_/ /
+2022.10.11 11:03:24 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /
+2022.10.11 11:03:24 INFO  [info]       /_/               /____/
+2022.10.11 11:03:24 INFO  [info] 
+2022.10.11 11:03:24 INFO  [info] Version 2.8.17 running Java 1.8.0_345
+2022.10.11 11:03:24 INFO  [info] 
+2022.10.11 11:03:24 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2022.10.11 11:03:24 INFO  [info] https://www.playframework.com/sponsors
+2022.10.11 11:03:24 INFO  [info] 
+2022.10.11 11:03:28 INFO  time: Connected to build server in 55s
+2022.10.11 11:03:28 INFO  Connected to Build server: Bloop v1.5.4
+2022.10.11 11:03:29 INFO  time: Imported build in 1.25s
+2022.10.11 11:03:29 INFO  [success] Generated .bloop/root-test.json
+2022.10.11 11:03:29 INFO  [success] Generated .bloop/root.json
+2022.10.11 11:03:29 INFO  [success] Total time: 2 s, completed Oct 11, 2022 11:03:29 AM
+2022.10.11 11:03:29 INFO  time: ran 'sbt bloopInstall' in 32s
+2022.10.11 11:03:30 INFO  Disconnecting from Bloop session...
+2022.10.11 11:03:30 INFO  Shut down connection with build server.
+2022.10.11 11:03:30 INFO  Shut down connection with build server.
+2022.10.11 11:03:30 INFO  Shut down connection with build server.
+2022.10.11 11:03:30 INFO  Attempting to connect to the build server...
+2022.10.11 11:03:30 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.11 11:03:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 11:03:30 INFO  Attempting to connect to the build server...
+2022.10.11 11:03:30 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.11 11:03:30 INFO  Attempting to connect to the build server...
+2022.10.11 11:03:30 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.11 11:03:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 11:03:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 11:03:30 INFO  time: Connected to build server in 0.6s
+2022.10.11 11:03:30 INFO  Connected to Build server: Bloop v1.5.4
+2022.10.11 11:03:31 INFO  time: Imported build in 0.32s
+2022.10.11 11:03:48 ERROR error processing file:///Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-sources.jarorg.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_E ON PUBLIC.INDEXED_JAR(MD5) VALUES ( /* 1 */ 'C950AA83FABD457C6595B13728370798' )"; SQL statement:
+insert into indexed_jar (md5) values (?) [23505-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.index.Index.getDuplicateKeyException(Index.java:525)
+	at org.h2.mvstore.db.MVSecondaryIndex.checkUnique(MVSecondaryIndex.java:223)
+	at org.h2.mvstore.db.MVSecondaryIndex.add(MVSecondaryIndex.java:184)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:242)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:163)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:209)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:169)
+	at scala.meta.internal.metals.JarTopLevels.putTopLevels(JarTopLevels.scala:85)
+	at scala.meta.internal.metals.Indexer.addSourceJarSymbols(Indexer.scala:588)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$5(Indexer.scala:436)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:575)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:573)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:903)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1(Indexer.scala:427)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1$adapted(Indexer.scala:426)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:575)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:573)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.meta.internal.metals.Indexer.indexDependencySources(Indexer.scala:426)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$21(Indexer.scala:346)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$20(Indexer.scala:339)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$20$adapted(Indexer.scala:335)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:335)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:143)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:143)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2022.10.11 11:03:50 ERROR error processing file:///Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.2/play-json_2.13-2.8.2-sources.jarorg.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_E ON PUBLIC.INDEXED_JAR(MD5) VALUES ( /* 17 */ 'D031662776615C937BDD7D86D69E5C91' )"; SQL statement:
+insert into indexed_jar (md5) values (?) [23505-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.index.Index.getDuplicateKeyException(Index.java:525)
+	at org.h2.mvstore.db.MVSecondaryIndex.checkUnique(MVSecondaryIndex.java:223)
+	at org.h2.mvstore.db.MVSecondaryIndex.add(MVSecondaryIndex.java:184)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:242)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:163)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:209)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:169)
+	at scala.meta.internal.metals.JarTopLevels.putTopLevels(JarTopLevels.scala:85)
+	at scala.meta.internal.metals.Indexer.addSourceJarSymbols(Indexer.scala:588)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$5(Indexer.scala:436)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:575)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:573)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:903)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1(Indexer.scala:427)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1$adapted(Indexer.scala:426)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:575)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:573)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.meta.internal.metals.Indexer.indexDependencySources(Indexer.scala:426)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$21(Indexer.scala:346)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$20(Indexer.scala:339)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$20$adapted(Indexer.scala:335)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:335)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:143)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:143)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2022.10.11 11:03:50 ERROR error processing file:///Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.2/scala-java8-compat_2.13-1.0.2-sources.jarorg.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_E ON PUBLIC.INDEXED_JAR(MD5) VALUES ( /* 19 */ 'C3EDE657BD33478A411A2C9673B29D80' )"; SQL statement:
+insert into indexed_jar (md5) values (?) [23505-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.index.Index.getDuplicateKeyException(Index.java:525)
+	at org.h2.mvstore.db.MVSecondaryIndex.checkUnique(MVSecondaryIndex.java:223)
+	at org.h2.mvstore.db.MVSecondaryIndex.add(MVSecondaryIndex.java:184)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:242)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:163)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:209)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:169)
+	at scala.meta.internal.metals.JarTopLevels.putTopLevels(JarTopLevels.scala:85)
+	at scala.meta.internal.metals.Indexer.addSourceJarSymbols(Indexer.scala:588)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$5(Indexer.scala:436)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:575)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:573)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:903)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1(Indexer.scala:427)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1$adapted(Indexer.scala:426)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:575)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:573)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.meta.internal.metals.Indexer.indexDependencySources(Indexer.scala:426)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$21(Indexer.scala:346)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$20(Indexer.scala:339)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$20$adapted(Indexer.scala:335)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:335)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:143)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:143)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2022.10.11 11:03:50 ERROR error processing file:///Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.3/ssl-config-core_2.13-0.4.3-sources.jarorg.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_E ON PUBLIC.INDEXED_JAR(MD5) VALUES ( /* 21 */ '8109E321D01B5A8D1D31BFFEE0D50871' )"; SQL statement:
+insert into indexed_jar (md5) values (?) [23505-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:508)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.index.Index.getDuplicateKeyException(Index.java:525)
+	at org.h2.mvstore.db.MVSecondaryIndex.checkUnique(MVSecondaryIndex.java:223)
+	at org.h2.mvstore.db.MVSecondaryIndex.add(MVSecondaryIndex.java:184)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:519)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:242)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:163)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:209)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:169)
+	at scala.meta.internal.metals.JarTopLevels.putTopLevels(JarTopLevels.scala:85)
+	at scala.meta.internal.metals.Indexer.addSourceJarSymbols(Indexer.scala:588)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$5(Indexer.scala:436)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:575)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:573)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.collection.IterableOps$WithFilter.foreach(Iterable.scala:903)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1(Indexer.scala:427)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexDependencySources$1$adapted(Indexer.scala:426)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:575)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:573)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)
+	at scala.meta.internal.metals.Indexer.indexDependencySources(Indexer.scala:426)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$21(Indexer.scala:346)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$20(Indexer.scala:339)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$20$adapted(Indexer.scala:335)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:335)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:143)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:143)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2022.10.11 11:03:54 INFO  time: indexed workspace in 23s
+2022.10.11 11:03:54 INFO  time: indexed workspace in 25s
+2022.10.11 11:04:01 INFO  compiling root (9 scala sources and 1 java source)
+2022.10.11 11:04:39 INFO  time: compiled root in 38s
+2022.10.11 11:04:39 INFO  compiling root (9 scala sources and 1 java source)
+2022.10.11 11:04:39 INFO  time: compiled root in 0.43s
+2022.10.11 11:05:11 INFO  running '/Users/bence/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/pq/62lgzj050ld7zjl1m7km98sw0000gn/T/metals1505501109596608686/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.10.11 11:05:15 INFO  [info] welcome to sbt 1.7.2 (Temurin Java 1.8.0_345)
+2022.10.11 11:05:19 INFO  [info] loading global plugins from /Users/bence/.sbt/1.0/plugins
+2022.10.11 11:05:23 INFO  [info] loading settings for project play_server-build-build-build from metals.sbt ...
+2022.10.11 11:05:23 INFO  [info] loading project definition from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project/project
+2022.10.11 11:05:25 INFO  [info] loading settings for project play_server-build-build from metals.sbt ...
+2022.10.11 11:05:25 INFO  [info] loading project definition from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project
+2022.10.11 11:05:31 INFO  [success] Generated .bloop/play_server-build-build.json
+2022.10.11 11:05:31 INFO  [success] Total time: 6 s, completed Oct 11, 2022 11:05:32 AM
+2022.10.11 11:05:33 INFO  [info] loading settings for project play_server-build from metals.sbt,plugins.sbt ...
+2022.10.11 11:05:33 INFO  [info] loading project definition from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project
+2022.10.11 11:05:36 INFO  [success] Generated .bloop/play_server-build.json
+2022.10.11 11:05:36 INFO  [success] Total time: 3 s, completed Oct 11, 2022 11:05:36 AM
+2022.10.11 11:05:38 INFO  [info] loading settings for project root from build.sbt ...
+2022.10.11 11:05:38 INFO  [info]   __              __
+2022.10.11 11:05:38 INFO  [info]   \ \     ____   / /____ _ __  __
+2022.10.11 11:05:38 INFO  [info]    \ \   / __ \ / // __ `// / / /
+2022.10.11 11:05:38 INFO  [info]    / /  / /_/ // // /_/ // /_/ /
+2022.10.11 11:05:38 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /
+2022.10.11 11:05:38 INFO  [info]       /_/               /____/
+2022.10.11 11:05:38 INFO  [info] 
+2022.10.11 11:05:38 INFO  [info] Version 2.8.17 running Java 1.8.0_345
+2022.10.11 11:05:38 INFO  [info] 
+2022.10.11 11:05:38 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2022.10.11 11:05:38 INFO  [info] https://www.playframework.com/sponsors
+2022.10.11 11:05:38 INFO  [info] 
+2022.10.11 11:05:42 INFO  [success] Generated .bloop/root.json
+2022.10.11 11:05:42 INFO  [success] Generated .bloop/root-test.json
+2022.10.11 11:05:42 INFO  [success] Total time: 2 s, completed Oct 11, 2022 11:05:42 AM
+2022.10.11 11:05:42 INFO  time: ran 'sbt bloopInstall' in 30s
+2022.10.11 11:05:42 INFO  Disconnecting from Bloop session...
+2022.10.11 11:05:42 INFO  Shut down connection with build server.
+2022.10.11 11:05:42 INFO  Shut down connection with build server.
+2022.10.11 11:05:42 INFO  Shut down connection with build server.
+2022.10.11 11:05:42 INFO  Attempting to connect to the build server...
+2022.10.11 11:05:42 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.11 11:05:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 11:05:42 INFO  Attempting to connect to the build server...
+2022.10.11 11:05:42 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.11 11:05:42 INFO  Attempting to connect to the build server...
+2022.10.11 11:05:42 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.11 11:05:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 11:05:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 11:05:42 INFO  time: Connected to build server in 0.36s
+2022.10.11 11:05:42 INFO  Connected to Build server: Bloop v1.5.4
+2022.10.11 11:05:42 INFO  time: Imported build in 0.17s
+2022.10.11 11:05:45 INFO  time: indexed workspace in 2.5s
+2022.10.11 11:05:45 INFO  compiling root (9 scala sources and 1 java source)
+2022.10.11 11:05:45 INFO  time: compiled root in 0.78s
+2022.10.11 11:05:47 INFO  compiling root (9 scala sources and 1 java source)
+2022.10.11 11:05:47 INFO  time: compiled root in 0.8s
+2022.10.11 11:06:08 INFO  compiling root (9 scala sources and 1 java source)
+2022.10.11 11:06:08 INFO  time: compiled root in 0.91s
+2022.10.11 11:06:24 INFO  time: code lens generation in 10s
+2022.10.11 11:06:24 INFO  time: code lens generation in 11s
+Oct 11, 2022 11:06:48 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fbence%2FDocuments%2FDokumente%2520-%2520MacBook%2520Pro%2520von%2520Bence%2FStudium%2FSemester_5%2FWEB_APPLICATION%2Funo_web%2Fplay_server%2Fbuild.sbt:10: error: = expected but \n\n found
+
+^
+file%3A%2F%2F%2FUsers%2Fbence%2FDocuments%2FDokumente%2520-%2520MacBook%2520Pro%2520von%2520Bence%2FStudium%2FSemester_5%2FWEB_APPLICATION%2Funo_web%2Fplay_server%2Fbuild.sbt:10: error: = expected but \n\n found
+
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:372)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:376)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$patDefOrDcl$1(ScalametaParser.scala:3385)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:359)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:361)
+	at scala.meta.internal.parsers.ScalametaParser.patDefOrDcl(ScalametaParser.scala:3372)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3331)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3316)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4164)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4159)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:145)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4222)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$14(ScalametaParser.scala:4437)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4437)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:357)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4392)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4385)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:357)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4385)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4390)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:56)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:129)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:203)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Oct 11, 2022 11:07:12 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fbence%2FDocuments%2FDokumente%2520-%2520MacBook%2520Pro%2520von%2520Bence%2FStudium%2FSemester_5%2FWEB_APPLICATION%2Funo_web%2Fplay_server%2Fbuild.sbt:10: error: = expected but \n\n found
+
+^
+file%3A%2F%2F%2FUsers%2Fbence%2FDocuments%2FDokumente%2520-%2520MacBook%2520Pro%2520von%2520Bence%2FStudium%2FSemester_5%2FWEB_APPLICATION%2Funo_web%2Fplay_server%2Fbuild.sbt:10: error: = expected but \n\n found
+
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:372)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:376)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$patDefOrDcl$1(ScalametaParser.scala:3385)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:359)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:361)
+	at scala.meta.internal.parsers.ScalametaParser.patDefOrDcl(ScalametaParser.scala:3372)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3331)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3316)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4164)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4159)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:145)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4222)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$14(ScalametaParser.scala:4437)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4437)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:357)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4392)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4385)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:357)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4385)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4390)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:56)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:129)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:203)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2022.10.11 11:07:25 INFO  running '/Users/bence/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/pq/62lgzj050ld7zjl1m7km98sw0000gn/T/metals3166563408312775861/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.10.11 11:07:29 INFO  [info] welcome to sbt 1.7.2 (Temurin Java 1.8.0_345)
+2022.10.11 11:07:33 INFO  [info] loading global plugins from /Users/bence/.sbt/1.0/plugins
+2022.10.11 11:07:35 INFO  [info] loading settings for project play_server-build-build-build from metals.sbt ...
+2022.10.11 11:07:35 INFO  [info] loading project definition from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project/project
+2022.10.11 11:07:37 INFO  [info] loading settings for project play_server-build-build from metals.sbt ...
+2022.10.11 11:07:37 INFO  [info] loading project definition from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project
+2022.10.11 11:07:44 INFO  [success] Generated .bloop/play_server-build-build.json
+2022.10.11 11:07:44 INFO  [success] Total time: 6 s, completed Oct 11, 2022 11:07:44 AM
+2022.10.11 11:07:45 INFO  [info] loading settings for project play_server-build from metals.sbt,plugins.sbt ...
+2022.10.11 11:07:45 INFO  [info] loading project definition from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project
+2022.10.11 11:07:48 INFO  [success] Generated .bloop/play_server-build.json
+2022.10.11 11:07:48 INFO  [success] Total time: 4 s, completed Oct 11, 2022 11:07:49 AM
+2022.10.11 11:07:49 INFO  [error] [/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/build.sbt]:5: '=' expected.
+2022.10.11 11:07:49 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2022.10.11 11:07:50 INFO  time: ran 'sbt bloopInstall' in 24s
+2022.10.11 11:07:50 ERROR sbt command failed: /Users/bence/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/pq/62lgzj050ld7zjl1m7km98sw0000gn/T/metals3166563408312775861/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2022.10.11 11:07:50 INFO  Disconnecting from Bloop session...
+2022.10.11 11:07:50 INFO  Shut down connection with build server.
+2022.10.11 11:07:50 INFO  Shut down connection with build server.
+2022.10.11 11:07:50 INFO  Shut down connection with build server.
+2022.10.11 11:07:50 INFO  Attempting to connect to the build server...
+2022.10.11 11:07:50 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.11 11:07:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 11:07:50 INFO  Attempting to connect to the build server...
+2022.10.11 11:07:50 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.11 11:07:50 INFO  Attempting to connect to the build server...
+2022.10.11 11:07:50 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.11 11:07:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 11:07:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 11:07:50 INFO  time: Connected to build server in 0.4s
+2022.10.11 11:07:50 INFO  Connected to Build server: Bloop v1.5.4
+2022.10.11 11:07:50 INFO  time: Imported build in 0.19s
+2022.10.11 11:07:52 INFO  time: indexed workspace in 1.92s
+2022.10.11 11:07:54 INFO  compiling root (9 scala sources and 1 java source)
+2022.10.11 11:07:54 INFO  time: compiled root in 0.74s
+2022.10.11 11:07:55 INFO  compiling root (9 scala sources and 1 java source)
+2022.10.11 11:07:55 INFO  time: compiled root in 0.55s
+Oct 11, 2022 11:07:56 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fbence%2FDocuments%2FDokumente%2520-%2520MacBook%2520Pro%2520von%2520Bence%2FStudium%2FSemester_5%2FWEB_APPLICATION%2Funo_web%2Fplay_server%2Fbuild.sbt:10: error: = expected but \n\n found
+
+^
+file%3A%2F%2F%2FUsers%2Fbence%2FDocuments%2FDokumente%2520-%2520MacBook%2520Pro%2520von%2520Bence%2FStudium%2FSemester_5%2FWEB_APPLICATION%2Funo_web%2Fplay_server%2Fbuild.sbt:10: error: = expected but \n\n found
+
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:372)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:376)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$patDefOrDcl$1(ScalametaParser.scala:3385)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:359)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:361)
+	at scala.meta.internal.parsers.ScalametaParser.patDefOrDcl(ScalametaParser.scala:3372)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3331)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3316)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4164)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$3.applyOrElse(ScalametaParser.scala:4159)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:145)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4222)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$14(ScalametaParser.scala:4437)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4437)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:357)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4392)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4385)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:316)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:357)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4385)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4390)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:56)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:129)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:203)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2022.10.11 11:08:09 INFO  running '/Users/bence/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/pq/62lgzj050ld7zjl1m7km98sw0000gn/T/metals3837684301679027505/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.10.11 11:08:13 INFO  [info] welcome to sbt 1.7.2 (Temurin Java 1.8.0_345)
+2022.10.11 11:08:16 INFO  [info] loading global plugins from /Users/bence/.sbt/1.0/plugins
+2022.10.11 11:08:19 INFO  [info] loading settings for project play_server-build-build-build from metals.sbt ...
+2022.10.11 11:08:19 INFO  [info] loading project definition from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project/project
+2022.10.11 11:08:21 INFO  [info] loading settings for project play_server-build-build from metals.sbt ...
+2022.10.11 11:08:21 INFO  [info] loading project definition from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project
+2022.10.11 11:08:28 INFO  [success] Generated .bloop/play_server-build-build.json
+2022.10.11 11:08:28 INFO  [success] Total time: 6 s, completed Oct 11, 2022 11:08:28 AM
+2022.10.11 11:08:29 INFO  [info] loading settings for project play_server-build from metals.sbt,plugins.sbt ...
+2022.10.11 11:08:29 INFO  [info] loading project definition from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project
+2022.10.11 11:08:32 INFO  [success] Generated .bloop/play_server-build.json
+2022.10.11 11:08:32 INFO  [success] Total time: 3 s, completed Oct 11, 2022 11:08:33 AM
+2022.10.11 11:08:37 ERROR /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/build.sbt:16: error: value := is not a member of String
+2022.10.11 11:08:37 ERROR   Expression does not convert to assignment because receiver is not assignable.
+2022.10.11 11:08:37 ERROR     scalaVersion := scala3Version,
+2022.10.11 11:08:37 ERROR                  ^
+2022.10.11 11:08:37 ERROR sbt.compiler.EvalException: Type error in expression
+2022.10.11 11:08:37 INFO  [error] sbt.compiler.EvalException: Type error in expression
+2022.10.11 11:08:37 INFO  [error] Use 'last' for the full log.
+2022.10.11 11:08:37 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2022.10.11 11:08:38 INFO  time: ran 'sbt bloopInstall' in 28s
+2022.10.11 11:08:38 ERROR sbt command failed: /Users/bence/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/pq/62lgzj050ld7zjl1m7km98sw0000gn/T/metals3837684301679027505/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2022.10.11 11:08:38 INFO  Disconnecting from Bloop session...
+2022.10.11 11:08:38 INFO  Shut down connection with build server.
+2022.10.11 11:08:38 INFO  Shut down connection with build server.
+2022.10.11 11:08:38 INFO  Shut down connection with build server.
+2022.10.11 11:08:38 INFO  Attempting to connect to the build server...
+2022.10.11 11:08:38 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.11 11:08:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 11:08:38 INFO  Attempting to connect to the build server...
+2022.10.11 11:08:38 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.11 11:08:38 INFO  Attempting to connect to the build server...
+2022.10.11 11:08:38 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.11 11:08:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 11:08:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 11:08:38 INFO  time: Connected to build server in 0.34s
+2022.10.11 11:08:38 INFO  Connected to Build server: Bloop v1.5.4
+2022.10.11 11:08:38 INFO  time: Imported build in 0.24s
+2022.10.11 11:08:41 INFO  time: indexed workspace in 2.33s
+2022.10.11 11:08:41 INFO  compiling root (9 scala sources and 1 java source)
+2022.10.11 11:08:41 INFO  time: compiled root in 0.55s
+2022.10.11 11:08:41 INFO  compiling root (9 scala sources and 1 java source)
+2022.10.11 11:08:41 INFO  time: compiled root in 0.35s
+2022.10.11 11:08:44 INFO  time: code lens generation in 1.57s
+2022.10.11 11:09:15 INFO  running '/Users/bence/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/pq/62lgzj050ld7zjl1m7km98sw0000gn/T/metals5406473396490469159/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.10.11 11:09:19 INFO  [info] welcome to sbt 1.7.2 (Temurin Java 1.8.0_345)
+2022.10.11 11:09:23 INFO  [info] loading global plugins from /Users/bence/.sbt/1.0/plugins
+2022.10.11 11:09:26 INFO  [info] loading settings for project play_server-build-build-build from metals.sbt ...
+2022.10.11 11:09:26 INFO  [info] loading project definition from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project/project
+2022.10.11 11:09:27 INFO  [info] loading settings for project play_server-build-build from metals.sbt ...
+2022.10.11 11:09:27 INFO  [info] loading project definition from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project
+2022.10.11 11:09:33 INFO  [success] Generated .bloop/play_server-build-build.json
+2022.10.11 11:09:33 INFO  [success] Total time: 6 s, completed Oct 11, 2022 11:09:34 AM
+2022.10.11 11:09:35 INFO  [info] loading settings for project play_server-build from metals.sbt,plugins.sbt ...
+2022.10.11 11:09:35 INFO  [info] loading project definition from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project
+2022.10.11 11:09:38 INFO  [success] Generated .bloop/play_server-build.json
+2022.10.11 11:09:38 INFO  [success] Total time: 3 s, completed Oct 11, 2022 11:09:38 AM
+2022.10.11 11:09:43 ERROR /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/build.sbt:16: error: value := is not a member of String
+2022.10.11 11:09:43 ERROR   Expression does not convert to assignment because receiver is not assignable.
+2022.10.11 11:09:43 ERROR     scalaVersion := scala3Version,
+2022.10.11 11:09:43 ERROR                  ^
+2022.10.11 11:09:43 ERROR sbt.compiler.EvalException: Type error in expression
+2022.10.11 11:09:43 INFO  [error] sbt.compiler.EvalException: Type error in expression
+2022.10.11 11:09:43 INFO  [error] Use 'last' for the full log.
+2022.10.11 11:09:43 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2022.10.11 11:09:43 INFO  time: ran 'sbt bloopInstall' in 27s
+2022.10.11 11:09:43 ERROR sbt command failed: /Users/bence/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/pq/62lgzj050ld7zjl1m7km98sw0000gn/T/metals5406473396490469159/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2022.10.11 11:09:43 INFO  Disconnecting from Bloop session...
+2022.10.11 11:09:43 INFO  Shut down connection with build server.
+2022.10.11 11:09:43 INFO  Shut down connection with build server.
+2022.10.11 11:09:43 INFO  Shut down connection with build server.
+2022.10.11 11:09:43 INFO  Attempting to connect to the build server...
+2022.10.11 11:09:43 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.11 11:09:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 11:09:43 INFO  Attempting to connect to the build server...
+2022.10.11 11:09:43 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.11 11:09:43 INFO  Attempting to connect to the build server...
+2022.10.11 11:09:43 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.11 11:09:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 11:09:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 11:09:43 INFO  time: Connected to build server in 0.41s
+2022.10.11 11:09:43 INFO  Connected to Build server: Bloop v1.5.4
+2022.10.11 11:09:43 INFO  time: Imported build in 0.14s
+2022.10.11 11:09:45 INFO  time: indexed workspace in 1.63s
+2022.10.11 11:09:46 INFO  compiling root (9 scala sources and 1 java source)
+2022.10.11 11:09:46 INFO  time: compiled root in 0.68s
+2022.10.11 11:09:46 INFO  compiling root (9 scala sources and 1 java source)
+2022.10.11 11:09:47 INFO  time: compiled root in 0.42s
+2022.10.11 11:09:47 INFO  time: code lens generation in 1.35s
+Oct 11, 2022 11:10:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 225
+2022.10.11 11:10:46 INFO  shutting down Metals
+2022.10.11 11:10:46 INFO  Shut down connection with build server.
+2022.10.11 11:10:46 INFO  Shut down connection with build server.
+2022.10.11 11:10:46 INFO  Shut down connection with build server.
+2022.10.11 14:13:00 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/.metals/lsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.10.11 14:13:02 INFO  logging to file /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/.metals/metals.log
+2022.10.11 14:13:02 INFO  Started: Metals version 0.11.9 in workspace '/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server' for client Visual Studio Code 1.72.0.
+2022.10.11 14:13:05 INFO  time: initialize in 2.86s
+2022.10.11 14:13:07 INFO  Attempting to connect to the build server...
+2022.10.11 14:13:07 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.11 14:13:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 14:13:08 INFO  Attempting to connect to the build server...
+2022.10.11 14:13:08 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.11 14:13:08 INFO  Attempting to connect to the build server...
+2022.10.11 14:13:08 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.11 14:13:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 14:13:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.11 14:13:08 INFO  time: Connected to build server in 1.62s
+2022.10.11 14:13:08 INFO  Connected to Build server: Bloop v1.5.4
+2022.10.11 14:13:12 INFO  no build target found for /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/build.sbt. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.11 14:13:12 INFO  time: code lens generation in 5.58s
+2022.10.11 14:13:12 INFO  time: Imported build in 0.47s
+2022.10.11 14:13:14 INFO  shutting down Metals
+2022.10.11 14:13:14 INFO  Shut down connection with build server.
+2022.10.11 14:13:14 INFO  Shut down connection with build server.
+2022.10.11 14:13:14 INFO  Shut down connection with build server.
