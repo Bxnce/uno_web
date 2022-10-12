@@ -31,19 +31,15 @@ jobs:
           ls
           cd uno
           sbt package
-      - name: move_back_cp_and_delete
-        if: github.event.action == 'ping'
-        run: | 
-          ls
-          rm -f uno_web/lib/uno*.jar ||true
-      - name: testse
+      - name: delete_old_jar_and_cp_new
         if: github.event.action == 'ping'
         run: |
           ls
+          rm -rf lib
           mkdir -p lib 
           cp uno/target/scala-*/*.jar lib/  
           rm -rf uno
-      - name: Commit files
+      - name: commit_files
         if: github.event.action == 'ping'
         run: |
           ls
