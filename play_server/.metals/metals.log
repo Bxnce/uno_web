@@ -669,3 +669,17 @@ WARNING: Unmatched cancel notification for request id 225
 2022.10.12 12:58:57 INFO  time: indexed workspace in 6.8s
 2022.10.12 12:59:12 INFO  time: code lens generation in 14s
 2022.10.12 12:59:12 INFO  time: code lens generation in 11s
+Oct 12, 2022 1:20:33 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.10.12 13:36:32 INFO  compiling root (9 scala sources and 1 java source)
+2022.10.12 13:36:32 INFO  time: compiled root in 0.75s
+2022.10.12 13:36:35 INFO  compiling root (9 scala sources and 1 java source)
+2022.10.12 13:36:35 INFO  time: compiled root in 0.43s
+2022.10.12 13:36:40 INFO  compiling root (9 scala sources and 1 java source)
+2022.10.12 13:36:40 INFO  time: compiled root in 0.6s
+2022.10.12 13:36:49 INFO  compiling root (9 scala sources and 1 java source)
+2022.10.12 13:36:49 INFO  time: compiled root in 0.79s
+2022.10.12 14:21:57 INFO  shutting down Metals
+2022.10.12 14:21:57 INFO  Shut down connection with build server.
+2022.10.12 14:21:57 INFO  Shut down connection with build server.
+2022.10.12 14:21:57 INFO  Shut down connection with build server.
