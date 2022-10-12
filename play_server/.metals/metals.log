@@ -648,3 +648,18 @@ WARNING: Unmatched cancel notification for request id 225
 2022.10.11 14:13:14 INFO  Shut down connection with build server.
 2022.10.11 14:13:14 INFO  Shut down connection with build server.
 2022.10.11 14:13:14 INFO  Shut down connection with build server.
+2022.10.12 12:58:33 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/.metals/lsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.10.12 12:58:35 INFO  logging to file /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/.metals/metals.log
+2022.10.12 12:58:35 INFO  Started: Metals version 0.11.9 in workspace '/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server' for client Visual Studio Code 1.72.0.
+2022.10.12 12:58:38 INFO  time: initialize in 3.68s
+2022.10.12 12:58:41 INFO  Attempting to connect to the build server...
+2022.10.12 12:58:41 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.12 12:58:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.12 12:58:42 INFO  Attempting to connect to the build server...
+2022.10.12 12:58:42 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.12 12:58:42 INFO  Attempting to connect to the build server...
+2022.10.12 12:58:42 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.12 12:58:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/project/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.12 12:58:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/project/.metals/bsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.12 12:58:43 INFO  time: Connected to build server in 1.75s
+2022.10.12 12:58:43 INFO  Connected to Build server: Bloop v1.5.4
