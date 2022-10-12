@@ -24,8 +24,7 @@ jobs:
       run: |
         ls
         cd uno
-    - name: jar_thejar
-      run: sbt package
+        sbt package
     - name: move_back_cp_and_delete
       run: | 
         ls
