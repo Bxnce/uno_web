@@ -9,7 +9,7 @@ version := "1.0-SNAPSHOT"
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
 
 lazy val uno = project
-  .in(file("./lib/uno"))
+  .in(file("../lib/uno"))
   .settings(
     name := "uno",
     version := "0.1.0-SNAPSHOT",
