@@ -5,6 +5,8 @@ on:
     branches: [ '**' ]
   pull_request:
     branches: [ main ]
+  repository_dispatch:
+
 
 jobs:
   create_jar:
