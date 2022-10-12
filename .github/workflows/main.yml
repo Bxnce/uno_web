@@ -1,0 +1,34 @@
+name: Scala CI
+
+on:
+  push:
+    branches: [ '**' ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  create_jar:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up JDK 11
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+        distribution: 'adopt'
+    - name: pull_repo
+      run: git clone https://github.com/Bxnce/uno.git
+    - name: goto_uno
+      run: cd uno
+    - name: jar_thejar
+      run: sbt package
+    - name: move_back_cp_and_delete
+      run: | 
+        cd..
+        rm -f uno_web/lib/scala-3.0.2/uno*.jar
+        cp uno/target/scala-3.0.2/*.jar uno_web/lib/
+        rm -rf uno
+
+    
