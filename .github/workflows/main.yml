@@ -30,8 +30,10 @@ jobs:
         ls
         rm -f uno_web/lib/uno*.jar ||true
     - name: testse
-      run: | 
-        cp uno/target/scala-3.0.2/*.jar lib/  
+      run: |
+        ls
+        mkdir -p lib 
+        cp uno/target/scala-*/*.jar lib/  
         rm -rf uno
 
     
