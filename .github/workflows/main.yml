@@ -28,7 +28,7 @@ jobs:
     - name: move_back_cp_and_delete
       run: | 
         ls
-        rm -f uno_web/lib/scala-3.0.2/uno*.jar
+        rm -f uno_web/lib/uno*.jar ||true
     - name: testse
       run: | 
         cp uno/target/scala-3.0.2/*.jar uno_web/lib/
