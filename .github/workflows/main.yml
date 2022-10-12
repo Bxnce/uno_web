@@ -21,7 +21,9 @@ jobs:
     - name: pull_repo
       run: git clone https://github.com/Bxnce/uno.git
     - name: goto_uno
-      run: cd uno
+      run: |
+        ls
+        cd uno
     - name: jar_thejar
       run: sbt package
     - name: move_back_cp_and_delete
