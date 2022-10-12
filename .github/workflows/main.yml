@@ -26,8 +26,13 @@ jobs:
       run: sbt package
     - name: move_back_cp_and_delete
       run: | 
+        ls
         cd ..
+        ls
         rm -f uno_web/lib/scala-3.0.2/uno*.jar
+        ls uno/
+        ls uno/target
+        ls uno/target/scala-3.0.2/
         cp uno/target/scala-3.0.2/*.jar uno_web/lib/
         rm -rf uno
 
