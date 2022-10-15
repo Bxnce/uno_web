@@ -30,3 +30,5 @@ Oct 15, 2022 12:49:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancella
 WARNING: Unmatched cancel notification for request id 223
 2022.10.15 12:49:28 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/app/controllers/HomeController.scala
 2022.10.15 12:49:31 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/play_server/app/controllers/HomeController.scala
+2022.10.15 13:15:14 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\bence\Documents\uno_web\.metals\lsp.trace.json or C:\Users\bence\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.10.15 13:15:15 INFO  logging to file C:\Users\bence\Documents\uno_web\.metals\metals.log

@@ -37,7 +37,7 @@ jobs:
           ls
           rm -rf lib
           mkdir -p lib 
-          cp uno/target/scala-*/*.jar lib/  
+          cp uno/target/scala-*/*.jar uno/lib/  
           rm -rf uno
       - name: commit_files
         if: github.event.action == 'ping'
