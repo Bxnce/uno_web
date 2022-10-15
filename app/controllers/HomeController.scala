@@ -3,7 +3,8 @@ package controllers
 import javax.inject._
 import play.api._
 import play.api.mvc._
-
+import com.google.inject.Guice
+import de.htwg.se.uno.Kek
 /**
  * This controller creates an `Action` to handle HTTP requests to the
  * application's home page.
@@ -11,18 +12,12 @@ import play.api.mvc._
 @Singleton
 class HomeController @Inject()(val controllerComponents: ControllerComponents) extends BaseController {
 
-  /**
-   * Create an Action to render an HTML page.
-   *
-   * The configuration in the `routes` file means that this method
-   * will be called when the application receives a `GET` request with
-   * a path of `/`.
-   */
+  val controller = new Kek().controller
   def index() = Action { implicit request: Request[AnyContent] =>
     Ok(views.html.index())
   }
-
-  def test() = Action { implicit request: Request[AnyContent] => 
-    Ok(views.html.test())  
+  def create_game(name1: String, name2: String) = Action { implicit request: Request[AnyContent] =>
+    controller.newG(name1, name2)
+    Ok(views.html.displayGame(controller.toString))
   }
 }
