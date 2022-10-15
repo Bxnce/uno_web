@@ -7,7 +7,7 @@ import com.google.inject.Guice
 import de.htwg.se.uno.Kek
 /**
  * This controller creates an `Action` to handle HTTP requests to the
- * application's home page
+ * application's home page.
  */
 @Singleton
 class HomeController @Inject()(val controllerComponents: ControllerComponents) extends BaseController {
