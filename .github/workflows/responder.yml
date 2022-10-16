@@ -30,14 +30,14 @@ jobs:
         run: |
           ls
           cd uno
-          sbt package
+          sbt assembly
       - name: delete_old_jar_and_cp_new
         if: github.event.action == 'ping'
         run: |
           ls
           rm -rf lib
           mkdir -p lib 
-          cp uno/target/scala-*/*.jar lib/  
+          cp uno/target/scala-3.0.2/*.jar lib/  
           rm -rf uno
       - name: commit_files
         if: github.event.action == 'ping'
