@@ -12,7 +12,7 @@ import de.htwg.se.uno.Kek
 @Singleton
 class HomeController @Inject()(val controllerComponents: ControllerComponents) extends BaseController {
 
-  val controller = new Kek().controller
+  val controller = new Kek().controller_return
   def index() = Action { implicit request: Request[AnyContent] =>
     Ok(views.html.index())
   }

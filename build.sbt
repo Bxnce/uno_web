@@ -10,6 +10,7 @@ lazy val root = (project in file("."))
         name:= """UNO-Web""",
         libraryDependencies ++= Seq(
             guice,
-            "org.scalatestplus.play" %% "scalatestplus-play" % "5.1.0" % Test
+            "org.scalatestplus.play" %% "scalatestplus-play" % "5.1.0" % Test,
+            "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.11.4"
         )
     )
