@@ -18,6 +18,45 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   }
   def create_game(name1: String, name2: String) = Action { implicit request: Request[AnyContent] =>
     controller.newG(name1, name2)
-    Ok(views.html.displayGame(controller.toString))
+    Ok(views.html.displayGame(controller.toString,""))
+  }
+
+  def next() = Action { implicit request: Request[AnyContent] => 
+    controller.next()  
+    Ok(views.html.displayGame(controller.toString,""))
+  }
+
+  def place(ind: Int) = Action { implicit request: Request[AnyContent] => 
+    controller.place(ind)
+    var erro = ""
+    if(controller.game.ERROR < 0) {
+        erro = "Can't place this card, try another one or take a card"
+        controller.game.setError(0)
+    }  
+    Ok(views.html.displayGame(controller.toString, erro))
+  }
+
+  def take() = Action { implicit request: Request[AnyContent] => 
+    controller.take()
+    var erro = ""
+    if(controller.game.ERROR < 0) {
+        erro = "Can't take card in this state of the Game"
+        controller.game.setError(0)
+    }
+    Ok(views.html.displayGame(controller.toString, erro))
+  }
+
+  def undo() = Action { implicit request: Request[AnyContent] => 
+    controller.undo()  
+    Ok(views.html.displayGame(controller.toString,""))
+  }
+
+  def redo() = Action { implicit request: Request[AnyContent] => 
+    controller.redo()  
+    Ok(views.html.displayGame(controller.toString,""))
+  }
+
+  def error(page:String) = Action { implicit request: Request[AnyContent] => 
+    NotFound(views.html.error(page + " not found"))
   }
 }

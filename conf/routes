@@ -7,6 +7,19 @@
 GET     /                           controllers.HomeController.index()
 
 # Map static resources from the /public folder to the /assets URL path
-GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+GET     /assets/*file                controllers.Assets.versioned(path="/public", file: Asset)
 
-GET    /start/:name1/:name2 	    controllers.HomeController.create_game(name1: String, name2:String)
+GET     /game/undo                   controllers.HomeController.undo()
+
+GET     /game/redo                   controllers.HomeController.redo()
+
+GET     /game/start/:name1/:name2 	 controllers.HomeController.create_game(name1: String, name2:String)
+
+GET     /game/nextplayer             controllers.HomeController.next()
+
+GET     /game/place/:i               controllers.HomeController.place(i: Int) 
+
+GET     /game/take                   controllers.HomeController.take()
+
+GET     /*page                       controllers.HomeController.error(page: String)
+
