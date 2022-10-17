@@ -2,200 +2,200 @@
     "version": "1.4.0",
     "project": {
         "name": "uno_web-build",
-        "directory": "C:\\Users\\bence\\Documents\\uno_web\\project",
-        "workspaceDir": "C:\\Users\\bence\\Documents\\uno_web\\project",
+        "directory": "/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/project",
+        "workspaceDir": "/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/project",
         "sources": [
-            "C:\\Users\\bence\\Documents\\uno_web\\project\\src\\main\\scala",
-            "C:\\Users\\bence\\Documents\\uno_web\\project\\src\\main\\scala-2.12",
-            "C:\\Users\\bence\\Documents\\uno_web\\project\\src\\main\\scala-2",
-            "C:\\Users\\bence\\Documents\\uno_web\\project\\src\\main\\java",
-            "C:\\Users\\bence\\Documents\\uno_web\\project\\src\\main\\scala-sbt-1.0",
-            "C:\\Users\\bence\\Documents\\uno_web\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main"
+            "/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/project/src/main/scala",
+            "/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/project/src/main/scala-2.12",
+            "/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/project/src/main/scala-2",
+            "/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/project/src/main/java",
+            "/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/project/src/main/scala-sbt-1.0",
+            "/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/project/target/scala-2.12/sbt-1.0/src_managed/main"
         ],
         "dependencies": [
             
         ],
         "classpath": [
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\sbt\\1.7.2\\sbt-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Temp\\sbt-global-pluginstub\\boot\\scala-2.12.16\\lib\\scala-library.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.5.4\\sbt-bloop-1.5.4.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\sbt-plugin_2.12_1.0\\2.8.17\\sbt-plugin-2.8.17.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo.scala-sbt.org\\scalasbt\\sbt-plugin-releases\\org.foundweekends.giter8\\sbt-giter8-scaffold\\scala_2.12\\sbt_1.0\\0.13.1\\jars\\sbt-giter8-scaffold.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\main_2.12\\1.7.2\\main_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\io_2.12\\1.7.0\\io_2.12-1.7.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\bloop-config_2.12\\1.5.4\\bloop-config_2.12-1.5.4.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\sbt-routes-compiler_2.12\\2.8.17\\sbt-routes-compiler_2.12-2.8.17.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\run-support_2.12\\2.8.17\\run-support_2.12-2.8.17.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\config\\1.4.2\\config-1.4.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-simple\\1.7.36\\slf4j-simple-1.7.36.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lightbend\\play\\play-file-watch_2.12\\1.1.16\\play-file-watch_2.12-1.1.16.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo.scala-sbt.org\\scalasbt\\sbt-plugin-releases\\com.typesafe.sbt\\sbt-twirl\\scala_2.12\\sbt_1.0\\1.5.1\\jars\\sbt-twirl.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo.scala-sbt.org\\scalasbt\\sbt-plugin-releases\\com.typesafe.sbt\\sbt-native-packager\\scala_2.12\\sbt_1.0\\1.5.2\\jars\\sbt-native-packager.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo.scala-sbt.org\\scalasbt\\sbt-plugin-releases\\com.lightbend.sbt\\sbt-javaagent\\scala_2.12\\sbt_1.0\\0.1.5\\jars\\sbt-javaagent.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo.scala-sbt.org\\scalasbt\\sbt-plugin-releases\\com.typesafe.sbt\\sbt-web\\scala_2.12\\sbt_1.0\\1.4.4\\jars\\sbt-web.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo.scala-sbt.org\\scalasbt\\sbt-plugin-releases\\com.typesafe.sbt\\sbt-js-engine\\scala_2.12\\sbt_1.0\\1.2.3\\jars\\sbt-js-engine.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\foundweekends\\giter8\\giter8-lib_2.12\\0.13.1\\giter8-lib_2.12-0.13.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\logic_2.12\\1.7.2\\logic_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\actions_2.12\\1.7.2\\actions_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\main-settings_2.12\\1.7.2\\main-settings_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\run_2.12\\1.7.2\\run_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\command_2.12\\1.7.2\\command_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\collections_2.12\\1.7.2\\collections_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\scripted-plugin_2.12\\1.7.2\\scripted-plugin_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc-lm-integration_2.12\\1.7.2\\zinc-lm-integration_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\util-logging_2.12\\1.7.2\\util-logging_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.12\\1.3.0\\scala-xml_2.12-1.3.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\launcher-interface\\1.4.1\\launcher-interface-1.4.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\ben-manes\\caffeine\\caffeine\\2.8.5\\caffeine-2.8.5.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\get-coursier\\lm-coursier-shaded_2.12\\2.0.10\\lm-coursier-shaded_2.12-2.0.10.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\logging\\log4j\\log4j-api\\2.17.1\\log4j-api-2.17.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\logging\\log4j\\log4j-core\\2.17.1\\log4j-core-2.17.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\logging\\log4j\\log4j-slf4j-impl\\2.17.1\\log4j-slf4j-impl-2.17.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\librarymanagement-core_2.12\\1.7.1\\librarymanagement-core_2.12-1.7.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\librarymanagement-ivy_2.12\\1.7.1\\librarymanagement-ivy_2.12-1.7.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\compiler-interface\\1.7.2\\compiler-interface-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc-compile_2.12\\1.7.2\\zinc-compile_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\swoval\\file-tree-views\\2.1.9\\file-tree-views-2.1.9.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.12.0\\jna-5.12.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna-platform\\5.12.0\\jna-platform-5.12.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\plokhotnyuk\\jsoniter-scala\\jsoniter-scala-core_2.12\\2.4.0\\jsoniter-scala-core_2.12-2.4.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\twirl-api_2.12\\1.5.1\\twirl-api_2.12-1.5.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.12\\1.1.2\\scala-parser-combinators_2.12-1.1.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\build-link\\2.8.17\\build-link-2.8.17.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.36\\slf4j-api-1.7.36.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\methvin\\directory-watcher\\0.15.0\\directory-watcher-0.15.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pathikrit\\better-files_2.12\\3.8.0\\better-files_2.12-3.8.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\twirl-compiler_2.12\\1.5.1\\twirl-compiler_2.12-1.5.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-compress\\1.19\\commons-compress-1.19.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\ant\\ant\\1.10.5\\ant-1.10.5.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\eldis\\tool-launcher\\0.2.2\\tool-launcher-0.2.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-actor_2.12\\2.5.18\\akka-actor_2.12-2.5.18.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\webjars\\webjars-locator-core\\0.36\\webjars-locator-core-0.36.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\jse_2.12\\1.2.4\\jse_2.12-1.2.4.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\npm_2.12\\1.2.1\\npm_2.12-1.2.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\foundweekends\\giter8\\giter8-cli-git_2.12\\0.13.1\\giter8-cli-git_2.12-0.13.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\antlr\\ST4\\4.2\\ST4-4.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit.pgm\\5.8.0.202006091008-r\\org.eclipse.jgit.pgm-5.8.0.202006091008-r.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-io\\commons-io\\2.6\\commons-io-2.6.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\plexus\\plexus-archiver\\2.7.1\\plexus-archiver-2.7.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\util-relation_2.12\\1.7.2\\util-relation_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\completion_2.12\\1.7.2\\completion_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\task-system_2.12\\1.7.2\\task-system_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\tasks_2.12\\1.7.2\\tasks_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\testing_2.12\\1.7.2\\testing_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\util-tracking_2.12\\1.7.2\\util-tracking_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\sjson-new-scalajson_2.12\\0.9.1\\sjson-new-scalajson_2.12-0.9.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-terminal\\3.19.0\\jline-terminal-3.19.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc-classpath_2.12\\1.7.2\\zinc-classpath_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc-apiinfo_2.12\\1.7.2\\zinc-apiinfo_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc_2.12\\1.7.2\\zinc_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\core-macros_2.12\\1.7.2\\core-macros_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\util-cache_2.12\\1.7.2\\util-cache_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\util-control_2.12\\1.7.2\\util-control_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\protocol_2.12\\1.7.2\\protocol_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\sjson-new-core_2.12\\0.9.1\\sjson-new-core_2.12-0.9.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\template-resolver\\0.1\\template-resolver-0.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\util-position_2.12\\1.7.2\\util-position_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc-compile-core_2.12\\1.7.2\\zinc-compile-core_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\util-interface\\1.7.2\\util-interface-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\jline\\jline\\2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493\\jline-2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-terminal-jna\\3.19.0\\jline-terminal-jna-3.19.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-terminal-jansi\\3.19.0\\jline-terminal-jansi-3.19.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lmax\\disruptor\\3.4.2\\disruptor-3.4.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Temp\\sbt-global-pluginstub\\boot\\scala-2.12.16\\lib\\scala-reflect.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\checkerframework\\checker-qual\\3.4.1\\checker-qual-3.4.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\errorprone\\error_prone_annotations\\2.4.0\\error_prone_annotations-2.4.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-collection-compat_2.12\\2.6.0\\scala-collection-compat_2.12-2.6.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Temp\\sbt-global-pluginstub\\boot\\scala-2.12.16\\lib\\scala-compiler.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jcraft\\jsch\\0.1.55\\jsch-0.1.55.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\gigahorse-apache-http_2.12\\0.7.0\\gigahorse-apache-http_2.12-0.7.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\ivy\\ivy\\2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745\\ivy-2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\play-exceptions\\2.8.17\\play-exceptions-2.8.17.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\twirl-parser_2.12\\1.5.1\\twirl-parser_2.12-1.5.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\ant\\ant-launcher\\1.10.5\\ant-launcher-1.10.5.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-java8-compat_2.12\\0.8.0\\scala-java8-compat_2.12-0.8.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-lang3\\3.8.1\\commons-lang3-3.8.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.9.7\\jackson-core-2.9.7.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\apigee\\trireme\\trireme-core\\0.9.4\\trireme-core-0.9.4.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\apigee\\trireme\\trireme-node10src\\0.9.4\\trireme-node10src-0.9.4.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\spray\\spray-json_2.12\\1.3.5\\spray-json_2.12-1.3.5.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\webjars\\npm\\4.2.0\\npm-4.2.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\scopt\\scopt_2.12\\3.7.1\\scopt_2.12-3.7.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jcraft\\jsch.agentproxy.jsch\\0.0.9\\jsch.agentproxy.jsch-0.0.9.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jcraft\\jsch.agentproxy.sshagent\\0.0.9\\jsch.agentproxy.sshagent-0.0.9.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jcraft\\jsch.agentproxy.connector-factory\\0.0.9\\jsch.agentproxy.connector-factory-0.0.9.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit.ssh.jsch\\5.8.0.202006091008-r\\org.eclipse.jgit.ssh.jsch-5.8.0.202006091008-r.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\antlr\\antlr-runtime\\3.5.2\\antlr-runtime-3.5.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\args4j\\args4j\\2.33\\args4j-2.33.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit.archive\\5.8.0.202006091008-r\\org.eclipse.jgit.archive-5.8.0.202006091008-r.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit\\5.8.0.202006091008-r\\org.eclipse.jgit-5.8.0.202006091008-r.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit.ui\\5.8.0.202006091008-r\\org.eclipse.jgit.ui-5.8.0.202006091008-r.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit.gpg.bc\\5.8.0.202006091008-r\\org.eclipse.jgit.gpg.bc-5.8.0.202006091008-r.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit.http.apache\\5.8.0.202006091008-r\\org.eclipse.jgit.http.apache-5.8.0.202006091008-r.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit.ssh.apache\\5.8.0.202006091008-r\\org.eclipse.jgit.ssh.apache-5.8.0.202006091008-r.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\httpcomponents\\httpclient\\4.5.10\\httpclient-4.5.10.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-log4j12\\1.7.2\\slf4j-log4j12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\log4j\\log4j\\1.2.17\\log4j-1.2.17.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jetty\\jetty-servlet\\9.4.28.v20200408\\jetty-servlet-9.4.28.v20200408.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit.lfs\\5.8.0.202006091008-r\\org.eclipse.jgit.lfs-5.8.0.202006091008-r.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit.lfs.server\\5.8.0.202006091008-r\\org.eclipse.jgit.lfs.server-5.8.0.202006091008-r.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\plexus\\plexus-container-default\\1.0-alpha-9-stable-1\\plexus-container-default-1.0-alpha-9-stable-1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\plexus\\plexus-utils\\3.0.8\\plexus-utils-3.0.8.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\plexus\\plexus-io\\2.2\\plexus-io-2.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-reader\\3.19.0\\jline-reader-3.19.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-builtins\\3.19.0\\jline-builtins-3.19.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\test-agent\\1.7.2\\test-agent-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\test-interface\\1.0\\test-interface-1.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\shaded-jawn-parser_2.12\\0.9.1\\shaded-jawn-parser_2.12-0.9.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\shaded-scalajson_2.12\\1.0.0-M4\\shaded-scalajson_2.12-1.0.0-M4.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\compiler-bridge_2.12\\1.7.2\\compiler-bridge_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc-classfile_2.12\\1.7.2\\zinc-classfile_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc-core_2.12\\1.7.2\\zinc-core_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc-persist_2.12\\1.7.2\\zinc-persist_2.12-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\sjson-new-murmurhash_2.12\\0.9.1\\sjson-new-murmurhash_2.12-0.9.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\ipcsocket\\ipcsocket\\1.5.0\\ipcsocket-1.5.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\openhft\\zero-allocation-hashing\\0.10.1\\zero-allocation-hashing-0.10.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\fusesource\\jansi\\jansi\\2.1.0\\jansi-2.1.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\gigahorse-core_2.12\\0.7.0\\gigahorse-core_2.12-0.7.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\shaded-apache-httpasyncclient\\0.7.0\\shaded-apache-httpasyncclient-0.7.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\apigee\\trireme\\trireme-kernel\\0.9.4\\trireme-kernel-0.9.4.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\mozilla\\rhino\\1.7.10\\rhino-1.7.10.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jcraft\\jsch.agentproxy.core\\0.0.9\\jsch.agentproxy.core-0.0.9.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jcraft\\jsch.agentproxy.usocket-jna\\0.0.9\\jsch.agentproxy.usocket-jna-0.0.9.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jcraft\\jsch.agentproxy.usocket-nc\\0.0.9\\jsch.agentproxy.usocket-nc-0.0.9.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jcraft\\jsch.agentproxy.pageant\\0.0.9\\jsch.agentproxy.pageant-0.0.9.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jcraft\\jzlib\\1.1.1\\jzlib-1.1.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\osgi\\org.osgi.core\\4.3.1\\org.osgi.core-4.3.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\googlecode\\javaewah\\JavaEWAH\\1.1.7\\JavaEWAH-1.1.7.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bouncycastle\\bcpg-jdk15on\\1.65\\bcpg-jdk15on-1.65.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bouncycastle\\bcprov-jdk15on\\1.65.01\\bcprov-jdk15on-1.65.01.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bouncycastle\\bcpkix-jdk15on\\1.65\\bcpkix-jdk15on-1.65.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\httpcomponents\\httpcore\\4.4.12\\httpcore-4.4.12.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\sshd\\sshd-osgi\\2.4.0\\sshd-osgi-2.4.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\sshd\\sshd-sftp\\2.4.0\\sshd-sftp-2.4.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\i2p\\crypto\\eddsa\\0.3.0\\eddsa-0.3.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-logging\\commons-logging\\1.2\\commons-logging-1.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-codec\\commons-codec\\1.11\\commons-codec-1.11.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jetty\\jetty-security\\9.4.28.v20200408\\jetty-security-9.4.28.v20200408.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\code\\gson\\gson\\2.8.2\\gson-2.8.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-style\\3.19.0\\jline-style-3.19.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc-persist-core-assembly\\1.7.2\\zinc-persist-core-assembly-1.7.2.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\sbinary_2.12\\0.5.1\\sbinary_2.12-0.5.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\ssl-config-core_2.12\\0.6.1\\ssl-config-core_2.12-0.6.1.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\reactivestreams\\reactive-streams\\1.0.3\\reactive-streams-1.0.3.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\sshd\\sshd-core\\2.4.0\\sshd-core-2.4.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jetty\\jetty-server\\9.4.28.v20200408\\jetty-server-9.4.28.v20200408.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\sshd\\sshd-common\\2.4.0\\sshd-common-2.4.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\javax\\servlet\\javax.servlet-api\\3.1.0\\javax.servlet-api-3.1.0.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jetty\\jetty-http\\9.4.28.v20200408\\jetty-http-9.4.28.v20200408.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jetty\\jetty-io\\9.4.28.v20200408\\jetty-io-9.4.28.v20200408.jar",
-            "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jetty\\jetty-util\\9.4.28.v20200408\\jetty-util-9.4.28.v20200408.jar"
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.7.2/sbt-1.7.2.jar",
+            "/Users/bence/.sbt/boot/scala-2.12.16/lib/scala-library.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.4/sbt-bloop-1.5.4.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/sbt-plugin_2.12_1.0/2.8.17/sbt-plugin-2.8.17.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.foundweekends.giter8/sbt-giter8-scaffold/scala_2.12/sbt_1.0/0.13.1/jars/sbt-giter8-scaffold.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.7.2/main_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.7.0/io_2.12-1.7.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/1.5.4/bloop-config_2.12-1.5.4.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.12/2.8.17/sbt-routes-compiler_2.12-2.8.17.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/run-support_2.12/2.8.17/run-support_2.12-2.8.17.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lightbend/play/play-file-watch_2.12/1.1.16/play-file-watch_2.12-1.1.16.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-twirl/scala_2.12/sbt_1.0/1.5.1/jars/sbt-twirl.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.12/sbt_1.0/1.5.2/jars/sbt-native-packager.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lightbend.sbt/sbt-javaagent/scala_2.12/sbt_1.0/0.1.5/jars/sbt-javaagent.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-web/scala_2.12/sbt_1.0/1.4.4/jars/sbt-web.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-js-engine/scala_2.12/sbt_1.0/1.2.3/jars/sbt-js-engine.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/foundweekends/giter8/giter8-lib_2.12/0.13.1/giter8-lib_2.12-0.13.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.7.2/logic_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.7.2/actions_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.7.2/main-settings_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.7.2/run_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.7.2/command_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.7.2/collections_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.7.2/scripted-plugin_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.7.2/zinc-lm-integration_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.7.2/util-logging_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.3.0/scala-xml_2.12-1.3.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.4.1/launcher-interface-1.4.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.8.5/caffeine-2.8.5.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/lm-coursier-shaded_2.12/2.0.10/lm-coursier-shaded_2.12-2.0.10.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.17.1/log4j-slf4j-impl-2.17.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.7.1/librarymanagement-core_2.12-1.7.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.7.1/librarymanagement-ivy_2.12-1.7.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.7.2/compiler-interface-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.7.2/zinc-compile_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.9/file-tree-views-2.1.9.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.12.0/jna-5.12.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.0/jna-platform-5.12.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.4.0/jsoniter-scala-core_2.12-2.4.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.5.1/twirl-api_2.12-1.5.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.17/build-link-2.8.17.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/methvin/directory-watcher/0.15.0/directory-watcher-0.15.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pathikrit/better-files_2.12/3.8.0/better-files_2.12-3.8.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-compiler_2.12/1.5.1/twirl-compiler_2.12-1.5.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/ant/ant/1.10.5/ant-1.10.5.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/eldis/tool-launcher/0.2.2/tool-launcher-0.2.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.18/akka-actor_2.12-2.5.18.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/webjars/webjars-locator-core/0.36/webjars-locator-core-0.36.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/jse_2.12/1.2.4/jse_2.12-1.2.4.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/npm_2.12/1.2.1/npm_2.12-1.2.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/foundweekends/giter8/giter8-cli-git_2.12/0.13.1/giter8-cli-git_2.12-0.13.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.2/ST4-4.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit.pgm/5.8.0.202006091008-r/org.eclipse.jgit.pgm-5.8.0.202006091008-r.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/2.7.1/plexus-archiver-2.7.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.7.2/util-relation_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.7.2/completion_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.7.2/task-system_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.7.2/tasks_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.7.2/testing_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.7.2/util-tracking_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.9.1/sjson-new-scalajson_2.12-0.9.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.7.2/zinc-classpath_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.7.2/zinc-apiinfo_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.7.2/zinc_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.7.2/core-macros_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.7.2/util-cache_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.7.2/util-control_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.7.2/protocol_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.9.1/sjson-new-core_2.12-0.9.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/template-resolver/0.1/template-resolver-0.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.7.2/util-position_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.7.2/zinc-compile-core_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.7.2/util-interface-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/jline/jline/2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493/jline-2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jansi/3.19.0/jline-terminal-jansi-3.19.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2.jar",
+            "/Users/bence/.sbt/boot/scala-2.12.16/lib/scala-reflect.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.4.1/checker-qual-3.4.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.6.0/scala-collection-compat_2.12-2.6.0.jar",
+            "/Users/bence/.sbt/boot/scala-2.12.16/lib/scala-compiler.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-apache-http_2.12/0.7.0/gigahorse-apache-http_2.12-0.7.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745/ivy-2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.17/play-exceptions-2.8.17.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-parser_2.12/1.5.1/twirl-parser_2.12-1.5.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.10.5/ant-launcher-1.10.5.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.7/jackson-core-2.9.7.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/apigee/trireme/trireme-core/0.9.4/trireme-core-0.9.4.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/apigee/trireme/trireme-node10src/0.9.4/trireme-node10src-0.9.4.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.5/spray-json_2.12-1.3.5.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/webjars/npm/4.2.0/npm-4.2.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/scopt/scopt_2.12/3.7.1/scopt_2.12-3.7.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch.agentproxy.jsch/0.0.9/jsch.agentproxy.jsch-0.0.9.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch.agentproxy.sshagent/0.0.9/jsch.agentproxy.sshagent-0.0.9.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch.agentproxy.connector-factory/0.0.9/jsch.agentproxy.connector-factory-0.0.9.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit.ssh.jsch/5.8.0.202006091008-r/org.eclipse.jgit.ssh.jsch-5.8.0.202006091008-r.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/args4j/args4j/2.33/args4j-2.33.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit.archive/5.8.0.202006091008-r/org.eclipse.jgit.archive-5.8.0.202006091008-r.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/5.8.0.202006091008-r/org.eclipse.jgit-5.8.0.202006091008-r.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit.ui/5.8.0.202006091008-r/org.eclipse.jgit.ui-5.8.0.202006091008-r.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit.gpg.bc/5.8.0.202006091008-r/org.eclipse.jgit.gpg.bc-5.8.0.202006091008-r.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit.http.apache/5.8.0.202006091008-r/org.eclipse.jgit.http.apache-5.8.0.202006091008-r.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit.ssh.apache/5.8.0.202006091008-r/org.eclipse.jgit.ssh.apache-5.8.0.202006091008-r.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.2/slf4j-log4j12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.28.v20200408/jetty-servlet-9.4.28.v20200408.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit.lfs/5.8.0.202006091008-r/org.eclipse.jgit.lfs-5.8.0.202006091008-r.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit.lfs.server/5.8.0.202006091008-r/org.eclipse.jgit.lfs.server-5.8.0.202006091008-r.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.2/plexus-io-2.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-builtins/3.19.0/jline-builtins-3.19.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-agent/1.7.2/test-agent-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/shaded-jawn-parser_2.12/0.9.1/shaded-jawn-parser_2.12-0.9.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/shaded-scalajson_2.12-1.0.0-M4.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.7.2/compiler-bridge_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.7.2/zinc-classfile_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.7.2/zinc-core_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.7.2/zinc-persist_2.12-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.9.1/sjson-new-murmurhash_2.12-0.9.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.5.0/ipcsocket-1.5.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.10.1/zero-allocation-hashing-0.10.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.1.0/jansi-2.1.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.7.0/gigahorse-core_2.12-0.7.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/shaded-apache-httpasyncclient/0.7.0/shaded-apache-httpasyncclient-0.7.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/apigee/trireme/trireme-kernel/0.9.4/trireme-kernel-0.9.4.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/mozilla/rhino/1.7.10/rhino-1.7.10.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch.agentproxy.core/0.0.9/jsch.agentproxy.core-0.0.9.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch.agentproxy.usocket-jna/0.0.9/jsch.agentproxy.usocket-jna-0.0.9.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch.agentproxy.usocket-nc/0.0.9/jsch.agentproxy.usocket-nc-0.0.9.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch.agentproxy.pageant/0.0.9/jsch.agentproxy.pageant-0.0.9.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jzlib/1.1.1/jzlib-1.1.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.1.7/JavaEWAH-1.1.7.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk15on/1.65/bcpg-jdk15on-1.65.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.65.01/bcprov-jdk15on-1.65.01.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.65/bcpkix-jdk15on-1.65.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.4.0/sshd-osgi-2.4.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.4.0/sshd-sftp-2.4.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/i2p/crypto/eddsa/0.3.0/eddsa-0.3.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.4.28.v20200408/jetty-security-9.4.28.v20200408.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-style/3.19.0/jline-style-3.19.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.7.2/zinc-persist-core-assembly-1.7.2.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.6.1/ssl-config-core_2.12-0.6.1.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/sshd/sshd-core/2.4.0/sshd-core-2.4.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.4.28.v20200408/jetty-server-9.4.28.v20200408.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/sshd/sshd-common/2.4.0/sshd-common-2.4.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.28.v20200408/jetty-http-9.4.28.v20200408.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.28.v20200408/jetty-io-9.4.28.v20200408.jar",
+            "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.28.v20200408/jetty-util-9.4.28.v20200408.jar"
         ],
-        "out": "C:\\Users\\bence\\Documents\\uno_web\\project\\.bloop\\uno_web-build",
-        "classesDir": "C:\\Users\\bence\\Documents\\uno_web\\project\\.bloop\\uno_web-build\\scala-2.12\\sbt-1.0\\classes",
+        "out": "/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/project/.bloop/uno_web-build",
+        "classesDir": "/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/project/.bloop/uno_web-build/scala-2.12/sbt-1.0/classes",
         "resources": [
-            "C:\\Users\\bence\\Documents\\uno_web\\project\\src\\main\\resources",
-            "C:\\Users\\bence\\Documents\\uno_web\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
+            "/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/project/src/main/resources",
+            "/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/project/target/scala-2.12/sbt-1.0/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -208,10 +208,10 @@
                 "-Xsource:3"
             ],
             "jars": [
-                "C:\\Users\\bence\\AppData\\Local\\Temp\\sbt-global-pluginstub\\boot\\scala-2.12.16\\lib\\scala-library.jar",
-                "C:\\Users\\bence\\AppData\\Local\\Temp\\sbt-global-pluginstub\\boot\\scala-2.12.16\\lib\\scala-compiler.jar",
-                "C:\\Users\\bence\\AppData\\Local\\Temp\\sbt-global-pluginstub\\boot\\scala-2.12.16\\lib\\scala-reflect.jar",
-                "C:\\Users\\bence\\AppData\\Local\\Temp\\sbt-global-pluginstub\\boot\\scala-2.12.16\\lib\\scala-xml_2.12-1.0.6.jar"
+                "/Users/bence/.sbt/boot/scala-2.12.16/lib/scala-library.jar",
+                "/Users/bence/.sbt/boot/scala-2.12.16/lib/scala-compiler.jar",
+                "/Users/bence/.sbt/boot/scala-2.12.16/lib/scala-reflect.jar",
+                "/Users/bence/.sbt/boot/scala-2.12.16/lib/scala-xml_2.12-1.0.6.jar"
             ],
             "setup": {
                 "order": "mixed",
@@ -285,9 +285,9 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "C:\\Program Files\\Eclipse Adoptium\\jdk-11.0.16.101-hotspot",
+                "home": "/Users/bence/.sdkman/candidates/java/8.0.345-tem/jre",
                 "options": [
-                    "-Duser.dir=C:\\Users\\bence\\Documents\\uno_web\\project"
+                    "-Duser.dir=/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/project"
                 ]
             },
             "mainClass": [
@@ -302,6 +302,10 @@
                     "version": "1.5.4",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "sbt-bloop",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.4/sbt-bloop-1.5.4.jar"
+                        },
                         {
                             "name": "sbt-bloop",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.5.4\\sbt-bloop-1.5.4.jar"
@@ -321,6 +325,10 @@
                     "artifacts": [
                         {
                             "name": "sbt-plugin",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/sbt-plugin_2.12_1.0/2.8.17/sbt-plugin-2.8.17.jar"
+                        },
+                        {
+                            "name": "sbt-plugin",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\sbt-plugin_2.12_1.0\\2.8.17\\sbt-plugin-2.8.17.jar"
                         },
                         {
@@ -336,6 +344,24 @@
                     "version": "0.13.1",
                     "configurations": "compile",
                     "artifacts": [
+                        {
+                            "name": "sbt-giter8-scaffold",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.foundweekends.giter8/sbt-giter8-scaffold/scala_2.12/sbt_1.0/0.13.1/jars/sbt-giter8-scaffold.jar"
+                        },
+                        {
+                            "name": "sbt-giter8-scaffold",
+                            "classifier": "sources",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.foundweekends.giter8/sbt-giter8-scaffold/scala_2.12/sbt_1.0/0.13.1/srcs/sbt-giter8-scaffold-sources.jar"
+                        },
+                        {
+                            "name": "sbt-giter8-scaffold",
+                            "classifier": "javadoc",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "783137bf581ba2a41a9a994060ccebe43965bdda"
+                            },
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.foundweekends.giter8/sbt-giter8-scaffold/scala_2.12/sbt_1.0/0.13.1/docs/sbt-giter8-scaffold-javadoc.jar"
+                        },
                         {
                             "name": "sbt-giter8-scaffold",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo.scala-sbt.org\\scalasbt\\sbt-plugin-releases\\org.foundweekends.giter8\\sbt-giter8-scaffold\\scala_2.12\\sbt_1.0\\0.13.1\\jars\\sbt-giter8-scaffold.jar"
@@ -364,6 +390,10 @@
                     "artifacts": [
                         {
                             "name": "bloop-config_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/1.5.4/bloop-config_2.12-1.5.4.jar"
+                        },
+                        {
+                            "name": "bloop-config_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\bloop-config_2.12\\1.5.4\\bloop-config_2.12-1.5.4.jar"
                         },
                         {
@@ -379,6 +409,10 @@
                     "version": "2.8.17",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "sbt-routes-compiler_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.12/2.8.17/sbt-routes-compiler_2.12-2.8.17.jar"
+                        },
                         {
                             "name": "sbt-routes-compiler_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\sbt-routes-compiler_2.12\\2.8.17\\sbt-routes-compiler_2.12-2.8.17.jar"
@@ -398,6 +432,10 @@
                     "artifacts": [
                         {
                             "name": "run-support_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/run-support_2.12/2.8.17/run-support_2.12-2.8.17.jar"
+                        },
+                        {
+                            "name": "run-support_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\run-support_2.12\\2.8.17\\run-support_2.12-2.8.17.jar"
                         },
                         {
@@ -413,6 +451,10 @@
                     "version": "1.4.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "config",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
+                        },
                         {
                             "name": "config",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\config\\1.4.2\\config-1.4.2.jar"
@@ -432,6 +474,10 @@
                     "artifacts": [
                         {
                             "name": "slf4j-simple",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar"
+                        },
+                        {
+                            "name": "slf4j-simple",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-simple\\1.7.36\\slf4j-simple-1.7.36.jar"
                         },
                         {
@@ -447,6 +493,10 @@
                     "version": "1.1.16",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "play-file-watch_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lightbend/play/play-file-watch_2.12/1.1.16/play-file-watch_2.12-1.1.16.jar"
+                        },
                         {
                             "name": "play-file-watch_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lightbend\\play\\play-file-watch_2.12\\1.1.16\\play-file-watch_2.12-1.1.16.jar"
@@ -466,6 +516,10 @@
                     "artifacts": [
                         {
                             "name": "sbt-twirl",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-twirl/scala_2.12/sbt_1.0/1.5.1/jars/sbt-twirl.jar"
+                        },
+                        {
+                            "name": "sbt-twirl",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo.scala-sbt.org\\scalasbt\\sbt-plugin-releases\\com.typesafe.sbt\\sbt-twirl\\scala_2.12\\sbt_1.0\\1.5.1\\jars\\sbt-twirl.jar"
                         },
                         {
@@ -481,6 +535,28 @@
                     "version": "1.5.2",
                     "configurations": "compile",
                     "artifacts": [
+                        {
+                            "name": "sbt-native-packager",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "7d8a38a58df855b0273928e774e13ccff61800ad"
+                            },
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.12/sbt_1.0/1.5.2/jars/sbt-native-packager.jar"
+                        },
+                        {
+                            "name": "sbt-native-packager",
+                            "classifier": "sources",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.12/sbt_1.0/1.5.2/srcs/sbt-native-packager-sources.jar"
+                        },
+                        {
+                            "name": "sbt-native-packager",
+                            "classifier": "javadoc",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "a34165d069113b1a7669134b25ae4c0b6727f7e3"
+                            },
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.12/sbt_1.0/1.5.2/docs/sbt-native-packager-javadoc.jar"
+                        },
                         {
                             "name": "sbt-native-packager",
                             "checksum": {
@@ -513,6 +589,10 @@
                     "artifacts": [
                         {
                             "name": "sbt-javaagent",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lightbend.sbt/sbt-javaagent/scala_2.12/sbt_1.0/0.1.5/jars/sbt-javaagent.jar"
+                        },
+                        {
+                            "name": "sbt-javaagent",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo.scala-sbt.org\\scalasbt\\sbt-plugin-releases\\com.lightbend.sbt\\sbt-javaagent\\scala_2.12\\sbt_1.0\\0.1.5\\jars\\sbt-javaagent.jar"
                         },
                         {
@@ -528,6 +608,24 @@
                     "version": "1.4.4",
                     "configurations": "compile",
                     "artifacts": [
+                        {
+                            "name": "sbt-web",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-web/scala_2.12/sbt_1.0/1.4.4/jars/sbt-web.jar"
+                        },
+                        {
+                            "name": "sbt-web",
+                            "classifier": "sources",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-web/scala_2.12/sbt_1.0/1.4.4/srcs/sbt-web-sources.jar"
+                        },
+                        {
+                            "name": "sbt-web",
+                            "classifier": "javadoc",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "e76e2a447667e2d4dc4b5002fa7a84e35111061f"
+                            },
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-web/scala_2.12/sbt_1.0/1.4.4/docs/sbt-web-javadoc.jar"
+                        },
                         {
                             "name": "sbt-web",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo.scala-sbt.org\\scalasbt\\sbt-plugin-releases\\com.typesafe.sbt\\sbt-web\\scala_2.12\\sbt_1.0\\1.4.4\\jars\\sbt-web.jar"
@@ -556,6 +654,24 @@
                     "artifacts": [
                         {
                             "name": "sbt-js-engine",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-js-engine/scala_2.12/sbt_1.0/1.2.3/jars/sbt-js-engine.jar"
+                        },
+                        {
+                            "name": "sbt-js-engine",
+                            "classifier": "sources",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-js-engine/scala_2.12/sbt_1.0/1.2.3/srcs/sbt-js-engine-sources.jar"
+                        },
+                        {
+                            "name": "sbt-js-engine",
+                            "classifier": "javadoc",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "eb78865016a7168b426783c67d4adca9c0b5abc6"
+                            },
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-js-engine/scala_2.12/sbt_1.0/1.2.3/docs/sbt-js-engine-javadoc.jar"
+                        },
+                        {
+                            "name": "sbt-js-engine",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo.scala-sbt.org\\scalasbt\\sbt-plugin-releases\\com.typesafe.sbt\\sbt-js-engine\\scala_2.12\\sbt_1.0\\1.2.3\\jars\\sbt-js-engine.jar"
                         },
                         {
@@ -582,6 +698,10 @@
                     "artifacts": [
                         {
                             "name": "giter8-lib_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/foundweekends/giter8/giter8-lib_2.12/0.13.1/giter8-lib_2.12-0.13.1.jar"
+                        },
+                        {
+                            "name": "giter8-lib_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\foundweekends\\giter8\\giter8-lib_2.12\\0.13.1\\giter8-lib_2.12-0.13.1.jar"
                         },
                         {
@@ -597,6 +717,10 @@
                     "version": "2.12.16",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/bence/.sbt/boot/scala-2.12.16/lib/scala-library.jar"
+                        },
                         {
                             "name": "scala-library",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Temp\\sbt-global-pluginstub\\boot\\scala-2.12.16\\lib\\scala-library.jar"
@@ -620,6 +744,10 @@
                     "artifacts": [
                         {
                             "name": "jsoniter-scala-core_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.4.0/jsoniter-scala-core_2.12-2.4.0.jar"
+                        },
+                        {
+                            "name": "jsoniter-scala-core_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\plokhotnyuk\\jsoniter-scala\\jsoniter-scala-core_2.12\\2.4.0\\jsoniter-scala-core_2.12-2.4.0.jar"
                         },
                         {
@@ -635,6 +763,10 @@
                     "version": "1.5.1",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "twirl-api_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.5.1/twirl-api_2.12-1.5.1.jar"
+                        },
                         {
                             "name": "twirl-api_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\twirl-api_2.12\\1.5.1\\twirl-api_2.12-1.5.1.jar"
@@ -654,6 +786,10 @@
                     "artifacts": [
                         {
                             "name": "scala-parser-combinators_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.12\\1.1.2\\scala-parser-combinators_2.12-1.1.2.jar"
                         },
                         {
@@ -669,6 +805,10 @@
                     "version": "2.8.17",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "build-link",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.17/build-link-2.8.17.jar"
+                        },
                         {
                             "name": "build-link",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\build-link\\2.8.17\\build-link-2.8.17.jar"
@@ -688,6 +828,10 @@
                     "artifacts": [
                         {
                             "name": "slf4j-api",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.36\\slf4j-api-1.7.36.jar"
                         },
                         {
@@ -703,6 +847,10 @@
                     "version": "0.15.0",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "directory-watcher",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/methvin/directory-watcher/0.15.0/directory-watcher-0.15.0.jar"
+                        },
                         {
                             "name": "directory-watcher",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\methvin\\directory-watcher\\0.15.0\\directory-watcher-0.15.0.jar"
@@ -722,6 +870,10 @@
                     "artifacts": [
                         {
                             "name": "better-files_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pathikrit/better-files_2.12/3.8.0/better-files_2.12-3.8.0.jar"
+                        },
+                        {
+                            "name": "better-files_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pathikrit\\better-files_2.12\\3.8.0\\better-files_2.12-3.8.0.jar"
                         },
                         {
@@ -737,6 +889,10 @@
                     "version": "1.5.1",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "twirl-compiler_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-compiler_2.12/1.5.1/twirl-compiler_2.12-1.5.1.jar"
+                        },
                         {
                             "name": "twirl-compiler_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\twirl-compiler_2.12\\1.5.1\\twirl-compiler_2.12-1.5.1.jar"
@@ -756,6 +912,10 @@
                     "artifacts": [
                         {
                             "name": "commons-compress",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar"
+                        },
+                        {
+                            "name": "commons-compress",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-compress\\1.19\\commons-compress-1.19.jar"
                         },
                         {
@@ -771,6 +931,10 @@
                     "version": "1.10.5",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "ant",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/ant/ant/1.10.5/ant-1.10.5.jar"
+                        },
                         {
                             "name": "ant",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\ant\\ant\\1.10.5\\ant-1.10.5.jar"
@@ -790,6 +954,10 @@
                     "artifacts": [
                         {
                             "name": "tool-launcher",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/eldis/tool-launcher/0.2.2/tool-launcher-0.2.2.jar"
+                        },
+                        {
+                            "name": "tool-launcher",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\eldis\\tool-launcher\\0.2.2\\tool-launcher-0.2.2.jar"
                         },
                         {
@@ -805,6 +973,10 @@
                     "version": "1.3.0",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "scala-xml_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.3.0/scala-xml_2.12-1.3.0.jar"
+                        },
                         {
                             "name": "scala-xml_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.12\\1.3.0\\scala-xml_2.12-1.3.0.jar"
@@ -824,6 +996,10 @@
                     "artifacts": [
                         {
                             "name": "akka-actor_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.18/akka-actor_2.12-2.5.18.jar"
+                        },
+                        {
+                            "name": "akka-actor_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\akka\\akka-actor_2.12\\2.5.18\\akka-actor_2.12-2.5.18.jar"
                         },
                         {
@@ -839,6 +1015,10 @@
                     "version": "0.36",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "webjars-locator-core",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/webjars/webjars-locator-core/0.36/webjars-locator-core-0.36.jar"
+                        },
                         {
                             "name": "webjars-locator-core",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\webjars\\webjars-locator-core\\0.36\\webjars-locator-core-0.36.jar"
@@ -858,6 +1038,10 @@
                     "artifacts": [
                         {
                             "name": "jse_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/jse_2.12/1.2.4/jse_2.12-1.2.4.jar"
+                        },
+                        {
+                            "name": "jse_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\jse_2.12\\1.2.4\\jse_2.12-1.2.4.jar"
                         },
                         {
@@ -873,6 +1057,10 @@
                     "version": "1.2.1",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "npm_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/npm_2.12/1.2.1/npm_2.12-1.2.1.jar"
+                        },
                         {
                             "name": "npm_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\npm_2.12\\1.2.1\\npm_2.12-1.2.1.jar"
@@ -892,6 +1080,10 @@
                     "artifacts": [
                         {
                             "name": "giter8-cli-git_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/foundweekends/giter8/giter8-cli-git_2.12/0.13.1/giter8-cli-git_2.12-0.13.1.jar"
+                        },
+                        {
+                            "name": "giter8-cli-git_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\foundweekends\\giter8\\giter8-cli-git_2.12\\0.13.1\\giter8-cli-git_2.12-0.13.1.jar"
                         },
                         {
@@ -907,6 +1099,10 @@
                     "version": "4.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "ST4",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.2/ST4-4.2.jar"
+                        },
                         {
                             "name": "ST4",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\antlr\\ST4\\4.2\\ST4-4.2.jar"
@@ -926,6 +1122,10 @@
                     "artifacts": [
                         {
                             "name": "org.eclipse.jgit.pgm",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit.pgm/5.8.0.202006091008-r/org.eclipse.jgit.pgm-5.8.0.202006091008-r.jar"
+                        },
+                        {
+                            "name": "org.eclipse.jgit.pgm",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit.pgm\\5.8.0.202006091008-r\\org.eclipse.jgit.pgm-5.8.0.202006091008-r.jar"
                         },
                         {
@@ -941,6 +1141,10 @@
                     "version": "2.6",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "commons-io",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.6/commons-io-2.6.jar"
+                        },
                         {
                             "name": "commons-io",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-io\\commons-io\\2.6\\commons-io-2.6.jar"
@@ -960,6 +1164,10 @@
                     "artifacts": [
                         {
                             "name": "plexus-archiver",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/2.7.1/plexus-archiver-2.7.1.jar"
+                        },
+                        {
+                            "name": "plexus-archiver",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\plexus\\plexus-archiver\\2.7.1\\plexus-archiver-2.7.1.jar"
                         },
                         {
@@ -977,6 +1185,10 @@
                     "artifacts": [
                         {
                             "name": "play-exceptions",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.17/play-exceptions-2.8.17.jar"
+                        },
+                        {
+                            "name": "play-exceptions",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\play-exceptions\\2.8.17\\play-exceptions-2.8.17.jar"
                         },
                         {
@@ -992,6 +1204,10 @@
                     "version": "2.12.16",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "scala-compiler",
+                            "path": "/Users/bence/.sbt/boot/scala-2.12.16/lib/scala-compiler.jar"
+                        },
                         {
                             "name": "scala-compiler",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Temp\\sbt-global-pluginstub\\boot\\scala-2.12.16\\lib\\scala-compiler.jar"
@@ -1015,6 +1231,10 @@
                     "artifacts": [
                         {
                             "name": "twirl-parser_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-parser_2.12/1.5.1/twirl-parser_2.12-1.5.1.jar"
+                        },
+                        {
+                            "name": "twirl-parser_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\play\\twirl-parser_2.12\\1.5.1\\twirl-parser_2.12-1.5.1.jar"
                         },
                         {
@@ -1030,6 +1250,10 @@
                     "version": "1.10.5",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "ant-launcher",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.10.5/ant-launcher-1.10.5.jar"
+                        },
                         {
                             "name": "ant-launcher",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\ant\\ant-launcher\\1.10.5\\ant-launcher-1.10.5.jar"
@@ -1049,6 +1273,10 @@
                     "artifacts": [
                         {
                             "name": "scala-java8-compat_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar"
+                        },
+                        {
+                            "name": "scala-java8-compat_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-java8-compat_2.12\\0.8.0\\scala-java8-compat_2.12-0.8.0.jar"
                         },
                         {
@@ -1064,6 +1292,10 @@
                     "version": "3.8.1",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "commons-lang3",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar"
+                        },
                         {
                             "name": "commons-lang3",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\commons\\commons-lang3\\3.8.1\\commons-lang3-3.8.1.jar"
@@ -1083,6 +1315,10 @@
                     "artifacts": [
                         {
                             "name": "jackson-core",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.7/jackson-core-2.9.7.jar"
+                        },
+                        {
+                            "name": "jackson-core",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.9.7\\jackson-core-2.9.7.jar"
                         },
                         {
@@ -1098,6 +1334,10 @@
                     "version": "0.9.4",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "trireme-core",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/apigee/trireme/trireme-core/0.9.4/trireme-core-0.9.4.jar"
+                        },
                         {
                             "name": "trireme-core",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\apigee\\trireme\\trireme-core\\0.9.4\\trireme-core-0.9.4.jar"
@@ -1117,6 +1357,10 @@
                     "artifacts": [
                         {
                             "name": "trireme-node10src",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/apigee/trireme/trireme-node10src/0.9.4/trireme-node10src-0.9.4.jar"
+                        },
+                        {
+                            "name": "trireme-node10src",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\apigee\\trireme\\trireme-node10src\\0.9.4\\trireme-node10src-0.9.4.jar"
                         },
                         {
@@ -1132,6 +1376,10 @@
                     "version": "1.3.5",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "spray-json_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.5/spray-json_2.12-1.3.5.jar"
+                        },
                         {
                             "name": "spray-json_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\spray\\spray-json_2.12\\1.3.5\\spray-json_2.12-1.3.5.jar"
@@ -1151,7 +1399,7 @@
                     "artifacts": [
                         {
                             "name": "npm",
-                            "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\webjars\\npm\\4.2.0\\npm-4.2.0.jar"
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/webjars/npm/4.2.0/npm-4.2.0.jar"
                         }
                     ]
                 },
@@ -1161,6 +1409,10 @@
                     "version": "3.7.1",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "scopt_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/scopt/scopt_2.12/3.7.1/scopt_2.12-3.7.1.jar"
+                        },
                         {
                             "name": "scopt_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\scopt\\scopt_2.12\\3.7.1\\scopt_2.12-3.7.1.jar"
@@ -1180,6 +1432,10 @@
                     "artifacts": [
                         {
                             "name": "jsch.agentproxy.jsch",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch.agentproxy.jsch/0.0.9/jsch.agentproxy.jsch-0.0.9.jar"
+                        },
+                        {
+                            "name": "jsch.agentproxy.jsch",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jcraft\\jsch.agentproxy.jsch\\0.0.9\\jsch.agentproxy.jsch-0.0.9.jar"
                         },
                         {
@@ -1195,6 +1451,10 @@
                     "version": "0.0.9",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "jsch.agentproxy.sshagent",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch.agentproxy.sshagent/0.0.9/jsch.agentproxy.sshagent-0.0.9.jar"
+                        },
                         {
                             "name": "jsch.agentproxy.sshagent",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jcraft\\jsch.agentproxy.sshagent\\0.0.9\\jsch.agentproxy.sshagent-0.0.9.jar"
@@ -1214,6 +1474,10 @@
                     "artifacts": [
                         {
                             "name": "jsch.agentproxy.connector-factory",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch.agentproxy.connector-factory/0.0.9/jsch.agentproxy.connector-factory-0.0.9.jar"
+                        },
+                        {
+                            "name": "jsch.agentproxy.connector-factory",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jcraft\\jsch.agentproxy.connector-factory\\0.0.9\\jsch.agentproxy.connector-factory-0.0.9.jar"
                         },
                         {
@@ -1229,6 +1493,10 @@
                     "version": "5.8.0.202006091008-r",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "org.eclipse.jgit.ssh.jsch",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit.ssh.jsch/5.8.0.202006091008-r/org.eclipse.jgit.ssh.jsch-5.8.0.202006091008-r.jar"
+                        },
                         {
                             "name": "org.eclipse.jgit.ssh.jsch",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit.ssh.jsch\\5.8.0.202006091008-r\\org.eclipse.jgit.ssh.jsch-5.8.0.202006091008-r.jar"
@@ -1248,6 +1516,10 @@
                     "artifacts": [
                         {
                             "name": "antlr-runtime",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar"
+                        },
+                        {
+                            "name": "antlr-runtime",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\antlr\\antlr-runtime\\3.5.2\\antlr-runtime-3.5.2.jar"
                         },
                         {
@@ -1263,6 +1535,10 @@
                     "version": "2.33",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "args4j",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/args4j/args4j/2.33/args4j-2.33.jar"
+                        },
                         {
                             "name": "args4j",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\args4j\\args4j\\2.33\\args4j-2.33.jar"
@@ -1282,6 +1558,10 @@
                     "artifacts": [
                         {
                             "name": "org.eclipse.jgit.archive",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit.archive/5.8.0.202006091008-r/org.eclipse.jgit.archive-5.8.0.202006091008-r.jar"
+                        },
+                        {
+                            "name": "org.eclipse.jgit.archive",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit.archive\\5.8.0.202006091008-r\\org.eclipse.jgit.archive-5.8.0.202006091008-r.jar"
                         },
                         {
@@ -1297,6 +1577,10 @@
                     "version": "5.8.0.202006091008-r",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "org.eclipse.jgit",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/5.8.0.202006091008-r/org.eclipse.jgit-5.8.0.202006091008-r.jar"
+                        },
                         {
                             "name": "org.eclipse.jgit",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit\\5.8.0.202006091008-r\\org.eclipse.jgit-5.8.0.202006091008-r.jar"
@@ -1316,6 +1600,10 @@
                     "artifacts": [
                         {
                             "name": "org.eclipse.jgit.ui",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit.ui/5.8.0.202006091008-r/org.eclipse.jgit.ui-5.8.0.202006091008-r.jar"
+                        },
+                        {
+                            "name": "org.eclipse.jgit.ui",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit.ui\\5.8.0.202006091008-r\\org.eclipse.jgit.ui-5.8.0.202006091008-r.jar"
                         },
                         {
@@ -1331,6 +1619,10 @@
                     "version": "5.8.0.202006091008-r",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "org.eclipse.jgit.gpg.bc",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit.gpg.bc/5.8.0.202006091008-r/org.eclipse.jgit.gpg.bc-5.8.0.202006091008-r.jar"
+                        },
                         {
                             "name": "org.eclipse.jgit.gpg.bc",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit.gpg.bc\\5.8.0.202006091008-r\\org.eclipse.jgit.gpg.bc-5.8.0.202006091008-r.jar"
@@ -1350,6 +1642,10 @@
                     "artifacts": [
                         {
                             "name": "org.eclipse.jgit.http.apache",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit.http.apache/5.8.0.202006091008-r/org.eclipse.jgit.http.apache-5.8.0.202006091008-r.jar"
+                        },
+                        {
+                            "name": "org.eclipse.jgit.http.apache",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit.http.apache\\5.8.0.202006091008-r\\org.eclipse.jgit.http.apache-5.8.0.202006091008-r.jar"
                         },
                         {
@@ -1365,6 +1661,10 @@
                     "version": "5.8.0.202006091008-r",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "org.eclipse.jgit.ssh.apache",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit.ssh.apache/5.8.0.202006091008-r/org.eclipse.jgit.ssh.apache-5.8.0.202006091008-r.jar"
+                        },
                         {
                             "name": "org.eclipse.jgit.ssh.apache",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit.ssh.apache\\5.8.0.202006091008-r\\org.eclipse.jgit.ssh.apache-5.8.0.202006091008-r.jar"
@@ -1384,6 +1684,10 @@
                     "artifacts": [
                         {
                             "name": "httpclient",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar"
+                        },
+                        {
+                            "name": "httpclient",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\httpcomponents\\httpclient\\4.5.10\\httpclient-4.5.10.jar"
                         },
                         {
@@ -1399,6 +1703,10 @@
                     "version": "1.7.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "slf4j-log4j12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.2/slf4j-log4j12-1.7.2.jar"
+                        },
                         {
                             "name": "slf4j-log4j12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-log4j12\\1.7.2\\slf4j-log4j12-1.7.2.jar"
@@ -1418,6 +1726,10 @@
                     "artifacts": [
                         {
                             "name": "log4j",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar"
+                        },
+                        {
+                            "name": "log4j",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\log4j\\log4j\\1.2.17\\log4j-1.2.17.jar"
                         },
                         {
@@ -1433,6 +1745,10 @@
                     "version": "9.4.28.v20200408",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "jetty-servlet",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.28.v20200408/jetty-servlet-9.4.28.v20200408.jar"
+                        },
                         {
                             "name": "jetty-servlet",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jetty\\jetty-servlet\\9.4.28.v20200408\\jetty-servlet-9.4.28.v20200408.jar"
@@ -1452,6 +1768,10 @@
                     "artifacts": [
                         {
                             "name": "org.eclipse.jgit.lfs",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit.lfs/5.8.0.202006091008-r/org.eclipse.jgit.lfs-5.8.0.202006091008-r.jar"
+                        },
+                        {
+                            "name": "org.eclipse.jgit.lfs",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit.lfs\\5.8.0.202006091008-r\\org.eclipse.jgit.lfs-5.8.0.202006091008-r.jar"
                         },
                         {
@@ -1467,6 +1787,10 @@
                     "version": "5.8.0.202006091008-r",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "org.eclipse.jgit.lfs.server",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit.lfs.server/5.8.0.202006091008-r/org.eclipse.jgit.lfs.server-5.8.0.202006091008-r.jar"
+                        },
                         {
                             "name": "org.eclipse.jgit.lfs.server",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jgit\\org.eclipse.jgit.lfs.server\\5.8.0.202006091008-r\\org.eclipse.jgit.lfs.server-5.8.0.202006091008-r.jar"
@@ -1486,6 +1810,10 @@
                     "artifacts": [
                         {
                             "name": "plexus-container-default",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar"
+                        },
+                        {
+                            "name": "plexus-container-default",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\plexus\\plexus-container-default\\1.0-alpha-9-stable-1\\plexus-container-default-1.0-alpha-9-stable-1.jar"
                         },
                         {
@@ -1501,6 +1829,10 @@
                     "version": "3.0.8",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "plexus-utils",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.jar"
+                        },
                         {
                             "name": "plexus-utils",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\plexus\\plexus-utils\\3.0.8\\plexus-utils-3.0.8.jar"
@@ -1520,6 +1852,10 @@
                     "artifacts": [
                         {
                             "name": "plexus-io",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/plexus/plexus-io/2.2/plexus-io-2.2.jar"
+                        },
+                        {
+                            "name": "plexus-io",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\plexus\\plexus-io\\2.2\\plexus-io-2.2.jar"
                         },
                         {
@@ -1535,6 +1871,10 @@
                     "version": "2.12.16",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/Users/bence/.sbt/boot/scala-2.12.16/lib/scala-reflect.jar"
+                        },
                         {
                             "name": "scala-reflect",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Temp\\sbt-global-pluginstub\\boot\\scala-2.12.16\\lib\\scala-reflect.jar"
@@ -1558,6 +1898,10 @@
                     "artifacts": [
                         {
                             "name": "trireme-kernel",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/apigee/trireme/trireme-kernel/0.9.4/trireme-kernel-0.9.4.jar"
+                        },
+                        {
+                            "name": "trireme-kernel",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\apigee\\trireme\\trireme-kernel\\0.9.4\\trireme-kernel-0.9.4.jar"
                         },
                         {
@@ -1573,6 +1917,10 @@
                     "version": "1.7.10",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "rhino",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/mozilla/rhino/1.7.10/rhino-1.7.10.jar"
+                        },
                         {
                             "name": "rhino",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\mozilla\\rhino\\1.7.10\\rhino-1.7.10.jar"
@@ -1592,6 +1940,10 @@
                     "artifacts": [
                         {
                             "name": "jsch",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar"
+                        },
+                        {
+                            "name": "jsch",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jcraft\\jsch\\0.1.55\\jsch-0.1.55.jar"
                         },
                         {
@@ -1607,6 +1959,10 @@
                     "version": "0.0.9",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "jsch.agentproxy.core",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch.agentproxy.core/0.0.9/jsch.agentproxy.core-0.0.9.jar"
+                        },
                         {
                             "name": "jsch.agentproxy.core",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jcraft\\jsch.agentproxy.core\\0.0.9\\jsch.agentproxy.core-0.0.9.jar"
@@ -1626,6 +1982,10 @@
                     "artifacts": [
                         {
                             "name": "jsch.agentproxy.usocket-jna",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch.agentproxy.usocket-jna/0.0.9/jsch.agentproxy.usocket-jna-0.0.9.jar"
+                        },
+                        {
+                            "name": "jsch.agentproxy.usocket-jna",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jcraft\\jsch.agentproxy.usocket-jna\\0.0.9\\jsch.agentproxy.usocket-jna-0.0.9.jar"
                         },
                         {
@@ -1641,6 +2001,10 @@
                     "version": "0.0.9",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "jsch.agentproxy.usocket-nc",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch.agentproxy.usocket-nc/0.0.9/jsch.agentproxy.usocket-nc-0.0.9.jar"
+                        },
                         {
                             "name": "jsch.agentproxy.usocket-nc",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jcraft\\jsch.agentproxy.usocket-nc\\0.0.9\\jsch.agentproxy.usocket-nc-0.0.9.jar"
@@ -1660,6 +2024,10 @@
                     "artifacts": [
                         {
                             "name": "jsch.agentproxy.pageant",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch.agentproxy.pageant/0.0.9/jsch.agentproxy.pageant-0.0.9.jar"
+                        },
+                        {
+                            "name": "jsch.agentproxy.pageant",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jcraft\\jsch.agentproxy.pageant\\0.0.9\\jsch.agentproxy.pageant-0.0.9.jar"
                         },
                         {
@@ -1675,6 +2043,10 @@
                     "version": "1.1.1",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "jzlib",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jzlib/1.1.1/jzlib-1.1.1.jar"
+                        },
                         {
                             "name": "jzlib",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\jcraft\\jzlib\\1.1.1\\jzlib-1.1.1.jar"
@@ -1694,6 +2066,10 @@
                     "artifacts": [
                         {
                             "name": "org.osgi.core",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.jar"
+                        },
+                        {
+                            "name": "org.osgi.core",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\osgi\\org.osgi.core\\4.3.1\\org.osgi.core-4.3.1.jar"
                         },
                         {
@@ -1709,6 +2085,10 @@
                     "version": "1.1.7",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "JavaEWAH",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.1.7/JavaEWAH-1.1.7.jar"
+                        },
                         {
                             "name": "JavaEWAH",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\googlecode\\javaewah\\JavaEWAH\\1.1.7\\JavaEWAH-1.1.7.jar"
@@ -1728,6 +2108,10 @@
                     "artifacts": [
                         {
                             "name": "bcpg-jdk15on",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpg-jdk15on/1.65/bcpg-jdk15on-1.65.jar"
+                        },
+                        {
+                            "name": "bcpg-jdk15on",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bouncycastle\\bcpg-jdk15on\\1.65\\bcpg-jdk15on-1.65.jar"
                         },
                         {
@@ -1743,6 +2127,10 @@
                     "version": "1.65.01",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "bcprov-jdk15on",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.65.01/bcprov-jdk15on-1.65.01.jar"
+                        },
                         {
                             "name": "bcprov-jdk15on",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bouncycastle\\bcprov-jdk15on\\1.65.01\\bcprov-jdk15on-1.65.01.jar"
@@ -1762,6 +2150,10 @@
                     "artifacts": [
                         {
                             "name": "bcpkix-jdk15on",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.65/bcpkix-jdk15on-1.65.jar"
+                        },
+                        {
+                            "name": "bcpkix-jdk15on",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\bouncycastle\\bcpkix-jdk15on\\1.65\\bcpkix-jdk15on-1.65.jar"
                         },
                         {
@@ -1777,6 +2169,10 @@
                     "version": "4.4.12",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "httpcore",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar"
+                        },
                         {
                             "name": "httpcore",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\httpcomponents\\httpcore\\4.4.12\\httpcore-4.4.12.jar"
@@ -1796,6 +2192,10 @@
                     "artifacts": [
                         {
                             "name": "sshd-osgi",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/sshd/sshd-osgi/2.4.0/sshd-osgi-2.4.0.jar"
+                        },
+                        {
+                            "name": "sshd-osgi",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\sshd\\sshd-osgi\\2.4.0\\sshd-osgi-2.4.0.jar"
                         },
                         {
@@ -1811,6 +2211,10 @@
                     "version": "2.4.0",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "sshd-sftp",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/sshd/sshd-sftp/2.4.0/sshd-sftp-2.4.0.jar"
+                        },
                         {
                             "name": "sshd-sftp",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\sshd\\sshd-sftp\\2.4.0\\sshd-sftp-2.4.0.jar"
@@ -1830,6 +2234,10 @@
                     "artifacts": [
                         {
                             "name": "eddsa",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/i2p/crypto/eddsa/0.3.0/eddsa-0.3.0.jar"
+                        },
+                        {
+                            "name": "eddsa",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\i2p\\crypto\\eddsa\\0.3.0\\eddsa-0.3.0.jar"
                         },
                         {
@@ -1845,6 +2253,10 @@
                     "version": "1.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "commons-logging",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+                        },
                         {
                             "name": "commons-logging",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-logging\\commons-logging\\1.2\\commons-logging-1.2.jar"
@@ -1864,6 +2276,10 @@
                     "artifacts": [
                         {
                             "name": "commons-codec",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar"
+                        },
+                        {
+                            "name": "commons-codec",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\commons-codec\\commons-codec\\1.11\\commons-codec-1.11.jar"
                         },
                         {
@@ -1879,6 +2295,10 @@
                     "version": "9.4.28.v20200408",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "jetty-security",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.4.28.v20200408/jetty-security-9.4.28.v20200408.jar"
+                        },
                         {
                             "name": "jetty-security",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jetty\\jetty-security\\9.4.28.v20200408\\jetty-security-9.4.28.v20200408.jar"
@@ -1898,6 +2318,10 @@
                     "artifacts": [
                         {
                             "name": "gson",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar"
+                        },
+                        {
+                            "name": "gson",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\code\\gson\\gson\\2.8.2\\gson-2.8.2.jar"
                         },
                         {
@@ -1913,6 +2337,10 @@
                     "version": "2.4.0",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "sshd-core",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/sshd/sshd-core/2.4.0/sshd-core-2.4.0.jar"
+                        },
                         {
                             "name": "sshd-core",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\sshd\\sshd-core\\2.4.0\\sshd-core-2.4.0.jar"
@@ -1932,6 +2360,10 @@
                     "artifacts": [
                         {
                             "name": "jetty-server",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.4.28.v20200408/jetty-server-9.4.28.v20200408.jar"
+                        },
+                        {
+                            "name": "jetty-server",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jetty\\jetty-server\\9.4.28.v20200408\\jetty-server-9.4.28.v20200408.jar"
                         },
                         {
@@ -1947,6 +2379,10 @@
                     "version": "2.4.0",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "sshd-common",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/sshd/sshd-common/2.4.0/sshd-common-2.4.0.jar"
+                        },
                         {
                             "name": "sshd-common",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\sshd\\sshd-common\\2.4.0\\sshd-common-2.4.0.jar"
@@ -1966,6 +2402,10 @@
                     "artifacts": [
                         {
                             "name": "javax.servlet-api",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar"
+                        },
+                        {
+                            "name": "javax.servlet-api",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\javax\\servlet\\javax.servlet-api\\3.1.0\\javax.servlet-api-3.1.0.jar"
                         },
                         {
@@ -1981,6 +2421,10 @@
                     "version": "9.4.28.v20200408",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "jetty-http",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.28.v20200408/jetty-http-9.4.28.v20200408.jar"
+                        },
                         {
                             "name": "jetty-http",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jetty\\jetty-http\\9.4.28.v20200408\\jetty-http-9.4.28.v20200408.jar"
@@ -2000,6 +2444,10 @@
                     "artifacts": [
                         {
                             "name": "jetty-io",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.28.v20200408/jetty-io-9.4.28.v20200408.jar"
+                        },
+                        {
+                            "name": "jetty-io",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jetty\\jetty-io\\9.4.28.v20200408\\jetty-io-9.4.28.v20200408.jar"
                         },
                         {
@@ -2015,6 +2463,10 @@
                     "version": "9.4.28.v20200408",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "jetty-util",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.28.v20200408/jetty-util-9.4.28.v20200408.jar"
+                        },
                         {
                             "name": "jetty-util",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\eclipse\\jetty\\jetty-util\\9.4.28.v20200408\\jetty-util-9.4.28.v20200408.jar"
@@ -2034,6 +2486,10 @@
                     "artifacts": [
                         {
                             "name": "sbt",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbt/1.7.2/sbt-1.7.2.jar"
+                        },
+                        {
+                            "name": "sbt",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\sbt\\1.7.2\\sbt-1.7.2.jar"
                         },
                         {
@@ -2049,6 +2505,10 @@
                     "version": "1.7.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "main_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.7.2/main_2.12-1.7.2.jar"
+                        },
                         {
                             "name": "main_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\main_2.12\\1.7.2\\main_2.12-1.7.2.jar"
@@ -2068,6 +2528,10 @@
                     "artifacts": [
                         {
                             "name": "io_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.7.0/io_2.12-1.7.0.jar"
+                        },
+                        {
+                            "name": "io_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\io_2.12\\1.7.0\\io_2.12-1.7.0.jar"
                         },
                         {
@@ -2083,6 +2547,10 @@
                     "version": "1.7.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "logic_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.7.2/logic_2.12-1.7.2.jar"
+                        },
                         {
                             "name": "logic_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\logic_2.12\\1.7.2\\logic_2.12-1.7.2.jar"
@@ -2102,6 +2570,10 @@
                     "artifacts": [
                         {
                             "name": "actions_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.7.2/actions_2.12-1.7.2.jar"
+                        },
+                        {
+                            "name": "actions_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\actions_2.12\\1.7.2\\actions_2.12-1.7.2.jar"
                         },
                         {
@@ -2117,6 +2589,10 @@
                     "version": "1.7.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "main-settings_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.7.2/main-settings_2.12-1.7.2.jar"
+                        },
                         {
                             "name": "main-settings_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\main-settings_2.12\\1.7.2\\main-settings_2.12-1.7.2.jar"
@@ -2136,6 +2612,10 @@
                     "artifacts": [
                         {
                             "name": "run_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.7.2/run_2.12-1.7.2.jar"
+                        },
+                        {
+                            "name": "run_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\run_2.12\\1.7.2\\run_2.12-1.7.2.jar"
                         },
                         {
@@ -2151,6 +2631,10 @@
                     "version": "1.7.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "command_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.7.2/command_2.12-1.7.2.jar"
+                        },
                         {
                             "name": "command_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\command_2.12\\1.7.2\\command_2.12-1.7.2.jar"
@@ -2170,6 +2654,10 @@
                     "artifacts": [
                         {
                             "name": "collections_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.7.2/collections_2.12-1.7.2.jar"
+                        },
+                        {
+                            "name": "collections_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\collections_2.12\\1.7.2\\collections_2.12-1.7.2.jar"
                         },
                         {
@@ -2185,6 +2673,10 @@
                     "version": "1.7.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "scripted-plugin_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.7.2/scripted-plugin_2.12-1.7.2.jar"
+                        },
                         {
                             "name": "scripted-plugin_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\scripted-plugin_2.12\\1.7.2\\scripted-plugin_2.12-1.7.2.jar"
@@ -2204,6 +2696,10 @@
                     "artifacts": [
                         {
                             "name": "zinc-lm-integration_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.7.2/zinc-lm-integration_2.12-1.7.2.jar"
+                        },
+                        {
+                            "name": "zinc-lm-integration_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc-lm-integration_2.12\\1.7.2\\zinc-lm-integration_2.12-1.7.2.jar"
                         },
                         {
@@ -2219,6 +2715,10 @@
                     "version": "1.7.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "util-logging_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.7.2/util-logging_2.12-1.7.2.jar"
+                        },
                         {
                             "name": "util-logging_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\util-logging_2.12\\1.7.2\\util-logging_2.12-1.7.2.jar"
@@ -2238,6 +2738,10 @@
                     "artifacts": [
                         {
                             "name": "launcher-interface",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.4.1/launcher-interface-1.4.1.jar"
+                        },
+                        {
+                            "name": "launcher-interface",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\launcher-interface\\1.4.1\\launcher-interface-1.4.1.jar"
                         },
                         {
@@ -2253,6 +2757,10 @@
                     "version": "2.8.5",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "caffeine",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.8.5/caffeine-2.8.5.jar"
+                        },
                         {
                             "name": "caffeine",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\ben-manes\\caffeine\\caffeine\\2.8.5\\caffeine-2.8.5.jar"
@@ -2272,6 +2780,10 @@
                     "artifacts": [
                         {
                             "name": "lm-coursier-shaded_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/get-coursier/lm-coursier-shaded_2.12/2.0.10/lm-coursier-shaded_2.12-2.0.10.jar"
+                        },
+                        {
+                            "name": "lm-coursier-shaded_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\get-coursier\\lm-coursier-shaded_2.12\\2.0.10\\lm-coursier-shaded_2.12-2.0.10.jar"
                         },
                         {
@@ -2287,6 +2799,10 @@
                     "version": "2.17.1",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "log4j-api",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar"
+                        },
                         {
                             "name": "log4j-api",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\logging\\log4j\\log4j-api\\2.17.1\\log4j-api-2.17.1.jar"
@@ -2306,6 +2822,10 @@
                     "artifacts": [
                         {
                             "name": "log4j-core",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar"
+                        },
+                        {
+                            "name": "log4j-core",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\logging\\log4j\\log4j-core\\2.17.1\\log4j-core-2.17.1.jar"
                         },
                         {
@@ -2321,6 +2841,10 @@
                     "version": "2.17.1",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "log4j-slf4j-impl",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.17.1/log4j-slf4j-impl-2.17.1.jar"
+                        },
                         {
                             "name": "log4j-slf4j-impl",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\apache\\logging\\log4j\\log4j-slf4j-impl\\2.17.1\\log4j-slf4j-impl-2.17.1.jar"
@@ -2340,6 +2864,10 @@
                     "artifacts": [
                         {
                             "name": "librarymanagement-core_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.7.1/librarymanagement-core_2.12-1.7.1.jar"
+                        },
+                        {
+                            "name": "librarymanagement-core_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\librarymanagement-core_2.12\\1.7.1\\librarymanagement-core_2.12-1.7.1.jar"
                         },
                         {
@@ -2355,6 +2883,10 @@
                     "version": "1.7.1",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "librarymanagement-ivy_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.7.1/librarymanagement-ivy_2.12-1.7.1.jar"
+                        },
                         {
                             "name": "librarymanagement-ivy_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\librarymanagement-ivy_2.12\\1.7.1\\librarymanagement-ivy_2.12-1.7.1.jar"
@@ -2374,6 +2906,10 @@
                     "artifacts": [
                         {
                             "name": "compiler-interface",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.7.2/compiler-interface-1.7.2.jar"
+                        },
+                        {
+                            "name": "compiler-interface",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\compiler-interface\\1.7.2\\compiler-interface-1.7.2.jar"
                         },
                         {
@@ -2389,6 +2925,10 @@
                     "version": "1.7.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "zinc-compile_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.7.2/zinc-compile_2.12-1.7.2.jar"
+                        },
                         {
                             "name": "zinc-compile_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc-compile_2.12\\1.7.2\\zinc-compile_2.12-1.7.2.jar"
@@ -2408,6 +2948,10 @@
                     "artifacts": [
                         {
                             "name": "file-tree-views",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/swoval/file-tree-views/2.1.9/file-tree-views-2.1.9.jar"
+                        },
+                        {
+                            "name": "file-tree-views",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\swoval\\file-tree-views\\2.1.9\\file-tree-views-2.1.9.jar"
                         },
                         {
@@ -2423,6 +2967,10 @@
                     "version": "5.12.0",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "jna",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.12.0/jna-5.12.0.jar"
+                        },
                         {
                             "name": "jna",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.12.0\\jna-5.12.0.jar"
@@ -2442,6 +2990,10 @@
                     "artifacts": [
                         {
                             "name": "jna-platform",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.12.0/jna-platform-5.12.0.jar"
+                        },
+                        {
+                            "name": "jna-platform",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna-platform\\5.12.0\\jna-platform-5.12.0.jar"
                         },
                         {
@@ -2457,6 +3009,10 @@
                     "version": "1.7.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "util-relation_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.7.2/util-relation_2.12-1.7.2.jar"
+                        },
                         {
                             "name": "util-relation_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\util-relation_2.12\\1.7.2\\util-relation_2.12-1.7.2.jar"
@@ -2476,6 +3032,10 @@
                     "artifacts": [
                         {
                             "name": "completion_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.7.2/completion_2.12-1.7.2.jar"
+                        },
+                        {
+                            "name": "completion_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\completion_2.12\\1.7.2\\completion_2.12-1.7.2.jar"
                         },
                         {
@@ -2491,6 +3051,10 @@
                     "version": "1.7.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "task-system_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.7.2/task-system_2.12-1.7.2.jar"
+                        },
                         {
                             "name": "task-system_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\task-system_2.12\\1.7.2\\task-system_2.12-1.7.2.jar"
@@ -2510,6 +3074,10 @@
                     "artifacts": [
                         {
                             "name": "tasks_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.7.2/tasks_2.12-1.7.2.jar"
+                        },
+                        {
+                            "name": "tasks_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\tasks_2.12\\1.7.2\\tasks_2.12-1.7.2.jar"
                         },
                         {
@@ -2525,6 +3093,10 @@
                     "version": "1.7.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "testing_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.7.2/testing_2.12-1.7.2.jar"
+                        },
                         {
                             "name": "testing_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\testing_2.12\\1.7.2\\testing_2.12-1.7.2.jar"
@@ -2544,6 +3116,10 @@
                     "artifacts": [
                         {
                             "name": "util-tracking_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.7.2/util-tracking_2.12-1.7.2.jar"
+                        },
+                        {
+                            "name": "util-tracking_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\util-tracking_2.12\\1.7.2\\util-tracking_2.12-1.7.2.jar"
                         },
                         {
@@ -2559,6 +3135,10 @@
                     "version": "0.9.1",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "sjson-new-scalajson_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.9.1/sjson-new-scalajson_2.12-0.9.1.jar"
+                        },
                         {
                             "name": "sjson-new-scalajson_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\sjson-new-scalajson_2.12\\0.9.1\\sjson-new-scalajson_2.12-0.9.1.jar"
@@ -2578,6 +3158,10 @@
                     "artifacts": [
                         {
                             "name": "jline-terminal",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar"
+                        },
+                        {
+                            "name": "jline-terminal",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-terminal\\3.19.0\\jline-terminal-3.19.0.jar"
                         },
                         {
@@ -2593,6 +3177,10 @@
                     "version": "1.7.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "zinc-classpath_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.7.2/zinc-classpath_2.12-1.7.2.jar"
+                        },
                         {
                             "name": "zinc-classpath_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc-classpath_2.12\\1.7.2\\zinc-classpath_2.12-1.7.2.jar"
@@ -2612,6 +3200,10 @@
                     "artifacts": [
                         {
                             "name": "zinc-apiinfo_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.7.2/zinc-apiinfo_2.12-1.7.2.jar"
+                        },
+                        {
+                            "name": "zinc-apiinfo_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc-apiinfo_2.12\\1.7.2\\zinc-apiinfo_2.12-1.7.2.jar"
                         },
                         {
@@ -2627,6 +3219,10 @@
                     "version": "1.7.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "zinc_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.7.2/zinc_2.12-1.7.2.jar"
+                        },
                         {
                             "name": "zinc_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc_2.12\\1.7.2\\zinc_2.12-1.7.2.jar"
@@ -2646,6 +3242,10 @@
                     "artifacts": [
                         {
                             "name": "core-macros_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.7.2/core-macros_2.12-1.7.2.jar"
+                        },
+                        {
+                            "name": "core-macros_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\core-macros_2.12\\1.7.2\\core-macros_2.12-1.7.2.jar"
                         },
                         {
@@ -2661,6 +3261,10 @@
                     "version": "1.7.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "util-cache_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.7.2/util-cache_2.12-1.7.2.jar"
+                        },
                         {
                             "name": "util-cache_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\util-cache_2.12\\1.7.2\\util-cache_2.12-1.7.2.jar"
@@ -2680,6 +3284,10 @@
                     "artifacts": [
                         {
                             "name": "util-control_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.7.2/util-control_2.12-1.7.2.jar"
+                        },
+                        {
+                            "name": "util-control_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\util-control_2.12\\1.7.2\\util-control_2.12-1.7.2.jar"
                         },
                         {
@@ -2695,6 +3303,10 @@
                     "version": "1.7.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "protocol_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.7.2/protocol_2.12-1.7.2.jar"
+                        },
                         {
                             "name": "protocol_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\protocol_2.12\\1.7.2\\protocol_2.12-1.7.2.jar"
@@ -2714,6 +3326,10 @@
                     "artifacts": [
                         {
                             "name": "sjson-new-core_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.9.1/sjson-new-core_2.12-0.9.1.jar"
+                        },
+                        {
+                            "name": "sjson-new-core_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\sjson-new-core_2.12\\0.9.1\\sjson-new-core_2.12-0.9.1.jar"
                         },
                         {
@@ -2729,6 +3345,10 @@
                     "version": "0.1",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "template-resolver",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/template-resolver/0.1/template-resolver-0.1.jar"
+                        },
                         {
                             "name": "template-resolver",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\template-resolver\\0.1\\template-resolver-0.1.jar"
@@ -2748,6 +3368,10 @@
                     "artifacts": [
                         {
                             "name": "util-position_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.7.2/util-position_2.12-1.7.2.jar"
+                        },
+                        {
+                            "name": "util-position_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\util-position_2.12\\1.7.2\\util-position_2.12-1.7.2.jar"
                         },
                         {
@@ -2763,6 +3387,10 @@
                     "version": "1.7.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "zinc-compile-core_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.7.2/zinc-compile-core_2.12-1.7.2.jar"
+                        },
                         {
                             "name": "zinc-compile-core_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc-compile-core_2.12\\1.7.2\\zinc-compile-core_2.12-1.7.2.jar"
@@ -2782,6 +3410,10 @@
                     "artifacts": [
                         {
                             "name": "util-interface",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.7.2/util-interface-1.7.2.jar"
+                        },
+                        {
+                            "name": "util-interface",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\util-interface\\1.7.2\\util-interface-1.7.2.jar"
                         },
                         {
@@ -2797,6 +3429,10 @@
                     "version": "2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "jline",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/jline/jline/2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493/jline-2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493.jar"
+                        },
                         {
                             "name": "jline",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\jline\\jline\\2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493\\jline-2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493.jar"
@@ -2816,6 +3452,10 @@
                     "artifacts": [
                         {
                             "name": "jline-terminal-jna",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar"
+                        },
+                        {
+                            "name": "jline-terminal-jna",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-terminal-jna\\3.19.0\\jline-terminal-jna-3.19.0.jar"
                         },
                         {
@@ -2831,6 +3471,10 @@
                     "version": "3.19.0",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "jline-terminal-jansi",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jansi/3.19.0/jline-terminal-jansi-3.19.0.jar"
+                        },
                         {
                             "name": "jline-terminal-jansi",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-terminal-jansi\\3.19.0\\jline-terminal-jansi-3.19.0.jar"
@@ -2850,6 +3494,10 @@
                     "artifacts": [
                         {
                             "name": "disruptor",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2.jar"
+                        },
+                        {
+                            "name": "disruptor",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lmax\\disruptor\\3.4.2\\disruptor-3.4.2.jar"
                         },
                         {
@@ -2865,6 +3513,10 @@
                     "version": "3.4.1",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "checker-qual",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.4.1/checker-qual-3.4.1.jar"
+                        },
                         {
                             "name": "checker-qual",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\checkerframework\\checker-qual\\3.4.1\\checker-qual-3.4.1.jar"
@@ -2884,6 +3536,10 @@
                     "artifacts": [
                         {
                             "name": "error_prone_annotations",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0.jar"
+                        },
+                        {
+                            "name": "error_prone_annotations",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\errorprone\\error_prone_annotations\\2.4.0\\error_prone_annotations-2.4.0.jar"
                         },
                         {
@@ -2899,6 +3555,10 @@
                     "version": "2.6.0",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "scala-collection-compat_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.6.0/scala-collection-compat_2.12-2.6.0.jar"
+                        },
                         {
                             "name": "scala-collection-compat_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-collection-compat_2.12\\2.6.0\\scala-collection-compat_2.12-2.6.0.jar"
@@ -2918,6 +3578,10 @@
                     "artifacts": [
                         {
                             "name": "gigahorse-apache-http_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-apache-http_2.12/0.7.0/gigahorse-apache-http_2.12-0.7.0.jar"
+                        },
+                        {
+                            "name": "gigahorse-apache-http_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\gigahorse-apache-http_2.12\\0.7.0\\gigahorse-apache-http_2.12-0.7.0.jar"
                         },
                         {
@@ -2933,6 +3597,10 @@
                     "version": "2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "ivy",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745/ivy-2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745.jar"
+                        },
                         {
                             "name": "ivy",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\ivy\\ivy\\2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745\\ivy-2.3.0-sbt-fbc4f586aeeb1591710b14eb4f41b94880dcd745.jar"
@@ -2952,6 +3620,10 @@
                     "artifacts": [
                         {
                             "name": "jline-reader",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar"
+                        },
+                        {
+                            "name": "jline-reader",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-reader\\3.19.0\\jline-reader-3.19.0.jar"
                         },
                         {
@@ -2967,6 +3639,10 @@
                     "version": "3.19.0",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "jline-builtins",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-builtins/3.19.0/jline-builtins-3.19.0.jar"
+                        },
                         {
                             "name": "jline-builtins",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-builtins\\3.19.0\\jline-builtins-3.19.0.jar"
@@ -2986,6 +3662,10 @@
                     "artifacts": [
                         {
                             "name": "test-agent",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-agent/1.7.2/test-agent-1.7.2.jar"
+                        },
+                        {
+                            "name": "test-agent",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\test-agent\\1.7.2\\test-agent-1.7.2.jar"
                         },
                         {
@@ -3001,6 +3681,10 @@
                     "version": "1.0",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "test-interface",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
+                        },
                         {
                             "name": "test-interface",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\test-interface\\1.0\\test-interface-1.0.jar"
@@ -3020,6 +3704,10 @@
                     "artifacts": [
                         {
                             "name": "shaded-jawn-parser_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/shaded-jawn-parser_2.12/0.9.1/shaded-jawn-parser_2.12-0.9.1.jar"
+                        },
+                        {
+                            "name": "shaded-jawn-parser_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\shaded-jawn-parser_2.12\\0.9.1\\shaded-jawn-parser_2.12-0.9.1.jar"
                         },
                         {
@@ -3035,6 +3723,10 @@
                     "version": "1.0.0-M4",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "shaded-scalajson_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/shaded-scalajson_2.12-1.0.0-M4.jar"
+                        },
                         {
                             "name": "shaded-scalajson_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\shaded-scalajson_2.12\\1.0.0-M4\\shaded-scalajson_2.12-1.0.0-M4.jar"
@@ -3054,6 +3746,10 @@
                     "artifacts": [
                         {
                             "name": "compiler-bridge_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.7.2/compiler-bridge_2.12-1.7.2.jar"
+                        },
+                        {
+                            "name": "compiler-bridge_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\compiler-bridge_2.12\\1.7.2\\compiler-bridge_2.12-1.7.2.jar"
                         },
                         {
@@ -3069,6 +3765,10 @@
                     "version": "1.7.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "zinc-classfile_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.7.2/zinc-classfile_2.12-1.7.2.jar"
+                        },
                         {
                             "name": "zinc-classfile_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc-classfile_2.12\\1.7.2\\zinc-classfile_2.12-1.7.2.jar"
@@ -3088,6 +3788,10 @@
                     "artifacts": [
                         {
                             "name": "zinc-core_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.7.2/zinc-core_2.12-1.7.2.jar"
+                        },
+                        {
+                            "name": "zinc-core_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc-core_2.12\\1.7.2\\zinc-core_2.12-1.7.2.jar"
                         },
                         {
@@ -3103,6 +3807,10 @@
                     "version": "1.7.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "zinc-persist_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.7.2/zinc-persist_2.12-1.7.2.jar"
+                        },
                         {
                             "name": "zinc-persist_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc-persist_2.12\\1.7.2\\zinc-persist_2.12-1.7.2.jar"
@@ -3122,6 +3830,10 @@
                     "artifacts": [
                         {
                             "name": "sjson-new-murmurhash_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.9.1/sjson-new-murmurhash_2.12-0.9.1.jar"
+                        },
+                        {
+                            "name": "sjson-new-murmurhash_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\sjson-new-murmurhash_2.12\\0.9.1\\sjson-new-murmurhash_2.12-0.9.1.jar"
                         },
                         {
@@ -3137,6 +3849,10 @@
                     "version": "1.5.0",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "ipcsocket",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.5.0/ipcsocket-1.5.0.jar"
+                        },
                         {
                             "name": "ipcsocket",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\ipcsocket\\ipcsocket\\1.5.0\\ipcsocket-1.5.0.jar"
@@ -3156,6 +3872,10 @@
                     "artifacts": [
                         {
                             "name": "zero-allocation-hashing",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/openhft/zero-allocation-hashing/0.10.1/zero-allocation-hashing-0.10.1.jar"
+                        },
+                        {
+                            "name": "zero-allocation-hashing",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\openhft\\zero-allocation-hashing\\0.10.1\\zero-allocation-hashing-0.10.1.jar"
                         },
                         {
@@ -3171,6 +3891,10 @@
                     "version": "2.1.0",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "jansi",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.1.0/jansi-2.1.0.jar"
+                        },
                         {
                             "name": "jansi",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\fusesource\\jansi\\jansi\\2.1.0\\jansi-2.1.0.jar"
@@ -3190,6 +3914,10 @@
                     "artifacts": [
                         {
                             "name": "gigahorse-core_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.7.0/gigahorse-core_2.12-0.7.0.jar"
+                        },
+                        {
+                            "name": "gigahorse-core_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\gigahorse-core_2.12\\0.7.0\\gigahorse-core_2.12-0.7.0.jar"
                         },
                         {
@@ -3205,6 +3933,10 @@
                     "version": "0.7.0",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "shaded-apache-httpasyncclient",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/eed3si9n/shaded-apache-httpasyncclient/0.7.0/shaded-apache-httpasyncclient-0.7.0.jar"
+                        },
                         {
                             "name": "shaded-apache-httpasyncclient",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\eed3si9n\\shaded-apache-httpasyncclient\\0.7.0\\shaded-apache-httpasyncclient-0.7.0.jar"
@@ -3224,6 +3956,10 @@
                     "artifacts": [
                         {
                             "name": "jline-style",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-style/3.19.0/jline-style-3.19.0.jar"
+                        },
+                        {
+                            "name": "jline-style",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline-style\\3.19.0\\jline-style-3.19.0.jar"
                         },
                         {
@@ -3239,6 +3975,10 @@
                     "version": "1.7.2",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "zinc-persist-core-assembly",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.7.2/zinc-persist-core-assembly-1.7.2.jar"
+                        },
                         {
                             "name": "zinc-persist-core-assembly",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\zinc-persist-core-assembly\\1.7.2\\zinc-persist-core-assembly-1.7.2.jar"
@@ -3258,6 +3998,10 @@
                     "artifacts": [
                         {
                             "name": "sbinary_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.1/sbinary_2.12-0.5.1.jar"
+                        },
+                        {
+                            "name": "sbinary_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\sbinary_2.12\\0.5.1\\sbinary_2.12-0.5.1.jar"
                         },
                         {
@@ -3273,6 +4017,10 @@
                     "version": "0.6.1",
                     "configurations": "default",
                     "artifacts": [
+                        {
+                            "name": "ssl-config-core_2.12",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.6.1/ssl-config-core_2.12-0.6.1.jar"
+                        },
                         {
                             "name": "ssl-config-core_2.12",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\ssl-config-core_2.12\\0.6.1\\ssl-config-core_2.12-0.6.1.jar"
@@ -3292,6 +4040,10 @@
                     "artifacts": [
                         {
                             "name": "reactive-streams",
+                            "path": "/Users/bence/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\reactivestreams\\reactive-streams\\1.0.3\\reactive-streams-1.0.3.jar"
                         },
                         {
@@ -3307,6 +4059,10 @@
                     "version": "2.12.16",
                     "configurations": "optional",
                     "artifacts": [
+                        {
+                            "name": "scala-compiler",
+                            "path": "/Users/bence/.sbt/boot/scala-2.12.16/lib/scala-compiler.jar"
+                        },
                         {
                             "name": "scala-compiler",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Temp\\sbt-global-pluginstub\\boot\\scala-2.12.16\\lib\\scala-compiler.jar"
@@ -3328,6 +4084,10 @@
                     "version": "2.12.16",
                     "configurations": "optional",
                     "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/bence/.sbt/boot/scala-2.12.16/lib/scala-library.jar"
+                        },
                         {
                             "name": "scala-library",
                             "path": "C:\\Users\\bence\\AppData\\Local\\Temp\\sbt-global-pluginstub\\boot\\scala-2.12.16\\lib\\scala-library.jar"

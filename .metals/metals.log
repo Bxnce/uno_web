@@ -311,3 +311,236 @@ Okt. 15, 2022 1:43:47 NACHM. scala.meta.internal.pc.ScalaPresentationCompiler ne
 WARNUNG: Unknown compiler options: -Ytasty-reader, -Yrangepos, -Xplugin-require:semanticdb
 Okt. 15, 2022 1:52:46 NACHM. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNUNG: Unmatched cancel notification for request id 536
+2022.10.17 12:49:39 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/.metals/lsp.trace.json or /Users/bence/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.10.17 12:49:40 INFO  logging to file /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/.metals/metals.log
+2022.10.17 12:49:40 INFO  Started: Metals version 0.11.9 in workspace '/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web' for client Visual Studio Code 1.72.1.
+2022.10.17 12:49:46 INFO  time: initialize in 6.08s
+2022.10.17 12:49:47 INFO  Attempting to connect to the build server...
+2022.10.17 12:49:47 INFO  Bloop uses /Users/bence/.sdkman/candidates/java/current defined at /Users/bence/.bloop/bloop.json
+2022.10.17 12:49:48 ERROR Starting the bsp launcher for bloop...
+2022.10.17 12:49:48 ERROR Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/pq/62lgzj050ld7zjl1m7km98sw0000gn/T/bsp-launcher9059000385036061179/bsp.socket'...
+2022.10.17 12:49:48 ERROR Waiting for the bsp connection to come up...
+2022.10.17 12:49:48 ERROR error: The command bsp --protocol local --socket /var/folders/pq/62lgzj050ld7zjl1m7km98sw0000gn/T/bsp-launcher9059000385036061179/bsp.socket returned with an error
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m Loading 2 projects from '/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/.bloop'...
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m Loading project from '/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/.bloop/root-test.json'
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m Loading project from '/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/.bloop/root.json'
+2022.10.17 12:49:48 ERROR > [0m[33m[W][0m Scala instance jar /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-library.jar doesn't exist!
+2022.10.17 12:49:48 ERROR > [0m[33m[W][0m Scala instance jar /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-library.jar doesn't exist!
+2022.10.17 12:49:48 ERROR > [0m[33m[W][0m Scala instance jar /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-compiler.jar doesn't exist!
+2022.10.17 12:49:48 ERROR > [0m[33m[W][0m Scala instance jar /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-compiler.jar doesn't exist!
+2022.10.17 12:49:48 ERROR > [0m[33m[W][0m Scala instance jar /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-reflect.jar doesn't exist!
+2022.10.17 12:49:48 ERROR > [0m[33m[W][0m Scala instance jar /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-reflect.jar doesn't exist!
+2022.10.17 12:49:48 ERROR > [0m[33m[W][0m Scala instance jar /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-xml_2.12-1.0.6.jar doesn't exist!
+2022.10.17 12:49:48 ERROR > [0m[33m[W][0m Scala instance jar /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-xml_2.12-1.0.6.jar doesn't exist!
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.16.
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m   => /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-compiler.jar
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m   => /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-library.jar
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m   => /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-reflect.jar
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m   => /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-xml_2.12-1.0.6.jar
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.16.
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m   => /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-compiler.jar
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m   => /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-library.jar
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m   => /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-reflect.jar
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m   => /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-xml_2.12-1.0.6.jar
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m Elapsed: 30.936917 ms
+2022.10.17 12:49:48 ERROR > [0m[31m[E][0m Failed to load project from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/.bloop/root-test.json
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/.bloop/root-test.json
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:295)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	java.lang.Thread.run(Thread.java:750)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m Caused by: java.lang.RuntimeException: Missing compiler jar in Scala jars /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-library.jar, /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-compiler.jar, /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-reflect.jar, /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-xml_2.12-1.0.6.jar
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	scala.sys.package$.error(package.scala:30)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$compilerJar$2(ScalaInstance.scala:46)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	scala.Option.getOrElse(Option.scala:189)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:46)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:180)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:185)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:185)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:311)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:306)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:289)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	java.lang.Thread.run(Thread.java:750)
+2022.10.17 12:49:48 ERROR error: Trying a tcp-based connection to the server instead...
+2022.10.17 12:49:48 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 17841'...
+2022.10.17 12:49:48 ERROR Waiting for the bsp connection to come up...
+2022.10.17 12:49:48 ERROR error: The command bsp --protocol tcp --port 17841 returned with an error
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m Loading 2 projects from '/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/.bloop'...
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m Loading project from '/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/.bloop/root-test.json'
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m Loading project from '/Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/.bloop/root.json'
+2022.10.17 12:49:48 ERROR > [0m[33m[W][0m Scala instance jar /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-library.jar doesn't exist!
+2022.10.17 12:49:48 ERROR > [0m[33m[W][0m Scala instance jar /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-library.jar doesn't exist!
+2022.10.17 12:49:48 ERROR > [0m[33m[W][0m Scala instance jar /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-compiler.jar doesn't exist!
+2022.10.17 12:49:48 ERROR > [0m[33m[W][0m Scala instance jar /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-reflect.jar doesn't exist!
+2022.10.17 12:49:48 ERROR > [0m[33m[W][0m Scala instance jar /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-xml_2.12-1.0.6.jar doesn't exist!
+2022.10.17 12:49:48 ERROR > [0m[33m[W][0m Scala instance jar /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-compiler.jar doesn't exist!
+2022.10.17 12:49:48 ERROR > [0m[33m[W][0m Scala instance jar /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-reflect.jar doesn't exist!
+2022.10.17 12:49:48 ERROR > [0m[33m[W][0m Scala instance jar /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-xml_2.12-1.0.6.jar doesn't exist!
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.16.
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m   => /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-compiler.jar
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m   => /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-library.jar
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m   => /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-reflect.jar
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m   => /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-xml_2.12-1.0.6.jar
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.16.
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m Elapsed: 28.714042 ms
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m   => /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-compiler.jar
+2022.10.17 12:49:48 ERROR > [0m[31m[E][0m Failed to load project from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/.bloop/root-test.json
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m   => /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-library.jar
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/.bloop/root-test.json
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m   => /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-reflect.jar
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:295)
+2022.10.17 12:49:48 ERROR > [0m[32m[D][0m   => /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-xml_2.12-1.0.6.jar
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	java.lang.Thread.run(Thread.java:750)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m Caused by: java.lang.RuntimeException: Missing compiler jar in Scala jars /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-library.jar, /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-compiler.jar, /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-reflect.jar, /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/C:\Users\bence\.sbt\boot\scala-2.12.16\lib\scala-xml_2.12-1.0.6.jar
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	scala.sys.package$.error(package.scala:30)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$compilerJar$2(ScalaInstance.scala:46)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	scala.Option.getOrElse(Option.scala:189)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:46)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:180)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:185)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:185)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:311)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:306)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:289)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+2022.10.17 12:49:48 ERROR > [0m[36m[T][0m 	java.lang.Thread.run(Thread.java:750)
+2022.10.17 12:49:48 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.10.17 12:49:48 ERROR Failed to connect with build server, no functionality will work.java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:496)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Oct 17, 2022 12:49:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.10.17 12:52:13 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 12:52:22 INFO  no build target found for /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.17 12:52:28 INFO  time: code lens generation in 12s
+2022.10.17 12:52:46 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 12:54:51 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 12:58:43 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+Oct 17, 2022 1:01:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 178
+2022.10.17 13:01:53 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:02:50 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+Oct 17, 2022 1:03:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 287
+2022.10.17 13:03:21 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:03:36 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:06:22 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:07:16 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:13:09 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:13:28 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:27:55 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:30:43 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:31:13 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+Oct 17, 2022 1:36:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1032
+2022.10.17 13:36:53 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:37:21 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:37:53 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:37:59 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:38:25 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:39:59 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:41:10 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:41:15 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:41:18 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:43:18 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:43:25 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+Oct 17, 2022 1:44:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1428
+2022.10.17 13:45:04 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:45:59 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:46:10 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:47:08 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:47:14 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:48:41 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:50:30 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 13:51:21 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+Oct 17, 2022 2:01:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1661
+2022.10.17 14:01:45 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 14:17:36 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+Exception in thread "pool-3-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.10.17 14:21:54 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 14:22:34 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 14:23:16 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 14:23:33 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 14:24:29 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 14:25:53 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+Exception in thread "pool-3-thread-2" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2022.10.17 14:26:11 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 14:26:19 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+Oct 17, 2022 2:26:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.10.17 14:26:46 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 14:27:12 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 14:28:20 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+Oct 17, 2022 2:28:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2373
+2022.10.17 14:28:20 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 14:28:29 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 14:28:37 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 14:29:51 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
+2022.10.17 14:30:40 WARN  no build target for: /Users/bence/Documents/Dokumente - MacBook Pro von Bence/Studium/Semester_5/WEB_APPLICATION/uno_web/app/controllers/HomeController.scala
