@@ -11,7 +11,7 @@ import javax.inject.Singleton
 class ErrorHandler extends HttpErrorHandler {
   def onClientError(request: RequestHeader, statusCode: Int, message: String): Future[Result] = {
       if(statusCode == NOT_FOUND)
-        Future.successful(Redirect(routes.HomeController.error("NOT_FOUND")))
+        Future.successful(Redirect(routes.HomeController.notFound()))
       else if(statusCode == BAD_REQUEST)
         Future.successful(Status(statusCode)("A client error occurred and is handled differently  : " + message))
       else

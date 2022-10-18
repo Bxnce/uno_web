@@ -9,6 +9,8 @@ GET     /                           controllers.HomeController.index()
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file                controllers.Assets.versioned(path="/public", file: Asset)
 
+
+# Controlling the game via the controller and GET requests, POST doesn't display the returned HTML. 
 GET     /game/undo                   controllers.HomeController.undo()
 
 GET     /game/redo                   controllers.HomeController.redo()
@@ -21,5 +23,8 @@ GET     /game/place/:i               controllers.HomeController.place(i: Int)
 
 GET     /game/take                   controllers.HomeController.take()
 
-GET     /*page                       controllers.HomeController.error(page: String)
 
+
+# ERROR routing
+GET     /errors/notfound            controllers.HomeController.notFound()
+GET     /errors/badrequest/         controllers.HomeController.badRequest(message: String)

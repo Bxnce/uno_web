@@ -56,8 +56,12 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
     Ok(views.html.displayGame(controller.toString,""))
   }
 
-  def error(page:String) = Action { implicit request: Request[AnyContent] => 
-    NotFound(views.html.error("Error 404! " + page + " not found"))
+  def notFound() = Action { implicit request: Request[AnyContent] => 
+    NotFound(views.html.notFound())
+  }
+  
+  def badRequest(errorMessage: String) = Action {
+    BadRequest(errorMessage + "\n")
   }
 
 }
