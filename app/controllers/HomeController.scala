@@ -57,6 +57,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   }
 
   def error(page:String) = Action { implicit request: Request[AnyContent] => 
-    NotFound(views.html.error(page + " not found"))
+    NotFound(views.html.error("Error 404! " + page + " not found"))
   }
+
 }
