@@ -13,9 +13,14 @@ import de.htwg.se.uno.Kek
 class HomeController @Inject()(val controllerComponents: ControllerComponents) extends BaseController {
 
   val controller = new Kek().controller_return
-  def index() = Action { implicit request: Request[AnyContent] =>
-    Ok(views.html.index())
+  def home() = Action { implicit request: Request[AnyContent] =>
+    Ok(views.html.home())
   }
+    
+  def setup() = Action { implicit request: Request[AnyContent] => 
+    Ok(views.html.displayGameSplit.prestart("testii"))
+  }
+
   def create_game(name1: String, name2: String) = Action { implicit request: Request[AnyContent] =>
     controller.newG(name1, name2)
     Ok(views.html.displayGame(controller.toString,""))
@@ -63,5 +68,6 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   def badRequest(errorMessage: String) = Action {
     BadRequest(errorMessage + "\n")
   }
+
 
 }
