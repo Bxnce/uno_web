@@ -18,47 +18,67 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   }
     
   def setup() = Action { implicit request: Request[AnyContent] => 
-    Ok(views.html.displayGameSplit.prestart("testii"))
+    Ok(views.html.displayGame.prestartState())
   }
 
   def create_game(name1: String, name2: String) = Action { implicit request: Request[AnyContent] =>
     controller.newG(name1, name2)
-    Ok(views.html.displayGame(controller.toString,""))
+    if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
+      Ok(views.html.displayGame.betweenState(controller.toString,""))
+    } else {
+      Ok(views.html.displayGame.playState(controller.toString,""))
+    }  
   }
 
   def next() = Action { implicit request: Request[AnyContent] => 
-    controller.next()  
-    Ok(views.html.displayGame(controller.toString,""))
-  }
+    controller.next()
+    if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
+      Ok(views.html.displayGame.betweenState(controller.toString,""))
+    } else {
+      Ok(views.html.displayGame.playState(controller.toString,""))
+    }  
+    }
 
   def place(ind: Int) = Action { implicit request: Request[AnyContent] => 
     controller.place(ind)
     var erro = ""
     if(controller.game.ERROR < 0) {
-        erro = "Can't place this card, try another one or take a card"
+        erro = "Can not place this card, try another one or take a card"
         controller.game.setError(0)
+    }
+    if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
+      Ok(views.html.displayGame.betweenState(controller.toString, erro))
+    } else {
+      Ok(views.html.displayGame.playState(controller.toString, erro))
     }  
-    Ok(views.html.displayGame(controller.toString, erro))
   }
 
   def take() = Action { implicit request: Request[AnyContent] => 
     controller.take()
     var erro = ""
     if(controller.game.ERROR < 0) {
-        erro = "Can't take card in this state of the Game"
+        erro = "Can not take card in this state of the Game"
         controller.game.setError(0)
     }
-    Ok(views.html.displayGame(controller.toString, erro))
+    Ok(views.html.displayGame.playState(controller.toString, erro))
   }
 
   def undo() = Action { implicit request: Request[AnyContent] => 
     controller.undo()  
-    Ok(views.html.displayGame(controller.toString,""))
+    if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
+      Ok(views.html.displayGame.betweenState(controller.toString,""))
+    } else {
+      Ok(views.html.displayGame.playState(controller.toString,""))
+    }  
   }
 
   def redo() = Action { implicit request: Request[AnyContent] => 
     controller.redo()  
-    Ok(views.html.displayGame(controller.toString,""))
+    if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
+      Ok(views.html.displayGame.betweenState(controller.toString,""))
+    } else {
+      Ok(views.html.displayGame.playState(controller.toString,""))
+    }   
   }
 
   def notFound() = Action { implicit request: Request[AnyContent] => 
