@@ -1,15 +1,20 @@
-@(cards_lists: ListBuffer[ListBuffer], error: String)
+@(cards_lists: List[List[String]], error: String)
 
 @main("UNO"){
-    <script src='@routes.Assets.versioned("javascripts/error_alert.js")' type="text/javascript"></script>
-    <script src='@routes.Assets.versioned("javascripts/place_card.js")' type="text/javascript"></script>
+    <script src=@routes.Assets.versioned("javascripts/error_alert.js") type="text/javascript"></script>
+    <script src=@routes.Assets.versioned("javascripts/place_card.js") type="text/javascript"></script>
+    <script src=@routes.Assets.versioned("javascripts/create_image_html.js") type="text/javascript"></script>
 
     <center>
         <h3 class="center" id="demo">
         @for(txt <- cards_lists) {
-            for(i <- txt) {
-                i <br>
+            @for(i <- txt) {
+                var tmp = "images/" + i
+                print(tmp)
+
+                <img src=@routes.Assets.versioned("images/cards/black_+4.png") alt="X">   
             }
+            <br><br>
         }
         <br><br>
         @if(error != "") {

@@ -1,12 +1,12 @@
-@(cards_lists: ListBuffer[ListBuffer], error: String)
+@(cards_lists: List[List[String]], player1_cards:Int, player2_cards:Int, error: String)
 
 @main("UNO"){
-    <script src='@routes.Assets.versioned("javascripts/error_alert.js")' type="text/javascript"></script>
+    <script src=@routes.Assets.versioned("javascripts/error_alert.js") type="text/javascript"></script>
     <center>
         <h3 class="center" id="demo">       
         @for(txt <- cards_lists) {
-            for(i <- txt) {
-                i <br>
+            @for(i <- txt) {
+                @i <br>
             }
         }
         <br><br>

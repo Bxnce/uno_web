@@ -29,18 +29,18 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   def create_game(name1: String, name2: String) = Action { implicit request: Request[AnyContent] =>
     controller.newG(name1, name2)
     if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
-      Ok(views.html.displayGame.betweenState(controller.create_tuple(),""))
+      Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,""))
     } else {
-      Ok(views.html.displayGame.playState(controller.create_tuple(),""))
+      Ok(views.html.displayGame.playState(get_right_tuple(),""))
     }  
   }
 
   def next() = Action { implicit request: Request[AnyContent] => 
     controller.next()
     if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
-      Ok(views.html.displayGame.betweenState(controller.create_tuple(),""))
+      Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,""))
     } else {
-      Ok(views.html.displayGame.playState(controller.create_tuple(),""))
+      Ok(views.html.displayGame.playState(get_right_tuple(),""))
     }  
     }
 
@@ -52,9 +52,9 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
         controller.game.setError(0)
     }
     if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
-      Ok(views.html.displayGame.betweenState(controller.create_tuple(), erro))
+      Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,erro))
     } else {
-      Ok(views.html.displayGame.playState(controller.create_tuple(), erro))
+      Ok(views.html.displayGame.playState(get_right_tuple(), erro))
     }  
   }
 
@@ -65,24 +65,24 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
         erro = "Can not take card in this state of the Game"
         controller.game.setError(0)
     }
-    Ok(views.html.displayGame.playState(controller.create_tuple(), erro))
+    Ok(views.html.displayGame.playState(get_right_tuple(), erro))
   }
 
   def undo() = Action { implicit request: Request[AnyContent] => 
     controller.undo()  
     if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
-      Ok(views.html.displayGame.betweenState(controller.create_tuple(),""))
+      Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,""))
     } else {
-      Ok(views.html.displayGame.playState(controller.create_tuple(),""))
+      Ok(views.html.displayGame.playState(get_right_tuple(),""))
     }  
   }
 
   def redo() = Action { implicit request: Request[AnyContent] => 
     controller.redo()  
     if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
-      Ok(views.html.displayGame.betweenState(controller.create_tuple(),""))
+      Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,""))
     } else {
-      Ok(views.html.displayGame.playState(controller.create_tuple(),""))
+      Ok(views.html.displayGame.playState(get_right_tuple(),""))
     }   
   }
 
@@ -94,5 +94,20 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
     BadRequest(errorMessage + "\n")
   }
 
+  def get_right_tuple(): List[List[String]] = {
+    var correct_player_tuple = List[List[String]]()
+    val tmp_tuple = controller.create_tuple()
+    if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
+      correct_player_tuple = List(tmp_tuple(1))
+    } else {
+      if(controller.game.currentstate.toString() == "player1State"){
+        correct_player_tuple = List(tmp_tuple(1), tmp_tuple(0))
+      } else {
+        correct_player_tuple = List(tmp_tuple(1), tmp_tuple(2))
+      }
+    }   
+    return correct_player_tuple
 
+    }
 }
+
