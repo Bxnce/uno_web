@@ -6,7 +6,8 @@
         <h3 class="center" id="demo">       
         @for(txt <- cards_lists) {
             @for(i <- txt) {
-                @i <br>
+                <img src=@routes.Assets.versioned("images/" + i) alt='X' style='width:160px;height:128px;'></img>;
+                <br>
             }
         }
         <br><br>

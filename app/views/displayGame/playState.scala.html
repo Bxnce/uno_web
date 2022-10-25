@@ -9,10 +9,7 @@
         <h3 class="center" id="demo">
         @for(txt <- cards_lists) {
             @for(i <- txt) {
-                var tmp = "images/" + i
-                print(tmp)
-
-                <img src=@routes.Assets.versioned("images/cards/black_+4.png") alt="X">   
+                <img src=@routes.Assets.versioned("images/" + i) alt='X' style='width:160px;height:128px;'></img>;
             }
             <br><br>
         }
