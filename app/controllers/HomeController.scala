@@ -47,15 +47,19 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   def place(ind: Int) = Action { implicit request: Request[AnyContent] => 
     controller.place(ind)
     var erro = ""
-    if(controller.game.ERROR < 0) {
-        erro = "Can not place this card, try another one or take a card"
-        controller.game.setError(0)
-    }
-    if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
-      Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,erro))
+    if(controller.game.currentstate.toString() == "winState"){
+      Ok(views.html.displayGame.winState(controller.game.pList(controller.game.winner).name))
     } else {
-      Ok(views.html.displayGame.playState(get_right_tuple(), erro))
-    }  
+      if(controller.game.ERROR < 0) {
+          erro = "Can not place this card, try another one or take a card"
+          controller.game.setError(0)
+     }
+      if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
+        Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,erro))
+      } else {
+        Ok(views.html.displayGame.playState(get_right_tuple(), erro))
+      }  
+    }
   }
 
   def take() = Action { implicit request: Request[AnyContent] => 

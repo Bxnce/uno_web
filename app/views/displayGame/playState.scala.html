@@ -6,10 +6,9 @@
     <script src=@routes.Assets.versioned("javascripts/create_image_html.js") type="text/javascript"></script>
 
     <center>
-        <h3 class="center" id="demo">
         @for(txt <- cards_lists) {
             @for(i <- txt) {
-                <img src=@routes.Assets.versioned("images/" + i) alt='X' style='width:160px;height:128px;'></img>;
+                <img src=@routes.Assets.versioned("images/" + i) alt='X' style='width:90px;height:128px;'></img>
             }
             <br><br>
         }
