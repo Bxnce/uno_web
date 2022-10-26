@@ -1,12 +1,12 @@
-@(cards_lists: List[List[String]], player1_cards:Int, player2_cards:Int, error: String)
+@(cards_lists: List[List[(String, Int)]], player1_cards:Int, player2_cards:Int, error: String)
 
 @main("UNO"){
     <script src=@routes.Assets.versioned("javascripts/error_alert.js") type="text/javascript"></script>
     <center>
         @for(txt <- cards_lists) {
-            @for(i <- txt) {
-                <img src=@routes.Assets.versioned("images/" + i) alt='X' style='width:90px;height:128px;'></img>
-                <br>
+            @for((i,i2) <- txt) {
+                    <img src=@routes.Assets.versioned("images/" + i) alt='X' style='width:90px;height:128px;'></img>
+                    <br>
             }
         }
         <br><br>
@@ -18,5 +18,6 @@
         <button type="button" onclick="window.location.href='@routes.HomeController.next()';" style="width:100px;height:25px;">
             next player
         </button>
+
     </center>
     }

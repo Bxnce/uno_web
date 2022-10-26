@@ -1,14 +1,14 @@
-@(cards_lists: List[List[String]], error: String)
+@(cards_lists: List[List[(String, Int)]], error: String)
 
 @main("UNO"){
     <script src=@routes.Assets.versioned("javascripts/error_alert.js") type="text/javascript"></script>
-    <script src=@routes.Assets.versioned("javascripts/place_card.js") type="text/javascript"></script>
+    <script src=@routes.Assets.versioned("javascripts/place_card_click.js") type="text/javascript"></script>
     <script src=@routes.Assets.versioned("javascripts/create_image_html.js") type="text/javascript"></script>
 
     <center>
         @for(txt <- cards_lists) {
-            @for(i <- txt) {
-                <img src=@routes.Assets.versioned("images/" + i) alt='X' style='width:90px;height:128px;'></img>
+            @for((i,i2) <- txt) {
+                <img src=@routes.Assets.versioned("images/" + i) alt='X' style='width:90px;height:128px;' onclick=placeCard_click(@i2)></img>
             }
             <br><br>
         }
@@ -19,17 +19,6 @@
             </script>
         }
         <table>
-            <tr>
-                <th>
-                    <button type="button" onclick=placeCard() style="width:100px;height:25px;">
-                        place
-                    </button>
-                </th>
-                <th>
-                    <input type="number" id="card_index" name="card_index" value="0" min="1" style="width:25px;height:19px;">
-                </th>
-            </tr>
-
             <tr>
                 <th>
                     <button type="button" onclick="window.location.href='@routes.HomeController.next()';" style="width:100px;height:25px;">

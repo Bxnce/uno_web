@@ -98,8 +98,8 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
     BadRequest(errorMessage + "\n")
   }
 
-  def get_right_tuple(): List[List[String]] = {
-    var correct_player_tuple = List[List[String]]()
+  def get_right_tuple(): List[List[(String, Int)]] = {
+    var correct_player_tuple = List[List[(String, Int)]]()
     val tmp_tuple = controller.create_tuple()
     if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
       correct_player_tuple = List(tmp_tuple(1))
@@ -111,7 +111,5 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
       }
     }   
     return correct_player_tuple
-
     }
 }
-

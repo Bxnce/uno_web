@@ -1,7 +1,5 @@
 //Function to create a game, called when the user clicks the start the game button
-function placeCard(){
-    card_i = document.getElementById("card_index").value - 1;
-
+function placeCard_click(card_i){
     if (isNaN(card_i)){
         alert("Please enter a card index");
     } else {
