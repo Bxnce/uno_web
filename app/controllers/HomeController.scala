@@ -29,7 +29,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   def create_game(name1: String, name2: String) = Action { implicit request: Request[AnyContent] =>
     controller.newG(name1, name2)
     if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
-      Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,""))
+      Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,"", controller.game.pList(0).name, controller.game.pList(1).name))
     } else {
       Ok(views.html.displayGame.playState(get_right_tuple(),""))
     }  
@@ -38,7 +38,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   def next() = Action { implicit request: Request[AnyContent] => 
     controller.next()
     if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
-      Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,""))
+      Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,"", controller.game.pList(0).name, controller.game.pList(1).name))
     } else {
       Ok(views.html.displayGame.playState(get_right_tuple(),""))
     }  
@@ -55,7 +55,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
           controller.game.setError(0)
      }
       if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
-        Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,erro))
+        Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,erro, controller.game.pList(0).name, controller.game.pList(1).name))
       } else {
         Ok(views.html.displayGame.playState(get_right_tuple(), erro))
       }  
@@ -75,7 +75,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   def undo() = Action { implicit request: Request[AnyContent] => 
     controller.undo()  
     if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
-      Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,""))
+      Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,"", controller.game.pList(0).name, controller.game.pList(1).name))
     } else {
       Ok(views.html.displayGame.playState(get_right_tuple(),""))
     }  
@@ -84,7 +84,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   def redo() = Action { implicit request: Request[AnyContent] => 
     controller.redo()  
     if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
-      Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,""))
+      Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,"", controller.game.pList(0).name, controller.game.pList(1).name))
     } else {
       Ok(views.html.displayGame.playState(get_right_tuple(),""))
     }   
