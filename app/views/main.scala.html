@@ -13,15 +13,15 @@
         <title>@title</title>
         <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
         <link rel="icon" type="image/png" href="@routes.Assets.versioned("images/uno.png")">
-        <center>
-            <img src="https://i.postimg.cc/KYNBbY0q/UNO-Logo-svg.png" onclick="window.location.href='@routes.HomeController.home()';" alt="X" style="width:160px;height:128px;">
-        </center>
+        <img class="head-img" src=@routes.Assets.versioned("images/UNO_Logo.svg.png") onclick="window.location.href='@routes.HomeController.home()';" alt="X" style="width:160px;height:128px;">
     </head>
     <body>
         @* And here's where we render the `Html` object containing
          * the page content. *@
         @content
-
       <script src="@routes.Assets.versioned("javascripts/main.js")" type="text/javascript"></script>
     </body>
+    <footer>
+        <p>Created by: <a href="https://github.com/haasentimo">Timo Haas</a> and <a href="https://github.com/Bxnce">Bence Stuhlmann</a></p>
+    </footer>
 </html>

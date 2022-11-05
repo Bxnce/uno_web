@@ -26,13 +26,13 @@
                     </button>
                 </th>
                 <th>
-                    <img src="https://i.postimg.cc/br4JqprJ/take.png" onclick="window.location.href='@routes.HomeController.take()';" style="width:20px;height:20px;">
+                    <img src=@routes.Assets.versioned("images/take.png") onclick="window.location.href='@routes.HomeController.take()';" style="width:20px;height:20px;">
                 </th>
             </tr>
             <tr>
                 <th colspan="2">
-                    <img src="https://i.postimg.cc/dVQ6kJSS/undo.jpg" onclick="window.location.href='@routes.HomeController.undo()';" style="width:20px;height:20px;">
-                    <img src="https://i.postimg.cc/nzNSBNQ9/redo.jpg" onclick="window.location.href='@routes.HomeController.redo()';" style="width:20px;height:20px;">
+                    <img src=@routes.Assets.versioned("images/undo.png") onclick="window.location.href='@routes.HomeController.undo()';" style="width:20px;height:20px;">
+                    <img src=@routes.Assets.versioned("images/redo.png") onclick="window.location.href='@routes.HomeController.redo()';" style="width:20px;height:20px;">
                 </th>
             </tr>
         </table>
