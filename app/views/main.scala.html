@@ -12,8 +12,10 @@
         @* Here's where we render the page title `String`. *@
         <title>@title</title>
         <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
-        <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
-
+        <link rel="icon" type="image/png" href="@routes.Assets.versioned("images/uno.png")">
+        <center>
+            <img src="https://i.postimg.cc/KYNBbY0q/UNO-Logo-svg.png" onclick="window.location.href='@routes.HomeController.home()';" alt="X" style="width:160px;height:128px;">
+        </center>
     </head>
     <body>
         @* And here's where we render the `Html` object containing

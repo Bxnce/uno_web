@@ -5,6 +5,10 @@ import play.api._
 import play.api.mvc._
 import com.google.inject.Guice
 import de.htwg.se.uno.Kek
+import de.htwg.se.uno.aview.GUIP.displayCards
+import de.htwg.se.uno.model.gameComponent.gameBaseImpl.Player
+import scala.collection.mutable.ListBuffer
+
 /**
  * This controller creates an `Action` to handle HTTP requests to the
  * application's home page.
@@ -13,47 +17,77 @@ import de.htwg.se.uno.Kek
 class HomeController @Inject()(val controllerComponents: ControllerComponents) extends BaseController {
 
   val controller = new Kek().controller_return
-  def index() = Action { implicit request: Request[AnyContent] =>
-    Ok(views.html.index())
+  def home() = Action { implicit request: Request[AnyContent] =>
+    Ok(views.html.home())
   }
+    
+  def setup() = Action { implicit request: Request[AnyContent] => 
+  
+    Ok(views.html.displayGame.prestartState())
+  }
+
   def create_game(name1: String, name2: String) = Action { implicit request: Request[AnyContent] =>
     controller.newG(name1, name2)
-    Ok(views.html.displayGame(controller.toString,""))
+    if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
+      Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,"", controller.game.pList(0).name, controller.game.pList(1).name))
+    } else {
+      Ok(views.html.displayGame.playState(get_right_tuple(),""))
+    }  
   }
 
   def next() = Action { implicit request: Request[AnyContent] => 
-    controller.next()  
-    Ok(views.html.displayGame(controller.toString,""))
-  }
+    controller.next()
+    if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
+      Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,"", controller.game.pList(0).name, controller.game.pList(1).name))
+    } else {
+      Ok(views.html.displayGame.playState(get_right_tuple(),""))
+    }  
+    }
 
   def place(ind: Int) = Action { implicit request: Request[AnyContent] => 
     controller.place(ind)
     var erro = ""
-    if(controller.game.ERROR < 0) {
-        erro = "Can't place this card, try another one or take a card"
-        controller.game.setError(0)
-    }  
-    Ok(views.html.displayGame(controller.toString, erro))
+    if(controller.game.currentstate.toString() == "winState"){
+      Ok(views.html.displayGame.winState(controller.game.pList(controller.game.winner).name))
+    } else {
+      if(controller.game.ERROR < 0) {
+          erro = "Can not place this card, try another one or take a card"
+          controller.game.setError(0)
+     }
+      if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
+        Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,erro, controller.game.pList(0).name, controller.game.pList(1).name))
+      } else {
+        Ok(views.html.displayGame.playState(get_right_tuple(), erro))
+      }  
+    }
   }
 
   def take() = Action { implicit request: Request[AnyContent] => 
     controller.take()
     var erro = ""
     if(controller.game.ERROR < 0) {
-        erro = "Can't take card in this state of the Game"
+        erro = "Can not take card in this state of the Game"
         controller.game.setError(0)
     }
-    Ok(views.html.displayGame(controller.toString, erro))
+    Ok(views.html.displayGame.playState(get_right_tuple(), erro))
   }
 
   def undo() = Action { implicit request: Request[AnyContent] => 
     controller.undo()  
-    Ok(views.html.displayGame(controller.toString,""))
+    if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
+      Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,"", controller.game.pList(0).name, controller.game.pList(1).name))
+    } else {
+      Ok(views.html.displayGame.playState(get_right_tuple(),""))
+    }  
   }
 
   def redo() = Action { implicit request: Request[AnyContent] => 
     controller.redo()  
-    Ok(views.html.displayGame(controller.toString,""))
+    if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
+      Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,"", controller.game.pList(0).name, controller.game.pList(1).name))
+    } else {
+      Ok(views.html.displayGame.playState(get_right_tuple(),""))
+    }   
   }
 
   def notFound() = Action { implicit request: Request[AnyContent] => 
@@ -64,4 +98,18 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
     BadRequest(errorMessage + "\n")
   }
 
+  def get_right_tuple(): List[List[(String, Int)]] = {
+    var correct_player_tuple = List[List[(String, Int)]]()
+    val tmp_tuple = controller.create_tuple()
+    if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
+      correct_player_tuple = List(tmp_tuple(1))
+    } else {
+      if(controller.game.currentstate.toString() == "player1State"){
+        correct_player_tuple = List(tmp_tuple(1), tmp_tuple(0))
+      } else {
+        correct_player_tuple = List(tmp_tuple(1), tmp_tuple(2))
+      }
+    }   
+    return correct_player_tuple
+    }
 }

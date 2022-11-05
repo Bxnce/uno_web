@@ -1,0 +1,14 @@
+@()
+
+@main("UNO"){
+    <center>
+        <script src='@routes.Assets.versioned("javascripts/create_game.js")' type="text/javascript"></script>
+        <p>
+            <label for="player1">Player1: </label> <input type="text" id="player1" name="player1" value="Player1"><br><br>
+            <label for="player2">Player2: </label> <input type="text" id="player2" name="player2" value="Player2"><br><br>
+            <button type="button" onclick=createGame() style="width:120px;height:25px;">
+                Start the Game!
+            </button>
+        </p>
+    </center>    
+    }
