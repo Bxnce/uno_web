@@ -1,5 +1,9 @@
 @(cards_lists: List[List[(String, Int)]], error: String)
 
+<head>
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/playState.css")">
+</head>
+
 @main("UNO"){
     <script src=@routes.Assets.versioned("javascripts/error_alert.js") type="text/javascript"></script>
     <script src=@routes.Assets.versioned("javascripts/place_card_click.js") type="text/javascript"></script>
@@ -12,7 +16,6 @@
             }
             <br><br>
         }
-        <br><br>
         @if(error != "") {
             <script type="text/javascript">
                 errorAlert("@error");
@@ -21,7 +24,7 @@
         <table>
             <tr>
                 <th>
-                    <button type="button" onclick="window.location.href='@routes.HomeController.next()';" style="width:100px;height:25px;">
+                    <button type="button" class="glow-on-hover" onclick="window.location.href='@routes.HomeController.next()';">
                         next player
                     </button>
                 </th>
@@ -36,5 +39,8 @@
                 </th>
             </tr>
         </table>
+        <footer>
+            <p>Created by: <a href="https://github.com/haasentimo">Timo Haas</a> and <a href="https://github.com/Bxnce">Bence Stuhlmann</a></p>
+        </footer>
     </center>
     }
