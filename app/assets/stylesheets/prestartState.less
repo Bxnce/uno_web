@@ -8,19 +8,67 @@ input[type=text]{
     border-radius: 5px;
     color: white;
 }
+.preState{
+    display: inline-block;
+    animation: fade-in 0.5s linear;
+}
+
+.input-field {
+  position: relative;
+  width: 250px;
+  height: 44px;
+  line-height: 44px;
+  margin: 40px;
+}
+label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #d3d3d3;
+  transition: 0.2s all;
+  font-size: 20px;
+  cursor: text;
+}
+input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid #d3d3d3;
+  box-shadow: none;
+  text-align: center;
+  font-size: 20px;
+  color: #111;
+}
+input:invalid {
+  outline: 0;
+  // color: #ff2300;
+  //   border-color: #ff2300;
+}
+input:focus,
+input:valid {
+  border-color: #4ec08b;
+}
+input:focus~label,
+input:valid~label {
+  font-size: 20px;
+  top: -33px;
+  color: #4ec08b;
+}
+
 
 .glow-on-hover {
     font-family: Courier New, monospace;
-    font-size: 16px;
-
+    font-size: 40px;
     outline: none;
-    color: #fff;
-    background: rgb(38, 38, 38);
+    color: rgb(214, 212, 212);
+    background: rgb(10, 10, 10);
     cursor: pointer;
     position: relative;
     z-index: 0;
     border-radius: 10px;
-    border-color: white;
+    margin-top: 5%;
 }
   
 .glow-on-hover:before {
@@ -37,7 +85,6 @@ input[type=text]{
     animation: glowing 20s linear infinite;
     opacity: 0;
     transition: opacity .3s ease-in-out;
-    border-radius: 10px;
 }
   
 .glow-on-hover:active {
@@ -58,10 +105,9 @@ input[type=text]{
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgb(38, 38, 38);
+    background: rgb(10, 10, 10);
     left: 0;
     top: 0;
-    border-radius: 10px;
 }
 
 @keyframes glowing {
@@ -77,6 +123,4 @@ footer {
     width: 99%;
     height: 2rem;
     position: absolute;
-    overflow: hidden;
-    margin: 10 auto;
 }
