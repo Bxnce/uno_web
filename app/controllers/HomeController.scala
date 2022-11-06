@@ -20,7 +20,12 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   def home() = Action { implicit request: Request[AnyContent] =>
     Ok(views.html.home())
   }
+
+  def about() = Action { implicit request: Request[AnyContent] =>
+    Ok(views.html.about())
+  }
     
+
   def setup() = Action { implicit request: Request[AnyContent] => 
   
     Ok(views.html.displayGame.prestartState())
