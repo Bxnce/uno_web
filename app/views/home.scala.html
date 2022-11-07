@@ -1,104 +1,21 @@
 @()
 
+<head>
+  <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/home.css")">
+</head>
 
 @main("UNO") {
-
   <meta name="Homepage" content="Homepage of UNO">
   <meta name="author" content="Timo Haas and Bence Stuhlmann">
-  <center>
-        <div id="Welcome">
-          <p>Uno is a highly popular card game played by millions around the globe. The game is for 2-10 players, ages 7 and over.</p>
-          <p>
-            <h1>Setup</h1>
-            Every player starts with seven cards, and they are dealt face down. The rest of the cards are placed in a Draw Pile face down. <br>Next to the pile a space should be designated for a Discard Pile. The top card should be placed in the Discard Pile, and the game
-          </p>
-          <button type="button" onclick="window.location.href='@routes.HomeController.setup()';" style="width:100px;height:25px;">
-            Start a Game!
-          </button>
-        </div>
-        <div id="Rules">
-          <h1>Game Rules</h1>
-            <table>
-              <tr>
-                <th>
-                  1. The first player to play a card of the same color or number as the top card of the Discard Pile starts the game.
-                </th>
-              </tr>
-              <tr>
-                <th>
-                  2. The next player must play a card of the same color or number as the top card of the Discard Pile.
-                </th>
-              </tr>  
-              <tr>
-                <th>
-                  3. If a player does not have a card that matches the color or number of the top card of the Discard Pile, they must draw a card from the Draw Pile.<br>
-                  If the card drawn matches the color or number of the top card of the Discard Pile, the player may play it. <br>
-                  If the card drawn does not match, their turn is over and play passes to the next player.<br>
-                </th>  
-              </tr>
-              <tr>
-                <th>
-                  4. If a player plays a Wild card, they may declare any color and play continues as normal.
-                </th>  
-              </tr>
-              <tr>
-                <th>
-                  5. If a player plays a Wild Draw Four card, the next player must draw 4 cards and their turn is skipped.
-                </th>
-              </tr>
-              <tr>   
-                <th>
-                  The player who played the Wild Draw Four card may then declare any color and play continues as normal.
-                </th>
-              </tr>
-              <tr>
-                <th>
-                  6. If a player plays a Draw Two card, the next player must draw 2 cards and their turn is skipped. Play then continues as normal.
-                </th>
-              </tr>
-              <tr>
-                <th>
-                  7. If a player plays a Skip card, the next player's turn is skipped. Play then continues as normal.
-                </th>
-              </tr>
-              <tr>
-                <th>
-                  8. If a player plays a Reverse card, the direction of play is reversed. Play then continues as normal.
-                </th>
-              </tr>
-              <tr>
-                <th>
-                  9. The game ends when one player has one card left. The player must shout "UNO!" If they forget and another player catches them, they must draw two cards. <br>
-                  The player with one card left must match the color or number of the top card of the Discard Pile
-                </th>
-              </tr>
-            <table>   
-        </div>
-        <div id="History">
-          <h3>UNO-Web is based on the project <a href="https://github.com/Bxnce/uno">"UNO"</a> of the Software Engineering lecture</h3>
-          <p>
-            Examples of the GUI of the SE game, and how it is used.
-          </p>
-          <details><summary>Create a game!</summary>
-            <p>
-                <img src="https://camo.githubusercontent.com/d81d592955eac7e66be5e119c412a892133ab51bd5003e401f796b9842d754da/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f42756f6d564e53646f4e537a4f34493030652f67697068792e676966" alt>
-            </p>
-            <p>
-              To create a game, you need to enter the names of two players and press the "create game" button.
-            </p>
-        </details>
-        <details><summary>Play the game!</summary>
-            <p>
-               <img src="https://camo.githubusercontent.com/6f9e307dc88ae9f1162ba2797d78286fabf73bc7deba3ef266964bc07f21713f/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f57484169456832474f534c3335535a41456f2f67697068792e676966" alt>
-            </p>
-            <p>
-              After creating a game, you can press on the cards to place them or take a card with clicking on the card pile. 
-              <br> If a card can't be placed, there will be a popup message. The first one with no cards left wins.
-            </p> 
-      </details>
-      </div>
-      <footer>
-        <p>Created by: <i><a href="https://github.com/haasentimo">Timo Haas</a></i> and <a href="https://github.com/Bxnce">Bence Stuhlmann</a></p>
-      </footer>
-</center>
+  <main class="home">
+    <div class="main_header">
+        The ultimative<br>UNO experience!
+    </div>
+    <button type="button" class="glow-on-hover" onclick="window.location.href='@routes.HomeController.setup()'";>
+        Start a Game!
+    </button>
+    <footer>
+        <p>Created by: <a href="https://github.com/haasentimo">Timo Haas</a> and <a href="https://github.com/Bxnce">Bence Stuhlmann</a> - <a href=@routes.HomeController.about()>about</a></p>
+    </footer>
+  </main>
 }
