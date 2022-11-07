@@ -1,17 +1,46 @@
+@import "main.less";
+
+.betweenState{
+    margin-top: 15rem;
+}
+
+.card_no_hover{
+    width: 7rem;
+    height: 10rem;
+}
+
+
+.card_container{
+    width: 55rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.scores{
+    font-size: 2rem;
+    position: absolute;
+    right: 0rem;
+    top: 8px;
+    text-align: right;
+    margin-left: 1.8rem;
+    text-shadow: 0px 0px 6px rgb(255, 255, 255);
+    font-weight: bold;
+}
+
 .glow-on-hover {
-    margin-top: 2rem;
+    margin-top: 8.4rem;
     margin-bottom: 2rem;
     font-family: Courier New, monospace;
-    font-size: 16px;
-
+    font-size: 40px;
     outline: none;
     color: #fff;
-    background: rgb(38, 38, 38);
+    background: @background;
     cursor: pointer;
     position: relative;
     z-index: 0;
     border-radius: 10px;
-    border-color: white;
 }
 
 .glow-on-hover:before {
@@ -23,7 +52,7 @@
     background-size: 400%;
     z-index: -1;
     filter: blur(5px);
-    width: calc(100% + 4px);
+    width: calc(100% + 2px);
     height: calc(100% + 4px);
     animation: glowing 20s linear infinite;
     opacity: 0;
@@ -49,7 +78,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgb(38, 38, 38);
+    background: @background;
     left: 0;
     top: 0;
     border-radius: 10px;

@@ -1,3 +1,5 @@
+@import "main.less";
+
 .home{
   animation: 1.5s fade-in linear;
 }
@@ -32,8 +34,8 @@
   font-family: Courier New, monospace;
   font-size: 40px;
   outline: none;
-  color: rgb(214, 212, 212);
-  background: rgb(10, 10, 10);
+  color: @fontcolor;
+  background: @background;
   cursor: pointer;
   position: relative;
   z-index: 0;
@@ -76,7 +78,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgb(10, 10, 10);
+  background: @background;
   left: 0;
   top: 0;
   border-radius: 10px;
