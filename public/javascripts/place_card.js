@@ -1,4 +1,3 @@
-//Function to create a game, called when the user clicks the start the game button
 function placeCard(){
     card_i = document.getElementById("card_index").value - 1;
 
