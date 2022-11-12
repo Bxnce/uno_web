@@ -26,9 +26,9 @@
                             }
                         </div>
                     } else {
-                        <div class="row row-cols-3 g-0 center-align">
+                        <div class="row row-cols-3 g-0 center-align top-5">
                             @for((i,i2) <- txt) {
-                                <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                                <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1 center-align">
                                     <img src=@routes.Assets.versioned("images/" + i) alt='X' class="cards img-fluid" onclick=placeCard_click(@i2)></img>
                                 </div>
                             }
@@ -46,8 +46,14 @@
                     errorAlert("@error");
                 </script>
             }
-                <button type="button" class="glow-on-hover" onclick="window.location.href='@routes.HomeController.next()';">next player</button>
-            <footer>
+            <div class="row center-align top-5">
+                <div class="col">
+                    <button type="button" class="glow-on-hover" onclick="window.location.href='@routes.HomeController.next()';">next player</button>
+                </div>
+            </div>
+            
+            
+            <footer class="fixed-bottom">
                 <p>Created by: <a href="https://github.com/haasentimo">Timo Haas</a> and <a href="https://github.com/Bxnce">Bence Stuhlmann</a> - <a href=@routes.HomeController.about()>about</a></p>
             </footer>
         </div>
