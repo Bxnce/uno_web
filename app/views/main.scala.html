@@ -19,21 +19,12 @@
     </head>
     <body>
         <div class="container-fluid full-layout">
-            <div class="row">
+            <div class="row left-align">
                 <div class="col-md-12">
-                    <img class="head-img" src=@routes.Assets.versioned("images/white_uno.png") onclick="window.location.href='@routes.HomeController.home()';" alt="X" style="width:150px;height:150px;">
+                    <img class="img-fluid head-img" src=@routes.Assets.versioned("images/white_uno.png") onclick="window.location.href='@routes.HomeController.home()';" alt="X">
                 </div>
             </div>  
-                    @* And here's where we render the `Html` object containing
-                    * the page content. *@
-            <div class="row">
-                <div class="col">
-                    @content
-                </div>    
-            </div>
-            <div class="example-content-secondary">
-                <script src="@routes.Assets.versioned("javascripts/main.js")" type="text/javascript"></script>
-            </div>
+            @content
         </div>    
     </body>
 </html>
