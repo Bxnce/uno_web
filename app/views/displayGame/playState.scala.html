@@ -9,24 +9,26 @@
     <script src=@routes.Assets.versioned("javascripts/place_card_click.js") type="text/javascript"></script>
     <script src=@routes.Assets.versioned("javascripts/create_image_html.js") type="text/javascript"></script>
     <main class="playState">
-            <div class="card_container">
                 @for((txt, index) <- cards_lists.zipWithIndex) {
                     @if(index == 0) {
+                        <div class="row">
                         @for((i,i2) <- txt) {
-                            <div class="top_card_line">
+                            <div class="col-12 g-0">
                                 <img src=@routes.Assets.versioned("images/" + i) alt='X' class="card_no_hover"></img>
-                                <img src=@routes.Assets.versioned("images/uno_back.png") alt='X' class="cards" onclick="window.location.href='@routes.HomeController.take()';"></img>
+                                <img src=@routes.Assets.versioned("images/uno_back.png") alt='X' class="cards img-fluid" onclick="window.location.href='@routes.HomeController.take()';"></img>
                             </div>
                             }
+                        </div>
                     } else {
-                        <div class="bot_card_line">
-                        @for((i,i2) <- txt) {
-                            <img src=@routes.Assets.versioned("images/" + i) alt='X' class="cards" onclick=placeCard_click(@i2)></img>
-                        }
+                        <div class="row row-cols-3 g-0">
+                            @for((i,i2) <- txt) {
+                                <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                                    <img src=@routes.Assets.versioned("images/" + i) alt='X' class="cards img-fluid" onclick=placeCard_click(@i2)></img>
+                                </div>
+                            }
                         </div>
                     }
                  }
-            </div>
             <div class="scores">
                 <p>
                     @player1_name has @player1_cards card@if(player1_cards > 1){(s)}else{&nbsp;&nbsp;&nbsp;}<br>

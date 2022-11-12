@@ -26,10 +26,14 @@
             </div>  
                     @* And here's where we render the `Html` object containing
                     * the page content. *@
+            <div class="row">
+                <div class="col">
                     @content
+                </div>    
+            </div>
             <div class="example-content-secondary">
                 <script src="@routes.Assets.versioned("javascripts/main.js")" type="text/javascript"></script>
             </div>
-     </div>    
+        </div>    
     </body>
 </html>
