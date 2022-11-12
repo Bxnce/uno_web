@@ -5,7 +5,7 @@
 @md-break: 768px;
 @sm-break: 576px;
 
-
+//Break points for responsive design
 @media (min-width: @lg-break) {
   .main_header {
     font-size: 80px;
@@ -20,7 +20,6 @@
   footer{
     font-size: 16px;
   }
-
 }
 
 @media (max-width: @lg-break) {
@@ -79,7 +78,7 @@
     font-size: 12px;
   }
 }
-
+//------------------------------------------------------------
 
 .full-layout {
   min-height: 100vh;
@@ -121,13 +120,13 @@
 }
 
 a{
-  color: #ff7878;
+  color: #ff7878 !important;
   text-decoration: none !important;
-  color: @fontcolor !important;
+  font-family: @font !important;
 }
 
 a:hover {
-  color: #ffffff;
+  color: #ffffff !important;
   margin: 0 -.25rem;
   padding: 0 .25rem;
   transition: color .7s ease-in-out, box-shadow .7s ease-in-out;
