@@ -1,58 +1,61 @@
 @import "main.less";
 
 input[type=text]{
-    background-color: rgba(38,38,38,1);
-    border-color: white;
-    border-radius: 5px;
-    color: white;
+    background-color: rgba(38,38,38,1) !important;
+    border-color: white !important;
+    border-radius: 5px !important;
+    color: white !important;
 }
 .preState{
     display: inline-block;
     animation: fade-in 0.5s linear;
+    text-align: center;
 }
 
 .input-field {
-  position: relative;
-  width: 250px;
-  height: 44px;
-  line-height: 44px;
-  margin: 40px;
+  position: relative !important; 
+  width: 250px !important;
+  height: 40px !important;
+  line-height: 44px !important;
+  margin: 40px !important;
 }
 label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  color: #d3d3d3;
-  transition: 0.2s all;
-  font-size: 20px;
-  cursor: text;
+  font: @font !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  color: #d3d3d3 !important;
+  transition: 0.2s all !important;
+  font-size: 25px !important;
+  cursor: text !important;
 }
 input {
-  width: 100%;
-  border: 0;
-  outline: 0;
-  padding: 0.5rem 0;
-  border-bottom: 2px solid #d3d3d3;
-  box-shadow: none;
-  text-align: center;
-  font-size: 20px;
-  color: #111;
+  font: @font !important;
+  width: 100% !important;
+  border: 0 !important;
+  outline: 0 !important;
+  padding: 0.5rem 0 !important;
+  border-bottom: 2px solid #d3d3d3 !important;
+  box-shadow: none !important;
+  text-align: center !important;
+  font-size: 20px !important;
+  color: #111 !important;
 }
 input:invalid {
-  outline: 0;
+  outline: 0 !important;
   // color: #ff2300;
   //   border-color: #ff2300;
 }
 input:focus,
 input:valid {
-  border-color: #4ec08b;
+  border-color: #4ec08b !important;
 }
 input:focus~label,
 input:valid~label {
-  font-size: 20px;
-  top: -33px;
-  color: #4ec08b;
+  font-size: 20px !important;
+  top: -33px !important;
+  color: #4ec08b !important;
 }
 
 
