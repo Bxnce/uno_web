@@ -87,13 +87,8 @@
   flex-direction: column;
 }
 
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.remove-margin{
+  margin: none;
 }
 
 .left-align{
@@ -119,13 +114,13 @@
   cursor: pointer;
 }
 
-a{
+.link{
   color: #ff7878 !important;
   text-decoration: none !important;
   font-family: @font !important;
 }
 
-a:hover {
+.link:hover {
   color: #ffffff !important;
   margin: 0 -.25rem;
   padding: 0 .25rem;
@@ -133,7 +128,7 @@ a:hover {
   text-decoration: none;
 }
 
-a:hover {
+.link:hover {
   color: #fff;
   box-shadow: inset 200px 0 0 0 #ff7878;;
 }
@@ -190,8 +185,22 @@ a:hover {
   border-radius: 10px;
 }
 
+.set-colors{
+  color: red !important;
+  background-color: @background !important;
+}
+
 @keyframes glowing {
   0% { background-position: 0 0; }
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
