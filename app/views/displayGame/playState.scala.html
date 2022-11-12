@@ -8,19 +8,25 @@
     <script src=@routes.Assets.versioned("javascripts/error_alert.js") type="text/javascript"></script>
     <script src=@routes.Assets.versioned("javascripts/place_card_click.js") type="text/javascript"></script>
     <script src=@routes.Assets.versioned("javascripts/create_image_html.js") type="text/javascript"></script>
-    <main class="playState">
+    <div class="container">
                 @for((txt, index) <- cards_lists.zipWithIndex) {
                     @if(index == 0) {
-                        <div class="row">
+                        <div class="row row-col-2">
                         @for((i,i2) <- txt) {
-                            <div class="col-12 g-0">
-                                <img src=@routes.Assets.versioned("images/" + i) alt='X' class="card_no_hover"></img>
-                                <img src=@routes.Assets.versioned("images/uno_back.png") alt='X' class="cards img-fluid" onclick="window.location.href='@routes.HomeController.take()';"></img>
+                            <div class="col-4 offset-4">
+                                <div class="row center-align">
+                                    <div class="col-6 g-0">
+                                        <img src=@routes.Assets.versioned("images/" + i) alt='X' class="card_no_hover img-fluid"></img>
+                                    </div>
+                                    <div class="col-6 g-0">
+                                        <img src=@routes.Assets.versioned("images/uno_back.png") alt='X' class="cards img-fluid" onclick="window.location.href='@routes.HomeController.take()';"></img>
+                                    </div>
+                                </div>
                             </div>
                             }
                         </div>
                     } else {
-                        <div class="row row-cols-3 g-0">
+                        <div class="row row-cols-3 g-0 center-align">
                             @for((i,i2) <- txt) {
                                 <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
                                     <img src=@routes.Assets.versioned("images/" + i) alt='X' class="cards img-fluid" onclick=placeCard_click(@i2)></img>
@@ -44,5 +50,5 @@
             <footer>
                 <p>Created by: <a href="https://github.com/haasentimo">Timo Haas</a> and <a href="https://github.com/Bxnce">Bence Stuhlmann</a> - <a href=@routes.HomeController.about()>about</a></p>
             </footer>
-    </main>
+        </div>
     }
