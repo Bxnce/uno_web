@@ -7,7 +7,7 @@
 
 @main("UNO"){
     <script src=@routes.Assets.versioned("javascripts/error_alert.js") type="text/javascript"></script>
-    <main class="betweenState">
+    <main>
         @for((txt, index) <- cards_lists.zipWithIndex) {
             @if(index == 0) {
                 <div class="row row-col-2">
