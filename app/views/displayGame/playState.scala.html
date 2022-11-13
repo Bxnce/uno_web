@@ -26,12 +26,16 @@
                             }
                         </div>
                     } else {
-                        <div class="row row-cols-3 g-0 center-align top-5">
-                            @for((i,i2) <- txt) {
-                                <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1 center-align">
-                                    <img src=@routes.Assets.versioned("images/" + i) alt='X' class="cards img-fluid" onclick=placeCard_click(@i2)></img>
-                                </div>
-                            }
+                        <div class="row">
+                            <div class="col-6 offset-3">
+                                <div class="row row-cols-3 g-0 center-align top-5">
+                                    @for((i,i2) <- txt) {
+                                        <div class="col-sm-4 col-md-4 col-lg-3 col-xl-2 center-align">
+                                            <img src=@routes.Assets.versioned("images/" + i) alt='X' class="cards img-fluid" onclick=placeCard_click(@i2)></img>
+                                        </div>
+                                    }
+                                </div>    
+                            </div>
                         </div>
                     }
                  }
