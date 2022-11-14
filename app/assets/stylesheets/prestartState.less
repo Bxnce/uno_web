@@ -14,10 +14,6 @@ input[type=text]{
 
 .input-field {
   position: relative ; 
-  width: 250px ;
-  height: 40px ;
-  line-height: 44px ;
-  margin: 40px ;
 }
 label {
   font: @font ;
@@ -27,7 +23,6 @@ label {
   width: 100% ;
   color: #d3d3d3 ;
   transition: 0.2s all ;
-  font-size: 25px ;
   cursor: text ;
 }
 input {
@@ -39,13 +34,10 @@ input {
   border-bottom: 2px solid #d3d3d3 ;
   box-shadow: none ;
   text-align: center ;
-  font-size: 20px ;
   color: #111 ;
 }
 input:invalid {
   outline: 0 ;
-  // color: #ff2300;
-  //   border-color: #ff2300;
 }
 input:focus,
 input:valid {
@@ -53,8 +45,6 @@ input:valid {
 }
 input:focus~label,
 input:valid~label {
-  font-size: 20px ;
-  top: -33px ;
   color: #4ec08b ;
 }
 
