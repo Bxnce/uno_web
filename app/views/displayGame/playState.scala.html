@@ -1,4 +1,4 @@
-@(cards_lists: List[List[(String, Int)]], error: String, player1_cards:Int, player2_cards:Int, player1_name:String, player2_name: String)
+@(cards_lists: List[List[(String, Int)]], error: String, player1_cards:Int, player2_cards:Int, player1_name:String, player2_name: String, player_card_anz:Int)
 
 <head>
     <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/playState.css")">
@@ -8,6 +8,7 @@
     <script src=@routes.Assets.versioned("javascripts/error_alert.js") type="text/javascript"></script>
     <script src=@routes.Assets.versioned("javascripts/place_card_click.js") type="text/javascript"></script>
     <script src=@routes.Assets.versioned("javascripts/create_image_html.js") type="text/javascript"></script>
+    <script src=@routes.Assets.versioned("javascripts/card_over.js") type="text/javascript"></script>
     <div class="container">
                 @for((txt, index) <- cards_lists.zipWithIndex) {
                     @if(index == 0) {
@@ -39,26 +40,26 @@
                         </div>
                     }
                  }
-            <div class="scores">
-                <p>
-                    @player1_name has @player1_cards card@if(player1_cards > 1){(s)}else{&nbsp;&nbsp;&nbsp;}<br>
-                    @player2_name has @player2_cards card@if(player2_cards > 1){(s)}else{&nbsp;&nbsp;&nbsp;}
-                </p>
-            </div>
             @if(error != "") {
                 <script type="text/javascript">
                     errorAlert("@error");
                 </script>
             }
+            @player_card_anz
+
             <div class="row center-align top-5">
                 <div class="col">
                     <button type="button" class="glow-on-hover" onclick="window.location.href='@routes.HomeController.next()';">next player</button>
                 </div>
             </div>
             
-            
-            <footer class="fixed-bottom">
+            <footer id="footer-play">
                 <p>Created by: <a class="link" href="https://github.com/haasentimo">Timo Haas</a> and <a class="link" href="https://github.com/Bxnce">Bence Stuhlmann</a> - <a class="link" href=@routes.HomeController.about()>about</a></p>
             </footer>
+            @if(player_card_anz > 12) {
+                <script type="text/javascript">
+                    cardOver();
+                </script>
+            }
         </div>
     }
