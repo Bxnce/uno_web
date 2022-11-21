@@ -43,8 +43,9 @@
                 </div>
               </nav>
             <div class="row left-align">
-                <div class="col-md-12">
-                    <img class="head-img img-fluid" src=@routes.Assets.versioned("images/white_uno.png") onclick="window.location.href='@routes.HomeController.home()';" alt="X">
+                <div class="col">
+                    <canvas id="loading"></canvas>
+                    <script src=@routes.Assets.versioned("javascripts/loading_animation.js")></script>
                 </div>
             </div>  
             @content
