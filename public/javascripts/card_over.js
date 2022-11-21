@@ -1,5 +1,5 @@
 function cardOver(){
-    $("#footer-play").addClass('importantRule');
+    $("#footer-play").attr('style', 'position: relative !important');
 }
 
 
