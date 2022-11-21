@@ -7,33 +7,40 @@
 
 @main("UNO"){
     <script src=@routes.Assets.versioned("javascripts/error_alert.js") type="text/javascript"></script>
-    <main class="betweenState">
-        <div class="card_container">
-            @for((txt, index) <- cards_lists.zipWithIndex) {
-                <div class="card_line">
-                @if(index == 0) {
-                   @for((i,i2) <- txt) {
-                        <img src=@routes.Assets.versioned("images/" + i) alt='X' class="card_no_hover"></img>
-                        <img src=@routes.Assets.versioned("images/uno_back.png") alt='X' class="card_no_hover" onclick="window.location.href='@routes.HomeController.take()';"></img>
-                   }
-               } else {}
-               </div>
+    <main>
+        @for((txt, index) <- cards_lists.zipWithIndex) {
+            @if(index == 0) {
+                <div class="row row-col-2">
+                @for((i,i2) <- txt) {
+                    <div class="col-4 offset-4">
+                        <div class="row center-align">
+                            <div class="col-6 g-0">
+                                <img src=@routes.Assets.versioned("images/" + i) alt='X' class="card_no_hover img-fluid"></img>
+                            </div>
+                            <div class="col-6 g-0">
+                                <img src=@routes.Assets.versioned("images/uno_back.png") alt='X' class="card_no_hover img-fluid"></img>
+                            </div>
+                        </div>
+                    </div>
+                    }
+                </div>
             }
-        </div>    
-        <div class="scores">
-            <p>
-                @player1_name has @player1_cards card@if(player1_cards > 1){(s)}else{&nbsp;&nbsp;&nbsp;}<br>
-                @player2_name has @player2_cards card@if(player2_cards > 1){(s)}else{&nbsp;&nbsp;&nbsp;}
-            </p>
-        </div>
+        }
+   
         @if(error != "") {
             <script type="text/javascript">
                 errorAlert("@error");
             </script>
         }
-        <button type="button" class="glow-on-hover" onclick="window.location.href='@routes.HomeController.next()';">@next_player_name's turn</button>
+        
+        <div class="row center-align">
+            <div class="col">
+                <button type="button" class="glow-on-hover" onclick="window.location.href='@routes.HomeController.next()';">@next_player_name's turn</button>
+            </div>
+        </div>
+
         <footer>
-            <p>Created by: <a href="https://github.com/haasentimo">Timo Haas</a> and <a href="https://github.com/Bxnce">Bence Stuhlmann</a> - <a href=@routes.HomeController.about()>about</a></p>
+            <p>Created by: <a class="link" href="https://github.com/haasentimo">Timo Haas</a> and <a class="link" href="https://github.com/Bxnce">Bence Stuhlmann</a> - <a class="link" href=@routes.HomeController.about()>about</a></p>
         </footer>
     </main>
 }

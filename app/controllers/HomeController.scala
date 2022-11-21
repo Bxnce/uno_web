@@ -36,7 +36,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
     if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
       Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,"", controller.game.pList(0).name, controller.game.pList(1).name, get_name_of_next_player()))
     } else {
-      Ok(views.html.displayGame.playState(get_right_tuple(),"", controller.create_tuple()(0).length, controller.create_tuple()(2).length, controller.game.pList(0).name, controller.game.pList(1).name))
+      Ok(views.html.displayGame.playState(get_right_tuple(),"", controller.create_tuple()(0).length, controller.create_tuple()(2).length, controller.game.pList(0).name, controller.game.pList(1).name, get_card_count_of_next_player()))
     }  
   }
 
@@ -45,7 +45,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
     if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
       Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,"", controller.game.pList(0).name, controller.game.pList(1).name, get_name_of_next_player()))
     } else {
-      Ok(views.html.displayGame.playState(get_right_tuple(),"", controller.create_tuple()(0).length, controller.create_tuple()(2).length, controller.game.pList(0).name, controller.game.pList(1).name))
+      Ok(views.html.displayGame.playState(get_right_tuple(),"", controller.create_tuple()(0).length, controller.create_tuple()(2).length, controller.game.pList(0).name, controller.game.pList(1).name, get_card_count_of_next_player()))
     }  
     }
 
@@ -62,7 +62,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
       if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
         Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,erro, controller.game.pList(0).name, controller.game.pList(1).name, get_name_of_next_player()))
       } else {
-        Ok(views.html.displayGame.playState(get_right_tuple(), erro, controller.create_tuple()(0).length, controller.create_tuple()(2).length, controller.game.pList(0).name, controller.game.pList(1).name))
+        Ok(views.html.displayGame.playState(get_right_tuple(), erro, controller.create_tuple()(0).length, controller.create_tuple()(2).length, controller.game.pList(0).name, controller.game.pList(1).name, get_card_count_of_next_player()))
       }  
     }
   }
@@ -74,7 +74,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
         erro = "Can not take card in this state of the Game"
         controller.game.setError(0)
     }
-    Ok(views.html.displayGame.playState(get_right_tuple(), erro, controller.create_tuple()(0).length, controller.create_tuple()(2).length, controller.game.pList(0).name, controller.game.pList(1).name))
+    Ok(views.html.displayGame.playState(get_right_tuple(), erro, controller.create_tuple()(0).length, controller.create_tuple()(2).length, controller.game.pList(0).name, controller.game.pList(1).name, get_card_count_of_next_player()))
   }
 
   def undo() = Action { implicit request: Request[AnyContent] => 
@@ -82,7 +82,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
     if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
       Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,"", controller.game.pList(0).name, controller.game.pList(1).name, get_name_of_next_player()))
     } else {
-      Ok(views.html.displayGame.playState(get_right_tuple(),"", controller.create_tuple()(0).length, controller.create_tuple()(2).length, controller.game.pList(0).name, controller.game.pList(1).name))
+      Ok(views.html.displayGame.playState(get_right_tuple(),"", controller.create_tuple()(0).length, controller.create_tuple()(2).length, controller.game.pList(0).name, controller.game.pList(1).name, get_card_count_of_next_player()))
     }  
   }
 
@@ -91,7 +91,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
     if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
       Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,"", controller.game.pList(0).name, controller.game.pList(1).name, get_name_of_next_player()))
     } else {
-      Ok(views.html.displayGame.playState(get_right_tuple(),"", controller.create_tuple()(0).length, controller.create_tuple()(2).length, controller.game.pList(0).name, controller.game.pList(1).name))
+      Ok(views.html.displayGame.playState(get_right_tuple(),"", controller.create_tuple()(0).length, controller.create_tuple()(2).length, controller.game.pList(0).name, controller.game.pList(1).name, get_card_count_of_next_player()))
     }   
   }
 
@@ -128,4 +128,15 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
       }
       return name
     }
-  }
+
+    def get_card_count_of_next_player(): Int = {
+    var anz = 0
+      if(controller.game.currentstate.toString() == "player1State"){
+          anz = controller.game.pList(0).karten.length
+      } 
+      else if(controller.game.currentstate.toString() == "player2State"){
+          anz = controller.game.pList(1).karten.length
+      }
+      return anz
+    }
+}

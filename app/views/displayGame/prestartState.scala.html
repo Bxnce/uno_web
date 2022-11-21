@@ -5,29 +5,43 @@
 </head>
 
 @main("UNO"){
-    <center>
     <main class="preState">
         <script src='@routes.Assets.versioned("javascripts/create_game.js")' type="text/javascript"></script>
-        <p>
-            <form action="">
-                <div class="input-field">
-                  <input type="text" id="player1" required />
-                  <label for="player1">Player 1:</label>
+
+        <div class="row mt-3">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <div class="input-field">
+                        <input type="text" id="player1" required />
+                        <label for="player1">Player 1:</label>
+                    </div>
                 </div>
-            </form>
-            <form action="">
-                <div class="input-field">
-                  <input type="text" id="player2" required />
-                  <label for="player2">Player 2:</label>
+            </div>
+        </div>
+        
+        <div class="row mt-3">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <div class="input-field">
+                        <input type="text" id="player2" required />
+                        <label for="player2">Player 2:</label>
+                    </div>
                 </div>
-            </form>
-            <button type="button" class="glow-on-hover" onclick=createGame()>
-                Start the Game!
-            </button>
-        </p>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="glow-on-hover" onclick=createGame()>
+                        Start the Game!
+                    </button>
+                </div>
+            </div>
+        </div>
+            
         <footer>
-            <p>Created by: <a href="https://github.com/haasentimo">Timo Haas</a> and <a href="https://github.com/Bxnce">Bence Stuhlmann</a> - <a href=@routes.HomeController.about()>about</a></p>
+            <p>Created by: <a class="link" href="https://github.com/haasentimo">Timo Haas</a> and <a class="link" href="https://github.com/Bxnce">Bence Stuhlmann</a> - <a class="link" href=@routes.HomeController.about()>about</a></p>
         </footer>
     </main>
-    </center>
 }

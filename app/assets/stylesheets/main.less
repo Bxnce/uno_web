@@ -1,67 +1,209 @@
 @background: rgb(10, 10, 10);
 @font: Courier New, monospace;
 @fontcolor: rgb(214, 212, 212);
+@lg-break: 992px;
+@md-break: 768px;
+@sm-break: 576px;
 
-@keyframes fade-in {
-  0% {
-    opacity: 0;
+//Break points for responsive design
+@media (min-width: @lg-break) {
+  .main_header {
+    font-size: 80px;
   }
-  100% {
-    opacity: 1;
+  .glow-on-hover{
+    font-size: 40px;
+  }
+  .head-img{
+    width: 150px;
+    height: 150px;
+  }
+  .input-field{
+    width: 250px;
+    height: 40px;
+    line-height: 40px ;
+    margin: 40px ;
+  }
+  label{
+    font-size: 25px;
+  }
+  input[type=text]{
+    font-size: 25px;
+  }
+  input:focus~label,
+  input:valid~label {
+  font-size: 25px;
+  top: -40px;
+  }
+  footer{
+    font-size: 16px;
   }
 }
 
-
-head {
-  background-color: @background;
-  font-family: @font;
-  color: @fontcolor;
-  text-align: center;
+@media (max-width: @lg-break) {
+  .main_header {
+    font-size: 60px;
+  }
+  .glow-on-hover{
+    font-size: 30px;
+  }
+  .head-img{
+    width: 115px;
+    height: 115px;
+    cursor: pointer !important;
+  }
+  .home{
+    margin-top: 5rem;
+  }
+  .input-field{
+    width: 190px;
+    height: 30px;  
+    line-height: 33px ;
+    margin: 30px ;
+  }
+  label{
+    font-size: 20px;
+  }
+  input[type=text]{
+    font-size: 20px;
+  }
+  input:focus~label,
+  input:valid~label {
+  font-size: 20px;
+  top: -30px;
+  }
+  footer{
+    font-size: 16px;
+  }
 }
 
-body {
-  background-color: @background;
-  font-family: @font;
-  color: @fontcolor;
-  text-align: center;
-  align-items: center;
-  margin-top: 15%;
+@media (max-width: @md-break) {
+  .main_header {
+    font-size: 40px;
+  }
+  .glow-on-hover{
+    font-size: 20px;
+  }
+  .head-img{
+    width: 80px;
+    height: 80px;
+  }
+  .home{
+    margin-top: 10rem;
+  }
+  .input-field{
+    width: 130px;
+    height: 20px;
+    line-height: 22px ;
+    margin: 20px ;
+  }
+  label{
+    font-size: 15px;
+  }
+  input[type=text]{
+    font-size: 15px;
+  }
+  input:focus~label,
+  input:valid~label {
+  font-size: 15px;
+  top: -20px;
+  }
+  footer{
+    font-size: 12px;
+  }
 }
+
+@media (max-width: @sm-break) {
+  .main_header {
+    font-size: 30px;
+  }
+  .glow-on-hover{
+    font-size: 15px;
+  }
+  .head-img{
+    width: 65px;
+    height: 65px;
+  }
+  .home{
+    margin-top: 15rem;
+  }
+  .input-field{
+    width: 60px;
+    height: 10px;
+    line-height: 11px ;
+    margin: 10px ;
+  }
+  label{
+    font-size: 10px;
+  }
+  input[type=text]{
+    font-size: 10px;
+  }
+  input:focus~label,
+  input:valid~label {
+  font-size: 10px;
+  top: -10px;
+  }
+  footer{
+    font-size: 12px;
+  }
+}
+//------------------------------------------------------------
+
+.full-layout {
+  min-height: 100vh;
+  display: flex;
+  background-color: @background;
+  flex-direction: column;
+}
+
+.remove-margin{
+  margin: none;
+}
+
+.left-align{
+    align-items: left;
+    text-align: left;
+}
+
+.right-align{
+    align-items: right;
+    text-align: right;
+}
+
+.center-align{
+    align-items: center;
+    text-align: center;
+}s
 
 .head-img {
-  width: 100%;
-  height: 100%;
   display: inline-block;
-  margin: 20 auto;
   animation: fade-in 1s linear;
-  position: absolute;
-  top: 8px;
-  left: 16px;
   font-size: 18px;
-  cursor: pointer;
+  text-align: left;
+  cursor: pointer !important;
 }
 
-a{
-  color: #ff7878;
-  text-decoration: none;
+.link{
+  color: #ff7878 !important;
+  text-decoration: none !important;
+  font-family: @font !important;
 }
 
-a:hover {
-  color: #ffffff;
+.link:hover {
+  color: #ffffff !important;
   margin: 0 -.25rem;
   padding: 0 .25rem;
   transition: color .7s ease-in-out, box-shadow .7s ease-in-out;
   text-decoration: none;
 }
 
-a:hover {
+.link:hover {
   color: #fff;
   box-shadow: inset 200px 0 0 0 #ff7878;;
 }
 
 .glow-on-hover {
   font-family: Courier New, monospace;
-  font-size: 40px;
   outline: none;
   color: #fff;
   background: @background;
@@ -112,8 +254,22 @@ a:hover {
   border-radius: 10px;
 }
 
+.set-colors{
+  color: @fontcolor !important;
+  background-color: @background !important;
+}
+
 @keyframes glowing {
   0% { background-position: 0 0; }
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
