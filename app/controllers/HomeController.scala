@@ -139,4 +139,8 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
       }
       return anz
     }
+
+  def return_json(): String = {
+    controller.return_j()
+    }
 }
