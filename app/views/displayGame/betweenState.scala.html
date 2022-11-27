@@ -7,7 +7,7 @@
 
 @main("UNO"){
     <script src=@routes.Assets.versioned("javascripts/error_alert.js") type="text/javascript"></script>
-    <script src=@routes.Assets.versioned("javascripts/next_player.js") type="text/javascript"></script>
+    <script src=@routes.Assets.versioned("javascripts/game_from_json.js") type="text/javascript"></script>
     <main>
         @for((txt, index) <- cards_lists.zipWithIndex) {
             @if(index == 0) {

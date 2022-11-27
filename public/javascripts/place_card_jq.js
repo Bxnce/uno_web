@@ -11,7 +11,7 @@ function placeCard_click(card_i) {
 // Jquery to check the onlick of a card
 $("document").ready(function () {
     $(".cards").click(function () {
-        placeCard_click($(this).attr("cardindex"));
+        //clickCard($(this).attr("cardindex"));
     })
 })
 ;

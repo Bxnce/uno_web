@@ -20,12 +20,12 @@ GET     /game/undo                   controllers.HomeController.undo()
 GET     /game/redo                   controllers.HomeController.redo()
 
 GET     /game/start/:name1/:name2 	 controllers.HomeController.create_game(name1: String, name2:String)
-
-GET     /game/next                   controllers.HomeController.next()
-
-GET     /game/place/:i               controllers.HomeController.place(i: Int) 
-
-GET     /game/take                   controllers.HomeController.take()
++nocsrf
+POST    /game/next                   controllers.HomeController.nextTest()
++nocsrf
+POST    /game/place/:i               controllers.HomeController.postTest(i: Int)
++nocsrf
+POST     /game/take                   controllers.HomeController.takeTest()
 
 
 

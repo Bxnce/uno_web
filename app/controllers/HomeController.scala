@@ -33,11 +33,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
 
   def create_game(name1: String, name2: String) = Action { implicit request: Request[AnyContent] =>
     controller.newG(name1, name2)
-    if(controller.game.currentstate.toString() == "between12State" || controller.game.currentstate.toString() == "between21State"){
-      Ok(views.html.displayGame.betweenState(get_right_tuple(), controller.create_tuple()(0).length, controller.create_tuple()(2).length ,"", controller.game.pList(0).name, controller.game.pList(1).name, get_name_of_next_player()))
-    } else {
       Ok(views.html.displayGame.playState(get_right_tuple(),"", controller.create_tuple()(0).length, controller.create_tuple()(2).length, controller.game.pList(0).name, controller.game.pList(1).name, get_card_count_of_next_player()))
-    }  
   }
 
   def next() = Action { implicit request: Request[AnyContent] => 
@@ -95,6 +91,22 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
     }   
   }
 
+  def postTest(ind: Int) = Action { implicit request: Request[AnyContent] =>
+    controller.place(ind)
+    Ok(controller.return_j)
+  }
+
+  def nextTest() = Action { implicit request: Request[AnyContent] =>
+    controller.next()
+    Ok(controller.return_j)
+  }
+
+  def takeTest() = Action { implicit request: Request[AnyContent] =>
+    controller.take()
+    Ok(controller.return_j)
+  }
+
+
   def notFound() = Action { implicit request: Request[AnyContent] => 
     NotFound(views.html.notFound())
   }
@@ -140,7 +152,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
       return anz
     }
 
-  def return_json(): String = {
-    controller.return_j()
-    }
+    //def return_json(): String = {
+    //  controller.return_j()
+    //}
 }
