@@ -12,19 +12,19 @@
         <div id = "top_cards"></div>
         <div id = "player_cards"></div>
 
-            <div class="row center-align top-5">
-                <div class="col">
-                    <button id="next_player_button" type="button" class="glow-on-hover">next player</button>
-                </div>
+        <div class="row center-align top-5">
+            <div class="col">
+                <button id="next_player_button" type="button" class="glow-on-hover">next player</button>
             </div>
-            
-            <footer id="footer-play">
-                <p>Created by: <a class="link" href="https://github.com/haasentimo">Timo Haas</a> and <a class="link" href="https://github.com/Bxnce">Bence Stuhlmann</a> - <a class="link" href=@routes.HomeController.about()>about</a></p>
-            </footer>
-            @if(player_card_anz > 12) {
-                <script type="text/javascript">
-                    cardOver();
-                </script>
-            }
         </div>
-    }
+
+        <footer id="footer-play">
+            <p>Created by: <a class="link" href="https://github.com/haasentimo">Timo Haas</a> and <a class="link" href="https://github.com/Bxnce">Bence Stuhlmann</a> - <a class="link" href=@routes.HomeController.about()>about</a></p>
+        </footer>
+        @if(player_card_anz > 12) {
+            <script type="text/javascript">
+                cardOver();
+            </script>
+        }
+    </div>
+}
