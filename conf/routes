@@ -15,10 +15,6 @@ GET     /about                       controllers.HomeController.about()
 
 GET     /game/setup                  controllers.HomeController.setup()
 
-GET     /game/undo                   controllers.HomeController.undo()
-
-GET     /game/redo                   controllers.HomeController.redo()
-
 GET     /game/start/:name1/:name2 	 controllers.HomeController.createGame(name1: String, name2:String)
 +nocsrf
 POST    /game/next                   controllers.HomeController.nextPlayer()
