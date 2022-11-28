@@ -1,7 +1,4 @@
-async function clickCard(ind) {
-    const req = `/game/place/` + ind;
-    await getJSON(req);
-}
+
 
 async function nextPlayer() {
     await getJSON('/game/next');
@@ -44,32 +41,27 @@ $("document").ready(function () {
 async function createCards(json) {
     document.getElementById("midCard").src = "/assets/images/" + json["game"].midCard["png_ind"][0]["card_png"]
 
-    const div_player = document.createElement('div_player');
+    const div_player = document.createElement('div');
+    div_player.classList.add("player_cards")
+    const cols = document.createElement("div");
+    cols.classList.add("col-4", "offset-4")
+    const center = document.createElement("div");
+    center.classList.add("row", "center-align")
+    const pictures = document.createElement("div");
+    pictures.classList.add("col-6", "g-0")
     //-----------------------------------------
     const currentstate = json["game"].currentstate;
-    var player_html = "";
+    var player_cards = []
     if (currentstate === "player1State") {
         if(json["game"].ERROR !== 0) {
             alert("This card cannot be placed");
         }
-        const player_cards = json["game"].player1["png_ind"];
-        player_html = '                        ' +
-            '                        <div class="row"><div class="col-6 offset-3">\n' +
-            '                                <div class="row row-cols-3 g-0 center-align top-5">\n';
-        player_cards.forEach(element => player_html += get_player_card(element["index"], element["card_png"]));
-        player_html += '</div></div>';
-        div_player.innerHTML = player_html;
+        player_cards = json["game"].player1["png_ind"];
     } else if (currentstate === "player2State") {
         if(json["game"].ERROR !== 0) {
             alert("This card cannot be placed");
         }
-        const player_cards = json["game"].player2["png_ind"];
-        player_html = '                        ' +
-            '                        <div class="row"><div class="col-6 offset-3">\n' +
-            '                                <div class="row row-cols-3 g-0 center-align top-5">\n';
-        player_cards.forEach(element => player_html += get_player_card(element["index"], element["card_png"]));
-        player_html += '</div></div>';
-        div_player.innerHTML = player_html;
+        player_cards = json["game"].player2["png_ind"];
     } else if (currentstate === "between12State") {
         if(json["game"].ERROR !== 0) {
             alert("not possible in this state");
@@ -81,17 +73,28 @@ async function createCards(json) {
     } else if (currentstate === "winState") {
 
     }
-    document.getElementById("player_cards").innerHTML = player_html;
+
+    player_cards.forEach(element => pictures.appendChild(get_player_card(element["index"], element["card_png"])));
+    center.appendChild(pictures);
+    cols.appendChild(center.toString());
+    div_player.appendChild(cols);
+
+    document.getElementById("player_cards").innerHTML = div_player.toString();
 }
 
 
-function get_player_card(ind, card) {
-    return '<div class="col-sm-4 col-md-4 col-lg-3 col-xl-2 center-align">' +
-        '<img alt="X" cardindex="' + ind + '" onclick="clickCard(' + ind + ')" class="cards img-fluid" src="/assets/images/' + card + '">' +
-        '</div>';
-}
-
-function return_midCard(json){
-    const js = JSON.parse(json);
-    return js["game"].midCard["png_ind"][0]["card_png"];
+function get_player_card(ind, card_ess) {
+    const wrapperd_card = document.createElement("div")
+    wrapperd_card.classList.add("col-sm-4", "col-md-4", "col-lg-3", "col-xl-2", "center-align")
+    var card = document.createElement("img")
+    card.alt = "X"
+    card.classList.add("cards", "img-fluid")
+    card.id = ind
+    card.src = "/assets/images/" + card_ess
+    card.on("click", async function () {
+        const req = `/game/place/` + $(this).attr('id');
+        await getJSON(req);
+    });
+    wrapperd_card.appendChild(card)
+    return wrapperd_card
 }
