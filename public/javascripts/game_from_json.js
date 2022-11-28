@@ -11,6 +11,10 @@ async function takeCard() {
     await getJSON('/game/take');
 }
 
+async function startGame() {
+    await getJSON('/game/json');
+}
+
 async function getJSON(url) {
     const res = await fetch(url, {
         method: 'POST',
@@ -20,11 +24,10 @@ async function getJSON(url) {
         },
         body: ""
     })
-
-    if (res.ok)
-        createCards(await res.json());
+    if (await res.ok)
+        await createCards(await res.json());
     else
-        console.log(await res.text());
+        console.log("page failed loading");
 }
 
 // Jquery to check the onlick of a card
@@ -39,23 +42,8 @@ $("document").ready(function () {
 ;
 
 async function createCards(json) {
-    var top_html = '   <div class="row row-col-2">\n     ' +
-        '                       <div class="col-4 offset-4">\n' +
-        '                                <div class="row center-align">\n' +
-        '                                    <div class="col-6 g-0">\n' +
-        '                                        <img src="/assets/images/' + json["game"].midCard["png_ind"][0]["card_png"] + '" alt=\"X" class="card_no_hover img-fluid">\n' +
-        '                                    </div>\n' +
-        '                                    <div class="col-6 g-0">\n' +
-        '                                        <img src="/assets/images/uno_back.png" alt=\"X\" onclick="takeCard()" class="card_stack img-fluid" id="take_card">\n' +
-        '                                    </div>\n' +
-        '                                </div>\n' +
-        '                            </div>\n' +
-        '                         </div>';
+    document.getElementById("midCard").src = "/assets/images/" + json["game"].midCard["png_ind"][0]["card_png"]
 
-    //creating the top cards ------------------
-    document.getElementById("top_cards").innerHTML = top_html;
-    //-----------------------------------------
-    //creating the player cards ---------------
     const div_player = document.createElement('div_player');
     //-----------------------------------------
     const currentstate = json["game"].currentstate;
@@ -90,6 +78,8 @@ async function createCards(json) {
         if(json["game"].ERROR !== 0) {
             alert("not possible in this state");
         }
+    } else if (currentstate === "winState") {
+
     }
     document.getElementById("player_cards").innerHTML = player_html;
 }
@@ -99,4 +89,9 @@ function get_player_card(ind, card) {
     return '<div class="col-sm-4 col-md-4 col-lg-3 col-xl-2 center-align">' +
         '<img alt="X" cardindex="' + ind + '" onclick="clickCard(' + ind + ')" class="cards img-fluid" src="/assets/images/' + card + '">' +
         '</div>';
+}
+
+function return_midCard(json){
+    const js = JSON.parse(json);
+    return js["game"].midCard["png_ind"][0]["card_png"];
 }

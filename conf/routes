@@ -19,13 +19,15 @@ GET     /game/undo                   controllers.HomeController.undo()
 
 GET     /game/redo                   controllers.HomeController.redo()
 
-GET     /game/start/:name1/:name2 	 controllers.HomeController.create_game(name1: String, name2:String)
+GET     /game/start/:name1/:name2 	 controllers.HomeController.createGame(name1: String, name2:String)
 +nocsrf
-POST    /game/next                   controllers.HomeController.nextTest()
+POST    /game/next                   controllers.HomeController.nextPlayer()
 +nocsrf
-POST    /game/place/:i               controllers.HomeController.postTest(i: Int)
+POST    /game/place/:i               controllers.HomeController.placeCard(i: Int)
 +nocsrf
-POST     /game/take                   controllers.HomeController.takeTest()
+POST     /game/take                  controllers.HomeController.takeCard()
++noscrf
+POST     /game/json                  controllers.HomeController.retJson()
 
 
 
