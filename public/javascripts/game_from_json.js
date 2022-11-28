@@ -1,4 +1,7 @@
-
+async function clickCard(ind) {
+    const req = `/game/place/` + ind;
+    await getJSON(req);
+}
 
 async function nextPlayer() {
     await getJSON('/game/next');
@@ -38,62 +41,64 @@ $("document").ready(function () {
 })
 ;
 
-async function createCards(json) {
-    document.getElementById("midCard").src = "/assets/images/" + json["game"].midCard["png_ind"][0]["card_png"]
+$("document").ready(function () {
+    $(".cards").click(function () {
+        alert($(this).attr("id"));
+        clickCard($(this).attr("id"));
+    })
+})
+;
 
-    const div_player = document.createElement('div');
-    div_player.classList.add("player_cards")
-    const cols = document.createElement("div");
-    cols.classList.add("col-4", "offset-4")
-    const center = document.createElement("div");
-    center.classList.add("row", "center-align")
-    const pictures = document.createElement("div");
-    pictures.classList.add("col-6", "g-0")
+async function createCards(json) {
+    document.getElementById("player_cards").innerHTML = "";
+    document.getElementById("midCard").src = "/assets/images/" + json["game"].midCard["png_ind"][0]["card_png"]
+    let outer_all = document.createElement("div");
+    outer_all.classList.add("col-6", "offset-3")
+    let row = document.createElement("div");
+    row.classList.add("row","row-cols-3", "g-0", "center-align", "top-5")
     //-----------------------------------------
     const currentstate = json["game"].currentstate;
-    var player_cards = []
+    let player_cards = []
     if (currentstate === "player1State") {
-        if(json["game"].ERROR !== 0) {
+        if (json["game"].ERROR !== 0) {
             alert("This card cannot be placed");
         }
         player_cards = json["game"].player1["png_ind"];
     } else if (currentstate === "player2State") {
-        if(json["game"].ERROR !== 0) {
+        if (json["game"].ERROR !== 0) {
             alert("This card cannot be placed");
         }
         player_cards = json["game"].player2["png_ind"];
     } else if (currentstate === "between12State") {
-        if(json["game"].ERROR !== 0) {
+        if (json["game"].ERROR !== 0) {
             alert("not possible in this state");
         }
     } else if (currentstate === "between21State") {
-        if(json["game"].ERROR !== 0) {
+        if (json["game"].ERROR !== 0) {
             alert("not possible in this state");
         }
     } else if (currentstate === "winState") {
 
     }
 
-    player_cards.forEach(element => pictures.appendChild(get_player_card(element["index"], element["card_png"])));
-    center.appendChild(pictures);
-    cols.appendChild(center.toString());
-    div_player.appendChild(cols);
+    player_cards.forEach(element => row.appendChild(get_player_card(element["index"], element["card_png"])));
+    outer_all.appendChild(row);
 
-    document.getElementById("player_cards").innerHTML = div_player.toString();
+
+    document.getElementById("player_cards").appendChild(outer_all);
 }
 
 
 function get_player_card(ind, card_ess) {
-    const wrapperd_card = document.createElement("div")
+    let wrapperd_card = document.createElement("div")
     wrapperd_card.classList.add("col-sm-4", "col-md-4", "col-lg-3", "col-xl-2", "center-align")
-    var card = document.createElement("img")
+    let card = document.createElement("img")
     card.alt = "X"
     card.classList.add("cards", "img-fluid")
     card.id = ind
     card.src = "/assets/images/" + card_ess
-    card.on("click", async function () {
-        const req = `/game/place/` + $(this).attr('id');
-        await getJSON(req);
+    card.addEventListener('click', function handleClick() {
+        clickCard(ind);
     });
     wrapperd_card.appendChild(card)
     return wrapperd_card
