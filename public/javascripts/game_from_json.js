@@ -41,57 +41,65 @@ $("document").ready(function () {
 })
 ;
 
-async function createCards(json) {
-    document.getElementById("midCard").src = "/assets/images/" + json["game"].midCard["png_ind"][0]["card_png"]
+$("document").ready(function () {
+    $(".cards").click(function () {
+        alert($(this).attr("id"));
+        clickCard($(this).attr("id"));
+    })
+})
+;
 
-    const div_player = document.createElement('div_player');
+async function createCards(json) {
+    document.getElementById("player_cards").innerHTML = "";
+    document.getElementById("midCard").src = "/assets/images/" + json["game"].midCard["png_ind"][0]["card_png"]
+    let outer_all = document.createElement("div");
+    outer_all.classList.add("col-6", "offset-3")
+    let row = document.createElement("div");
+    row.classList.add("row","row-cols-3", "g-0", "center-align", "top-5")
     //-----------------------------------------
     const currentstate = json["game"].currentstate;
-    var player_html = "";
+    let player_cards = []
     if (currentstate === "player1State") {
-        if(json["game"].ERROR !== 0) {
+        if (json["game"].ERROR !== 0) {
             alert("This card cannot be placed");
         }
-        const player_cards = json["game"].player1["png_ind"];
-        player_html = '                        ' +
-            '                        <div class="row"><div class="col-6 offset-3">\n' +
-            '                                <div class="row row-cols-3 g-0 center-align top-5">\n';
-        player_cards.forEach(element => player_html += get_player_card(element["index"], element["card_png"]));
-        player_html += '</div></div>';
-        div_player.innerHTML = player_html;
+        player_cards = json["game"].player1["png_ind"];
     } else if (currentstate === "player2State") {
-        if(json["game"].ERROR !== 0) {
+        if (json["game"].ERROR !== 0) {
             alert("This card cannot be placed");
         }
-        const player_cards = json["game"].player2["png_ind"];
-        player_html = '                        ' +
-            '                        <div class="row"><div class="col-6 offset-3">\n' +
-            '                                <div class="row row-cols-3 g-0 center-align top-5">\n';
-        player_cards.forEach(element => player_html += get_player_card(element["index"], element["card_png"]));
-        player_html += '</div></div>';
-        div_player.innerHTML = player_html;
+        player_cards = json["game"].player2["png_ind"];
     } else if (currentstate === "between12State") {
-        if(json["game"].ERROR !== 0) {
+        if (json["game"].ERROR !== 0) {
             alert("not possible in this state");
         }
     } else if (currentstate === "between21State") {
-        if(json["game"].ERROR !== 0) {
+        if (json["game"].ERROR !== 0) {
             alert("not possible in this state");
         }
     } else if (currentstate === "winState") {
 
     }
-    document.getElementById("player_cards").innerHTML = player_html;
+
+    player_cards.forEach(element => row.appendChild(get_player_card(element["index"], element["card_png"])));
+    outer_all.appendChild(row);
+
+
+    document.getElementById("player_cards").appendChild(outer_all);
 }
 
 
-function get_player_card(ind, card) {
-    return '<div class="col-sm-4 col-md-4 col-lg-3 col-xl-2 center-align">' +
-        '<img alt="X" cardindex="' + ind + '" onclick="clickCard(' + ind + ')" class="cards img-fluid" src="/assets/images/' + card + '">' +
-        '</div>';
-}
-
-function return_midCard(json){
-    const js = JSON.parse(json);
-    return js["game"].midCard["png_ind"][0]["card_png"];
+function get_player_card(ind, card_ess) {
+    let wrapperd_card = document.createElement("div")
+    wrapperd_card.classList.add("col-sm-4", "col-md-4", "col-lg-3", "col-xl-2", "center-align")
+    let card = document.createElement("img")
+    card.alt = "X"
+    card.classList.add("cards", "img-fluid")
+    card.id = ind
+    card.src = "/assets/images/" + card_ess
+    card.addEventListener('click', function handleClick() {
+        clickCard(ind);
+    });
+    wrapperd_card.appendChild(card)
+    return wrapperd_card
 }
