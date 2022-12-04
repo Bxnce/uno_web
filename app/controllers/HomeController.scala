@@ -11,7 +11,7 @@ import play.api.libs.json.Json
  * application's home page.
  */
 @Singleton
-class HomeController @Inject()(val controllerComponents: ControllerComponents) extends BaseController {
+class HomeController @Inject()(val controllerComponents: ControllerComponents)(implicit system: ActorSystem, mat: Materializer) extends BaseController {
 
   val controller: controllerInterface = new Kek().controller_return
 
@@ -58,5 +58,26 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   
   def badRequest(errorMessage: String): Action[AnyContent] = Action {
     BadRequest(errorMessage + "\n")
+  }
+
+  def socket: WebSocket = WebSocket.accept[String, String] { request =>
+    ActorFlow.actorRef{ out=>
+      println("Connection received")
+      UNOWebSocketActorFactory.create(out)
+    }
+  }
+
+  class UNOWebSocketActor(out: ActorRef) extends Actor {
+    def receive: Receive = {
+      case msg: String=>
+      println("hs: "+ msg)
+        out ! controller.return_j
+    }
+  }
+
+  object UNOWebSocketActorFactory {
+    def create(out:ActorRef): Props = {
+      Props(new UNOWebSocketActor(out))
+    }
   }
 }

@@ -40,9 +40,10 @@ async function getJSON(url) {
         },
         body: ""
     })
-    if (await res.ok)
-        await createCards(await res.json());
-    else
+    if (await res.ok) {
+        //await createCards(await res.json());
+        socket.send(`Action done: baguette -> Response: ${await res.json()}`);
+    } else {
         console.log("page failed loading");
     }
 }
@@ -120,3 +121,5 @@ function get_player_card(ind, card_ess) {
     wrapperd_card.appendChild(card)
     return wrapperd_card
 }
+
+

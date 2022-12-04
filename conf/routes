@@ -26,6 +26,9 @@ POST     /game/take                  controllers.HomeController.takeCard()
 POST     /game/json                  controllers.HomeController.retJson()
 
 
+# websocket
+GET     /ws                          controllers.HomeController.socket
+
 
 # ERROR routing
 GET     /notfound            controllers.HomeController.notFound()
