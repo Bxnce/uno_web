@@ -1,3 +1,19 @@
+window.onload = () => {
+    webSocketInit();
+}
+
+let socket;
+
+function webSocketInit() {
+    socket = new WebSocket("ws://127.0.0.1:9000/ws");
+    socket.onopen = () => console.log("Connection is there")
+    socket.onclose = () => console.log("Connection closed")
+    socket.onmessage = function (event) {
+        console.log(JSON.parse(event.data));
+        createCards(JSON.parse(event.data));
+ }
+
+}
 async function clickCard(ind) {
     const req = `/game/place/` + ind;
     await getJSON(req);
@@ -28,6 +44,7 @@ async function getJSON(url) {
         await createCards(await res.json());
     else
         console.log("page failed loading");
+    }
 }
 
 // Jquery to check the onlick of a card
