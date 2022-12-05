@@ -7,6 +7,7 @@ import akka.actor._
 import akka.stream.Materializer
 import play.api.libs.streams.ActorFlow
 import javax.inject._
+import collection.mutable.ListBuffer
 
 
 /**
@@ -17,11 +18,6 @@ import javax.inject._
 class HomeController @Inject()(val controllerComponents: ControllerComponents)(implicit system: ActorSystem, mat: Materializer) extends BaseController {
 
   val controller: controllerInterface = new Kek().controller_return
-
-//  import collection.mutable.{Map, ListBuffer}
-//
-//  type MyMapType = Map[String, ListBuffer[Object]]
-//  var myMap: MyMapType = Map()
 
   var controller_map: Map[String, controllerInterface] = Map[String, controllerInterface]()
   var hash_map: Map[String, String] = Map[String, String]()
@@ -43,8 +39,15 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
     Ok(views.html.displayGame.prestartStateMultiplayer())
   }
 
-  def join(): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
+  def getToJoin(): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     Ok(views.html.displayGame.joinMultiplayer())
+  }
+
+  def join(hash: String, name:String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
+    controller_map(hash).newG(hash_map(hash), name)
+    controller_map(hash).next()
+    println("Game was created")
+    Ok(views.html.displayGame.playStateMult())
   }
 
   def createGame(name1: String, name2: String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>

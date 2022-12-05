@@ -29,9 +29,9 @@ GET     /game_mult/setup_multiplayer       controllers.HomeController.setup_mult
 
 GET     /game_mult/prejoin                 controllers.HomeController.getToJoin()
 
-GET     /game_mult/join                    controllers.HomeController.join()
+GET     /game_mult/join/:hash/:name        controllers.HomeController.join(hash: String, name: String)
 
-GET     /game_mult/wait                    controllers.HomeController.multWait()
+GET     /game_mult/cc/:hash/:name          controllers.HomeController.createController(hash: String, name: String)
 +nocsrf
 POST    /game_mult/next/:hash              controllers.HomeController.nextPlayerMult(hash: String)
 +nocsrf

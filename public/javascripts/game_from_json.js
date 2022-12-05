@@ -33,7 +33,7 @@ async function getJSON(url) {
 
 async function createCards(json) {
     document.getElementById("player_cards").innerHTML = "";
-    document.getElementById("midCard").src = "/assets/images/" + json["game"].midCard["png_ind"][0]["card_png"]
+    document.getElementById("midCard").src = "/assets/images/" + json["game"].midCard["png_ind"][0]["card_png"];
     let outer_all = document.createElement("div");
     outer_all.classList.add("col-6", "offset-3");
     let row = document.createElement("div");
@@ -70,7 +70,6 @@ async function createCards(json) {
     document.getElementById("player_cards").appendChild(outer_all);
 }
 
-
 function get_player_card(ind, card_ess) {
     let wrapperd_card = document.createElement("div")
     wrapperd_card.classList.add("col-sm-4", "col-md-4", "col-lg-3", "col-xl-2", "center-align")
@@ -86,5 +85,3 @@ function get_player_card(ind, card_ess) {
     wrapperd_card.appendChild(card)
     return wrapperd_card
 }
-
-
