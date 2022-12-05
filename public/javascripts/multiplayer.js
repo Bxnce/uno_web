@@ -10,15 +10,21 @@ function webSocketInit() {
     socket.onclose = () => console.log("Connection closed")
     socket.onmessage = function (event) {
         if(event.data !== "") {
-            console.log("MULT ACTION");
-            console.log(JSON.parse(event.data));
-            createCardsMult(JSON.parse(event.data));
+            if(event.data === "Keep alive"){
+                console.log("ping")
+            }else{
+                console.log("json reloaded");
+                console.log(JSON.parse(event.data));
+                createCardsMult(JSON.parse(event.data));
+            }
         } else {
             console.log("no valid json data");
             socket.send("refresh");
         }
     }
     socket.onerror = () => console.log("that was a problem")
+
+    setInterval(() => socket.send("Keep alive"), 20000); // ping every 20 seconds
 }
 
 function getCookie(name) {
