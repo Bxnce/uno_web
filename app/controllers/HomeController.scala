@@ -38,6 +38,14 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
     Ok(views.html.displayGame.prestartState())
   }
 
+  def setup_multiplayer(): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
+    Ok(views.html.displayGame.prestartStateMultiplayer())
+  }
+
+  def join(): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
+    Ok(views.html.displayGame.joinMultiplayer())
+  }
+
   def createGame(name1: String, name2: String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     controller.newG(name1, name2)
 
