@@ -127,6 +127,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
       client_map += (hash -> ListBuffer(out))
     }
     def receive: Receive = {
+      case "Keep alive" => out ! "Keep alive"
       case "refresh" => {
         for (client <- client_map(hash)) {
           println("refreshed")

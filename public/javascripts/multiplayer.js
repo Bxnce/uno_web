@@ -71,8 +71,10 @@ async function createCardsMult(json) {
     } else {
         if (getCookie("pn") === "player1") {
             player_cards = json["game"].player1["png_ind"];
+            document.getElementById("enemy").innerHTML = "playing against: " + json["game"].player2["name"] + " with " + json["game"].player2["kartenzahl"] + " cards left";
         } else {
             player_cards = json["game"].player2["png_ind"];
+            document.getElementById("enemy").innerHTML = "playing against: " + json["game"].player1["name"] + " with " + json["game"].player1["kartenzahl"] + " cards left";
         }
 
 
