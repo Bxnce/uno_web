@@ -1,18 +1,3 @@
-window.onload = () => {
-    webSocketInit();
-}
-
-let socket;
-
-function webSocketInit() {
-    socket = new WebSocket("ws://127.0.0.1:9000/ws");
-    socket.onopen = () => console.log("Connection is there")
-    socket.onclose = () => console.log("Connection closed")
-    socket.onmessage = function (event) {
-        console.log(JSON.parse(event.data));
-        createCards(JSON.parse(event.data));
- }
-}
 async function clickCard(ind) {
     const req = `/game/place/` + ind;
     await getJSON(req);
@@ -40,31 +25,17 @@ async function getJSON(url) {
         body: ""
     })
     if (await res.ok) {
-        //await createCards(await res.json());
-        socket.send(`Action done: baguette -> Response: ${await res.json()}`);
+        await createCards(await res.json())
     } else {
         console.log("page failed loading");
     }
 }
 
-// Jquery to check the onlick of a card
-$("document").ready(function () {
-    $("#next_player_button").click(function () {
-        nextPlayer();
-    })
-    $(".card_stack").click(function () {
-        takeCard();
-    })
-
-})
-;
-
-
 async function createCards(json) {
     document.getElementById("player_cards").innerHTML = "";
     document.getElementById("midCard").src = "/assets/images/" + json["game"].midCard["png_ind"][0]["card_png"]
     let outer_all = document.createElement("div");
-    outer_all.classList.add("col-6", "offset-3")
+    outer_all.classList.add("col-6", "offset-3");
     let row = document.createElement("div");
     row.classList.add("row","row-cols-3", "g-0", "center-align", "top-5")
     //-----------------------------------------
@@ -111,6 +82,7 @@ function get_player_card(ind, card_ess) {
     card.addEventListener('click', function handleClick() {
         clickCard(ind);
     });
+
     wrapperd_card.appendChild(card)
     return wrapperd_card
 }

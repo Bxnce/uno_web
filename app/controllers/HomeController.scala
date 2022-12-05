@@ -6,7 +6,6 @@ import play.api.mvc._
 import akka.actor._
 import akka.stream.Materializer
 import play.api.libs.streams.ActorFlow
-import scala.swing.Reactor
 import javax.inject._
 
 
@@ -25,6 +24,8 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
 //  var myMap: MyMapType = Map()
 
   var controller_map: Map[String, controllerInterface] = Map[String, controllerInterface]()
+  var hash_map: Map[String, String] = Map[String, String]()
+  var client_map: Map[String, ListBuffer[ActorRef]] = Map[String, ListBuffer[ActorRef]]()
 
   def home(): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     Ok(views.html.home())
@@ -48,19 +49,14 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
 
   def createGame(name1: String, name2: String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     controller.newG(name1, name2)
-
     Ok(views.html.displayGame.playState(true, controller.return_j))
   }
 
-  def createGameMult(name1: String, name2: String, hash: String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
-
-    if(hash == "") {
-        controller_map = controller_map + (hash ->new Kek().controller_return)
-    }else{
-        controller_map(hash).newG(name1, name2)
-    }
-
-    Ok(views.html.displayGame.playState(true, controller.return_j))
+  def createController(hash: String, name:String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
+    controller_map += (hash -> new Kek().controller_return)
+    hash_map += (hash -> name)
+    println(controller_map)
+    Ok(views.html.displayGame.playStateMult())
   }
 
   def placeCard(ind: Int): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
@@ -70,16 +66,15 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
 
   def placeCardMult(ind: Int, hash:String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     controller_map(hash).place(ind)
-    Ok(controller.return_j)
+    if (controller_map(hash).game.ERROR == 0) {
+      controller_map(hash).next()
+    }
+    println("Card was placed")
+    Ok("success")
   }
 
   def retJson(): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     val json = controller.return_j
-    Ok(json)
-  }
-
-  def retJsonMult(hash: String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
-    val json = controller_map(hash).return_j
     Ok(json)
   }
 
@@ -90,7 +85,8 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
 
   def nextPlayerMult(hash:String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     controller_map(hash).next()
-    Ok(controller.return_j)
+    controller_map(hash).next()
+    Ok("success")
   }
 
   def takeCard(): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
@@ -100,11 +96,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
 
   def takeCardMult(hash:String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     controller_map(hash).take()
-    Ok(controller.return_j)
-  }
-
-  def multWait(): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
-    Ok(views.html.displayGame.waitMultiplayer())
+    Ok("success")
   }
 
   def notFound(): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
@@ -115,25 +107,42 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
     BadRequest(errorMessage + "\n")
   }
 
-  def socket: WebSocket = WebSocket.accept[String, String] { request =>
+  def socket(hash:String): WebSocket = WebSocket.accept[String, String] { request =>
     ActorFlow.actorRef { out =>
       println("Connection received")
-      UNOWebSocketActorFactory.create(out)
+      UNOWebSocketActorFactory.create(out,hash)
     }
   }
 
-  class UNOWebSocketActor(out: ActorRef) extends Actor with Reactor {
-    listenTo()
-    def receive: Receive = {
-      case msg: String =>
-        println("hs: " + msg)
-        out ! controller.return_j
+  class UNOWebSocketActor(out: ActorRef, hash:String) extends Actor {
+    if (client_map.contains(hash)) {
+      var a = client_map(hash)
+      a += out
+      println(a.length)
+      client_map += (hash -> a)
+    } else {
+      client_map += (hash -> ListBuffer(out))
     }
+    def receive: Receive = {
+      case "refresh" => {
+        for (client <- client_map(hash)) {
+          println("refreshed")
+          println(client_map(hash).length)
+          client ! controller_map(hash).return_j
+        }
+      }
+      case msg: String =>
+        println("ws: " + msg + " for game: " + hash)
+        out ! controller_map(hash).return_j
+    }
+
   }
 
   object UNOWebSocketActorFactory {
-    def create(out: ActorRef): Props = {
-      Props(new UNOWebSocketActor(out))
+    def create(out: ActorRef, hash: String): Props = {
+      Props(new UNOWebSocketActor(out, hash))
     }
   }
 }
+
+
