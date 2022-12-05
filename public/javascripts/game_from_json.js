@@ -24,36 +24,18 @@ async function getJSON(url) {
         },
         body: ""
     })
-    if (await res.ok)
-        await createCards(await res.json());
-    else
+    if (await res.ok) {
+        await createCards(await res.json())
+    } else {
         console.log("page failed loading");
+    }
 }
-
-// Jquery to check the onlick of a card
-$("document").ready(function () {
-    $("#next_player_button").click(function () {
-        nextPlayer();
-    })
-    $(".card_stack").click(function () {
-        takeCard();
-    })
-})
-;
-
-$("document").ready(function () {
-    $(".cards").click(function () {
-        alert($(this).attr("id"));
-        clickCard($(this).attr("id"));
-    })
-})
-;
 
 async function createCards(json) {
     document.getElementById("player_cards").innerHTML = "";
-    document.getElementById("midCard").src = "/assets/images/" + json["game"].midCard["png_ind"][0]["card_png"]
+    document.getElementById("midCard").src = "/assets/images/" + json["game"].midCard["png_ind"][0]["card_png"];
     let outer_all = document.createElement("div");
-    outer_all.classList.add("col-6", "offset-3")
+    outer_all.classList.add("col-6", "offset-3");
     let row = document.createElement("div");
     row.classList.add("row","row-cols-3", "g-0", "center-align", "top-5")
     //-----------------------------------------
@@ -88,7 +70,6 @@ async function createCards(json) {
     document.getElementById("player_cards").appendChild(outer_all);
 }
 
-
 function get_player_card(ind, card_ess) {
     let wrapperd_card = document.createElement("div")
     wrapperd_card.classList.add("col-sm-4", "col-md-4", "col-lg-3", "col-xl-2", "center-align")
@@ -100,6 +81,7 @@ function get_player_card(ind, card_ess) {
     card.addEventListener('click', function handleClick() {
         clickCard(ind);
     });
+
     wrapperd_card.appendChild(card)
     return wrapperd_card
 }
