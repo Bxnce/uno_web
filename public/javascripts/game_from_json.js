@@ -12,7 +12,6 @@ function webSocketInit() {
         console.log(JSON.parse(event.data));
         createCards(JSON.parse(event.data));
  }
-
 }
 async function clickCard(ind) {
     const req = `/game/place/` + ind;
@@ -56,16 +55,10 @@ $("document").ready(function () {
     $(".card_stack").click(function () {
         takeCard();
     })
+
 })
 ;
 
-$("document").ready(function () {
-    $(".cards").click(function () {
-        alert($(this).attr("id"));
-        clickCard($(this).attr("id"));
-    })
-})
-;
 
 async function createCards(json) {
     document.getElementById("player_cards").innerHTML = "";

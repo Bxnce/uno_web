@@ -9,5 +9,10 @@ $("document").ready(function () {
             }
         }
     )
+    $("#create_multiplayer").click(function () {
+        window.location.href = "/game_mult/setup_multiplayer";
+    })
 })
+
+
 ;
