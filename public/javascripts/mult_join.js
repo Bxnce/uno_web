@@ -1,8 +1,13 @@
 $("document").ready(function () {
     $("#join_multiplayer_game").click(function () {
-        // TODO check that the game exists in the controller map
-        setCookies("player2State", document.getElementById("game_hash").value);
-        window.location.href = "/game_mult/join/" + getCookie("game") + "/" + getCookie("name");
+        let player2 = $("#player").val();
+        let hash = $("#game_hash").val();
+        if (player2 == "" || hash == "") {
+            alert("Please enter name and hash");
+        } else {
+            setCookies("player2State", document.getElementById("game_hash").value);
+            window.location.href = "/game_mult/join/" + getCookie("game") + "/" + getCookie("name");
+        }
     })
 })
 

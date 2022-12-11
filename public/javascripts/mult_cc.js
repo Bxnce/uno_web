@@ -1,8 +1,12 @@
 $("document").ready(function () {
     $("#create_multiplayer_button").click(function () {
-        setCookies("player1State", "", "player1");
-        document.getElementById("player1_label").innerHTML = "Game code: " + getCookie("game");
-        window.location.href = "/game_mult/cc/" + getCookie("game")+"/"+getCookie("name");
+        let player1 = $("#player").val();
+        if (player1 == "") {
+            alert("Please enter a name");
+        } else {
+            setCookies("player1State", "", "player1");
+            window.location.href = "/game_mult/cc/" + getCookie("game")+"/"+getCookie("name");
+        }
     })
 })
 
