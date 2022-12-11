@@ -4,12 +4,16 @@
 </head>
 
 @main("UNO") {
-    <script src=@routes.Assets.versioned("javascripts/error_alert.js") type="text/javascript"></script>
-    <script src=@routes.Assets.versioned("javascripts/card_over.js") type="text/javascript"></script>
     <div class="container" id="container_game">
         <game></game>
         <footer_play></footer_play>
     </div>
-    <script src=@routes.Assets.versioned("../../../public/javascripts/vue.js") type="text/javascript"></script>
-
 }
+points : [],
+velocity2 : 1, // velocity squared
+canvas : document.getElementById('loading'),
+context : canvas.getContext('2d'),
+radius : 4,
+boundaryX : 120,
+boundaryY : 120,
+numberOfPoints : 10,

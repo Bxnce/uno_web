@@ -96,7 +96,7 @@ app.component('game', {
 })
 app.component('footer_play', {
     template: `
-            <footer id="footer-play">
+            <footer id="footer-play" class="fixed-bottom">
             <p>Created by: <a class="link" href="https://github.com/haasentimo">Timo Haas</a>
             and <a class="link" href="https://github.com/Bxnce">Bence Stuhlmann</a>
             - <a class="link" href=@routes.HomeController.about()>about</a></p>
@@ -261,5 +261,354 @@ app.component('game_multiplayer', {
     `,
 
 })
+app.component('home', {
+    methods : {
+      route(){
+            window.location.href = "/game/setup";
+      }
+    },
+    template: `
+          <div class="row center-align">
+          <div class="col">
+              <div class="main_header">
+                  The ultimative
+              </div>
+          </div>        
+      </div>
+      <div class="row center-align">
+          <div class="col">
+              <div class="main_header">
+                UNO experience!
+              </div>
+          </div>    
+      </div>
+      <div class="row center-align">
+            <div class="col">
+                <button type="button" class="glow-on-hover" @click=route()>
+                    Start a Game!
+                </button>
+            </div>
+      </div>`
+})
 
-app.mount('#container_game')
+app.component('about', {
+    methods : {
+        route(){
+            window.location.href = "/game/setup";
+        }
+    },
+    template: `<main class="about">
+        <div class="div">
+          <p>
+            Uno is a highly popular card game played by millions around the globe. The game is for 2-10 players, ages 7 and over.
+          </p>
+          <p>
+            <h1>Setup</h1>
+            Every player starts with seven cards, and they are dealt face down. The rest of the cards are placed in a Draw Pile face down. Next to the pile a space should be designated for a Discard Pile. The top card should be placed in the Discard Pile, and the game
+          </p>
+          <button type="button" class="glow-on-hover" @click=route()>
+            Start a Game!
+          </button>
+        </div>
+        <div class="div">
+          <h1>Game Rules</h1>
+            <table>
+              <tr>
+                <td>
+                  1. The first player to play a card of the same color or number as the top card of the Discard Pile starts the game.
+                </td>    
+              </tr>
+              <tr>
+                <td>
+                  2. The next player must play a card of the same color or number as the top card of the Discard Pile.
+                </td>  
+              </tr>  
+              <tr>
+                <td>
+                  3. If a player does not have a card that matches the color or number of the top card of the Discard Pile, they must draw a card from the Draw Pile. If the card drawn matches the color or number of the top card of the Discard Pile, the player may play it.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  4. If a player plays a Wild card, they may declare any color and play continues as normal.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  5. If a player plays a Wild Draw Four card, the next player must draw 4 cards and their turn is skipped. The player who played the Wild Draw Four card may then declare any color and play continues as normal.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  6. If a player plays a Draw Two card, the next player must draw 2 cards and their turn is skipped. Play then continues as normal.
+                </td>  
+              </tr>
+              <tr>
+                <td>
+                  7. If a player plays a Skip card, the next player's turn is skipped. Play then continues as normal.
+                </td>  
+              </tr>
+              <tr>
+                <td>
+                  8. If a player plays a Reverse card, the direction of play is reversed. Play then continues as normal.
+                </td>  
+              </tr>
+              <tr>
+                <td>
+                  9. The game ends when one player has one card left. The player must shout "UNO!" If they forget and another player catches them, they must draw two cards. The player with one card left must match the color or number of the top card of the Discard Pile
+                </td>  
+              </tr>
+            <table>   
+        </div>
+        <div class="div">
+          <h3>UNO-Web is based on the project <a class="link" href="https://github.com/Bxnce/uno">"UNO"</a> of the Software Engineering lecture</h3>
+          <p>
+            Examples of the GUI of the SE game, and how it is used.
+          </p>
+          <details><summary>Create a game!</summary>
+            <p>
+                <img src="https://camo.githubusercontent.com/d81d592955eac7e66be5e119c412a892133ab51bd5003e401f796b9842d754da/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f42756f6d564e53646f4e537a4f34493030652f67697068792e676966" alt>
+            </p>
+            <p>
+              To create a game, you need to enter the names of two players and press the "create game" button.
+            </p>
+        </details>
+        <details><summary>Play the game!</summary>
+            <p>
+               <img src="https://camo.githubusercontent.com/6f9e307dc88ae9f1162ba2797d78286fabf73bc7deba3ef266964bc07f21713f/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f57484169456832474f534c3335535a41456f2f67697068792e676966" alt>
+            </p>
+            <p>
+              After creating a game, you can press on the cards to place them or take a card with clicking on the card pile. 
+              If a card can't be placed, there will be a popup message. The first one with no cards left wins.
+            </p> 
+      </details>
+      </div>`
+})
+app.component('nav_bar', {
+    methods : {
+        route(ref){
+            window.location.href = ref;
+        }
+    },
+    template: `<nav class="navbar navbar-expand-lg navbar-dark set-colors">
+                <div class="container-fluid">
+                  <a class="navbar-brand" @click=route("/")>UNO</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" @click=route("/")>Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" @click=route("/game/setup")>StartGame</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" @click=route("/about")>About</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>`
+})
+app.component('animation_load', {
+    template: ` <div class="row left-align">
+                    <div class="col">
+                        <canvas id="loading"></canvas>
+                    </div>
+               </div>
+               `
+})
+app.component('join_mp', {
+    methods: {
+        clicker() {
+                let player2 = $("#player").val();
+                let hash = $("#game_hash").val();
+                if (player2 == "" || hash == "") {
+                    alert("Please enter name and hash");
+                } else {
+                    this.setCookies("player2State", document.getElementById("game_hash").value);
+                    window.location.href = "/game_mult/join/" + this.getCookie("game") + "/" + this.getCookie("name");
+                }
+        },
+        createHash() {
+            let result = '';
+            let characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            let charactersLength = characters.length;
+            for (let i = 0; i < 5; i++) {
+                result += characters.charAt(Math.floor(Math.random() * charactersLength));
+            }
+            return result;
+        },
+        setCookies(state, hash, player) {
+            if (hash === "") {
+                document.cookie = "game=" + this.createHash();
+            } else {
+                document.cookie = "game=" + hash;
+            }
+            document.cookie = "pn=" + player;
+            document.cookie = "player=" + state;
+            document.cookie = "name=" + document.getElementById("player").value;
+        },
+        getCookie(name) {
+            const value = `; ${document.cookie}`;
+            const parts = value.split(`; ${name}=`);
+            if (parts.length === 2) return parts.pop().split(';').shift();
+        },
+    },
+    template: `
+        <div class="row mt-3">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <div class="input-field">
+                        <input type="text" id="player" required />
+                        <label for="player1">Name:</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <div class="input-field">
+                        <input type="text" id="game_hash" required />
+                        <label for="player1">Game Code:</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="glow-on-hover" id="join_multiplayer_game" @click=clicker>
+                        Join
+                    </button>
+                </div>
+            </div>
+        </div>`
+})
+app.component('prestart_state', {
+    methods: {
+        clicker(){
+            let player1 = $("#player1").val();
+            let player2 = $("#player2").val();
+            if (player1 === "" || player2 === "") {
+                alert("Please enter player names");
+            } else {
+                this.route("/game/start/" + player1 + "/" + player2);
+            }
+        },
+        route(ref){
+            window.location.href = ref;
+        }
+    },
+    template: `
+        <div class="row mt-3">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <div class="input-field">
+                        <input type="text" id="player1" content="test1" required />
+                        <label for="player1">Player 1:</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <div class="input-field">
+                        <input type="text" id="player2" content="test2" required />
+                        <label for="player2">Player 2:</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="glow-on-hover" id="create_game_bt" @click=clicker()>
+                        Start the Game!
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="glow-on-hover" id="get_to_mult" @click=route("/game_mult/setup_multiplayer")>
+                        Multiplayer
+                    </button>
+                </div>
+            </div>
+        </div>
+    `
+})
+app.component('prestart_state_mult', {
+    methods: {
+        route(ref) {
+            window.location.href = ref;
+        },
+        clicker() {
+            this.setCookies("player1State", "", "player1");
+            document.getElementById("player1_label").innerHTML = "Game code: " + this.getCookie("game");
+            this.route("/game_mult/cc/" + this.getCookie("game")+"/"+this.getCookie("name"));
+        },
+        createHash() {
+            let result = '';
+            let characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            let charactersLength = characters.length;
+            for (let i = 0; i < 5; i++) {
+                result += characters.charAt(Math.floor(Math.random() * charactersLength));
+            }
+            return result;
+        },
+        setCookies(state, hash, player) {
+            if (hash === "") {
+                document.cookie = "game=" + this.createHash();
+            } else {
+                document.cookie = "game=" + hash;
+            }
+            document.cookie = "pn=" + player;
+            document.cookie = "player=" + state;
+            document.cookie = "name=" + document.getElementById("player").value;
+        },
+        getCookie(name) {
+            const value = `; ${document.cookie}`;
+            const parts = value.split(`; ${name}=`);
+            if (parts.length === 2) return parts.pop().split(';').shift();
+        },
+    },
+    template: `<div class="row mt-3">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <div class="input-field">
+                        <input type="text" id="player" required />
+                        <label for="player" id="player1_label">Name:</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="glow-on-hover" id="create_multiplayer_button" @click=clicker()>
+                        Create a Game
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="glow-on-hover" id="join_multiplayer" @click=route("/game_mult/prejoin")>
+                        Join a Game
+                    </button>
+                </div>
+            </div>
+        </div>`
+})
+app.mount('#container_all')
