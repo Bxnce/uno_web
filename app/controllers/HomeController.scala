@@ -46,7 +46,6 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
   def join(hash: String, name:String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     controller_map(hash).newG(hash_map(hash), name)
     controller_map(hash).next()
-    println("Game was created")
     Ok(views.html.displayGame.playStateMult())
   }
 
@@ -58,7 +57,6 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
   def createController(hash: String, name:String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     controller_map += (hash -> new Kek().controller_return)
     hash_map += (hash -> name)
-    println(controller_map)
     Ok(views.html.displayGame.playStateMult())
   }
 
@@ -72,7 +70,6 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
     if (controller_map(hash).game.ERROR == 0) {
       controller_map(hash).next()
     }
-    println("Card was placed")
     Ok("success")
   }
 
@@ -112,7 +109,6 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
 
   def socket(hash:String): WebSocket = WebSocket.accept[String, String] { request =>
     ActorFlow.actorRef { out =>
-      println("Connection received")
       UNOWebSocketActorFactory.create(out,hash)
     }
   }
@@ -121,7 +117,6 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
     if (client_map.contains(hash)) {
       var a = client_map(hash)
       a += out
-      println(a.length)
       client_map += (hash -> a)
     } else {
       client_map += (hash -> ListBuffer(out))
@@ -130,8 +125,6 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
       case "Keep alive" => out ! "Keep alive"
       case "refresh" => {
         for (client <- client_map(hash)) {
-          println("refreshed")
-          println(client_map(hash).length)
           client ! controller_map(hash).return_j
         }
       }
