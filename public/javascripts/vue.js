@@ -244,7 +244,7 @@ app.component('game_multiplayer', {
             <div class="col-6 offset-3">
                 <div class="row row-cols-3 g-0 center-align top-5">
                         <div class="col-sm-4 col-md-4 col-lg-3 col-xl-2 center-align" v-for="(card, index) in cards">
-                            <img v-if="clickable === true" alt="X" @click=clickCardMult(index) class="cards img-fluid" :src="'/assets/images/'+ card">
+                            <img v-if="clickable === true" alt="X" @click='clickCardMult(index)' class="cards img-fluid" :src="'/assets/images/'+ card">
                             <img v-else alt="X" class="cards img-fluid" :src="'/assets/images/'+ card">
                         </div>
                 </div>    
@@ -537,7 +537,7 @@ app.component('prestart_state', {
         <div class="row mt-3">
             <div class="col">
                 <div class="d-flex justify-content-center">
-                    <button type="button" class="glow-on-hover" id="get_to_mult" @click=route("/game_mult/setup_multiplayer")>
+                    <button type="button" class="glow-on-hover" id="get_to_mult" @click='route("/game_mult/setup_multiplayer")'>
                         Multiplayer
                     </button>
                 </div>
