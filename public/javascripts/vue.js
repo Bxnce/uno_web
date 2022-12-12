@@ -80,7 +80,7 @@ app.component('game', {
             <div class="col-6 offset-3" v-if="currentstate === 'player1State' || currentstate === 'player2State'">
                 <div class="row row-cols-3 g-0 center-align top-5">
                         <div class="col-sm-4 col-md-4 col-lg-3 col-xl-2 center-align" v-for="(card, index) in cards">
-                            <img alt="X" @click=clickCard(index) class="cards img-fluid" :src="'/assets/images/'+ card"></img>
+                            <img alt="X" @click='clickCard(index)' class="cards img-fluid" :src="'/assets/images/'+ card">
                         </div>
                 </div>    
             </div>
@@ -284,7 +284,7 @@ app.component('home', {
       </div>
       <div class="row center-align">
             <div class="col">
-                <button type="button" class="glow-on-hover" @click=route()>
+                <button type="button" class="glow-on-hover" @click='route()'>
                     Start a Game!
                 </button>
             </div>
@@ -306,7 +306,7 @@ app.component('about', {
             <h1>Setup</h1>
             Every player starts with seven cards, and they are dealt face down. The rest of the cards are placed in a Draw Pile face down. Next to the pile a space should be designated for a Discard Pile. The top card should be placed in the Discard Pile, and the game
           </p>
-          <button type="button" class="glow-on-hover" @click=route()>
+          <button type="button" class="glow-on-hover" @click='route()'>
             Start a Game!
           </button>
         </div>
@@ -392,20 +392,20 @@ app.component('nav_bar', {
     },
     template: `<nav class="navbar navbar-expand-lg navbar-dark set-colors">
                 <div class="container-fluid">
-                  <a class="navbar-brand" @click=route("/")>UNO</a>
+                  <a class="navbar-brand" @click='route("/")'>UNO</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link" aria-current="page" @click=route("/")>Home</a>
+                        <a class="nav-link" aria-current="page" @click='route("/")'>Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" @click=route("/game/setup")>StartGame</a>
+                        <a class="nav-link" @click='route("/game/setup")'>StartGame</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" @click=route("/about")>About</a>
+                        <a class="nav-link" @click='route("/about")'>About</a>
                       </li>
                     </ul>
                   </div>
@@ -482,7 +482,7 @@ app.component('join_mp', {
         <div class="row mt-3">
             <div class="col">
                 <div class="d-flex justify-content-center">
-                    <button type="button" class="glow-on-hover" id="join_multiplayer_game" @click=clicker>
+                    <button type="button" class="glow-on-hover" id="join_multiplayer_game" @click='clicker()'>
                         Join
                     </button>
                 </div>
@@ -528,7 +528,7 @@ app.component('prestart_state', {
         <div class="row mt-3">
             <div class="col">
                 <div class="d-flex justify-content-center">
-                    <button type="button" class="glow-on-hover" id="create_game_bt" @click=clicker()>
+                    <button type="button" class="glow-on-hover" id="create_game_bt" @click='clicker()'>
                         Start the Game!
                     </button>
                 </div>
@@ -594,7 +594,7 @@ app.component('prestart_state_mult', {
         <div class="row mt-3">
             <div class="col">
                 <div class="d-flex justify-content-center">
-                    <button type="button" class="glow-on-hover" id="create_multiplayer_button" @click=clicker()>
+                    <button type="button" class="glow-on-hover" id="create_multiplayer_button" @click='clicker()'>
                         Create a Game
                     </button>
                 </div>
@@ -604,7 +604,7 @@ app.component('prestart_state_mult', {
         <div class="row mt-3">
             <div class="col">
                 <div class="d-flex justify-content-center">
-                    <button type="button" class="glow-on-hover" id="join_multiplayer" @click=route("/game_mult/prejoin")>
+                    <button type="button" class="glow-on-hover" id="join_multiplayer" @click='route("/game_mult/prejoin")'>
                         Join a Game
                     </button>
                 </div>
