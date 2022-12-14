@@ -27,6 +27,10 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
     Ok(views.html.home())
   }
 
+  def test(): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
+    Ok("HUSO")
+  }
+
   def about(): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     Ok(views.html.about())
   }
@@ -51,7 +55,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
 
   def createGame(name1: String, name2: String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     controller.newG(name1, name2)
-    Ok(views.html.displayGame.playState(true, controller.return_j))
+    Ok(controller.return_j)
   }
 
   def createController(hash: String, name:String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
