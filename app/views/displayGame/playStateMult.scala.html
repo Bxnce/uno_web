@@ -3,42 +3,8 @@
 </head>
 
 @main("UNO"){
-    <script src=@routes.Assets.versioned("javascripts/error_alert.js") type="text/javascript"></script>
-    <script src=@routes.Assets.versioned("javascripts/multiplayer.js") type="text/javascript"></script>
-    <script src=@routes.Assets.versioned("javascripts/card_over.js") type="text/javascript"></script>
-    <div class="container">
-        <div id = "top_cards">
-            <div class="row row-col-2">
-                <div class="col-4 offset-4">
-                    <div class="row center-align">
-                        <div class="col-6 g-0">
-                            <img id="midCard" src="/assets/images/uno_back.png" alt="X" class="card_no_hover img-fluid">
-                        </div>
-                        <div class="col-6 g-0">
-                            <img src="/assets/images/uno_back.png" alt=\"X\" onclick="takeCardMult()" class="card_stack img-fluid" id="take_card">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id = "player_cards"></div>
-
-        <div class="row center-align top-5">
-            <div class="col">
-                <button id="next_player_button_mult" type="button" class="glow-on-hover">next player</button>
-                <script type="text/javascript">
-                        document.getElementById("next_player_button_mult").innerHTML = "Waiting for other player. Your game code is: " + getCookie("game");
-                </script>
-                <br>
-                <label id="enemy">
-
-                </label>
-            </div>
-        </div>
-
-        <footer id="footer-play">
-            <p>Created by: <a class="link" href="https://github.com/haasentimo">Timo Haas</a> and <a class="link" href="https://github.com/Bxnce">Bence Stuhlmann</a> - <a class="link" href=@routes.HomeController.about()>about</a></p>
-        </footer>
+    <div class="container" id="container_game">
+        <game_multiplayer></game_multiplayer>
+        <footer_play></footer_play>
     </div>
-
 }
