@@ -57,7 +57,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
   def createController(hash: String, name:String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     controller_map += (hash -> new Kek().controller_return)
     hash_map += (hash -> name)
-    Ok(controller.return_j)
+    Ok("ok")
   }
 
   def placeCard(ind: Int): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>

@@ -29,8 +29,8 @@ POST     /game/json                        controllers.HomeController.retJson()
 GET     /game_mult/setup_multiplayer       controllers.HomeController.setup_multiplayer()
 
 GET     /game_mult/prejoin                 controllers.HomeController.getToJoin()
-
-GET     /game_mult/join/:hash/:name        controllers.HomeController.join(hash: String, name: String)
++noscrf
+POST     /game_mult/join/:hash/:name        controllers.HomeController.join(hash: String, name: String)
 +noscrf
 POST     /game_mult/cc/:hash/:name          controllers.HomeController.createController(hash: String, name: String)
 +nocsrf
