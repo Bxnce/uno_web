@@ -3,6 +3,7 @@ ThisBuild / scalaVersion := "2.13.10"
 ThisBuild / version := "1.0"
 scalacOptions += "-Ytasty-reader"
 exportJars := true
+herokuAppName in Compile := "uno-web"
 
 lazy val root = (project in file("."))
     .enablePlugins(PlayScala, SbtWeb)
