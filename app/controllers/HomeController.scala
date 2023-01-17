@@ -27,10 +27,6 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
     Ok(views.html.home())
   }
 
-  def test(): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
-    Ok("HUSO")
-  }
-
   def about(): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     Ok(views.html.about())
   }
@@ -61,7 +57,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
   def createController(hash: String, name:String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     controller_map += (hash -> new Kek().controller_return)
     hash_map += (hash -> name)
-    Ok(views.html.displayGame.playStateMult())
+    Ok(controller.return_j)
   }
 
   def placeCard(ind: Int): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
