@@ -132,7 +132,7 @@ app.component('game_multiplayer', {
     methods: {
         webSocketInit() {
             let _this = this;
-            this.socket = new WebSocket("ws://uno-web.herokuapp.com/ws/"+ this.getCookie("game"))
+            this.socket = new WebSocket("ws://" + location.host + "/ws/"+ this.getCookie("game"))
             this.socket.onopen = () => this.heartBeat();
             this.socket.onclose = () => console.log("Connection closed")
             this.socket.onmessage = function (event) {
