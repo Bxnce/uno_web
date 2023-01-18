@@ -4,12 +4,12 @@
 # ~~~~
 
 # An example controller showing a sample home page
-GET     /                            controllers.HomeController.home()
+GET     /                                  controllers.HomeController.home()
 
 # Map static resources from the /public folder to the /assets URL path
-GET     /assets/*file                controllers.Assets.versioned(path="/public", file: Asset)
+GET     /assets/*file                      controllers.Assets.versioned(path="/public", file: Asset)
 
-GET     /about                       controllers.HomeController.about()
+GET     /about                             controllers.HomeController.about()
 +nocsrf
 
 # Controlling the game via the controller and GET requests, POST doesn't display the returned HTML. 
@@ -30,15 +30,17 @@ GET     /game_mult/setup_multiplayer       controllers.HomeController.setup_mult
 
 GET     /game_mult/prejoin                 controllers.HomeController.getToJoin()
 +noscrf
-POST     /game_mult/join/:hash/:name        controllers.HomeController.join(hash: String, name: String)
+POST     /game_mult/join/:hash/:name       controllers.HomeController.join(hash: String, name: String)
 +noscrf
-POST     /game_mult/cc/:hash/:name          controllers.HomeController.createController(hash: String, name: String)
+POST     /game_mult/cc/:hash/:name         controllers.HomeController.createController(hash: String, name: String)
 +nocsrf
 POST    /game_mult/next/:hash              controllers.HomeController.nextPlayerMult(hash: String)
 +nocsrf
 POST    /game_mult/place/:i/:hash          controllers.HomeController.placeCardMult(i: Int, hash: String)
 +nocsrf
 POST     /game_mult/take/:hash             controllers.HomeController.takeCardMult(hash: String)
++noscrf
+POST     /game_mult/color/:hash/:color     controllers.HomeController.chooseColor(color:String, hash: String)
 
 
 

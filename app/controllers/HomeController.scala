@@ -67,10 +67,20 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
 
   def placeCardMult(ind: Int, hash:String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     controller_map(hash).place(ind)
+    val placed_card = controller_map(hash).game.midCard.karten(0).toString
     if (controller_map(hash).game.ERROR == 0) {
+      if( placed_card == "GS" | placed_card == "RS" | placed_card == "YS" | placed_card == "BS"){
+        controller_map(hash).next()
+      }
       controller_map(hash).next()
     }
     Ok("success")
+  }
+
+  def chooseColor(color: String, hash:String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
+    controller_map(hash).colorChoose(color)
+    controller_map(hash).next()
+    Ok("ok")
   }
 
   def retJson(): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
