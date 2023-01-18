@@ -80,7 +80,6 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
 
   def chooseColor(color: String, hash:String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     controller_map(hash).colorChoose(color)
-    controller_map(hash).next()
     Ok(controller.return_j)
   }
 
