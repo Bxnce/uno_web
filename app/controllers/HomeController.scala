@@ -71,6 +71,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
     if (controller_map(hash).game.ERROR == 0) {
       if( placed_card == "GS" | placed_card == "RS" | placed_card == "YS" | placed_card == "BS"){
         controller_map(hash).next()
+        controller_map(hash).next()
       }
       controller_map(hash).next()
     }
