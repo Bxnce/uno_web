@@ -57,7 +57,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
   def createController(hash: String, name:String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     controller_map += (hash -> new Kek().controller_return)
     hash_map += (hash -> name)
-    Ok("ok")
+    Ok(controller.return_j)
   }
 
   def placeCard(ind: Int): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
@@ -75,13 +75,13 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
       }
       controller_map(hash).next()
     }
-    Ok("success")
+    Ok(controller.return_j)
   }
 
   def chooseColor(color: String, hash:String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     controller_map(hash).colorChoose(color)
     controller_map(hash).next()
-    Ok("ok")
+    Ok(controller.return_j)
   }
 
   def retJson(): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
@@ -97,7 +97,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
   def nextPlayerMult(hash:String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     controller_map(hash).next()
     controller_map(hash).next()
-    Ok("success")
+    Ok(controller.return_j)
   }
 
   def takeCard(): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
@@ -107,7 +107,7 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents)(i
 
   def takeCardMult(hash:String): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
     controller_map(hash).take()
-    Ok("success")
+    Ok(controller.return_j)
   }
 
   def notFound(): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
